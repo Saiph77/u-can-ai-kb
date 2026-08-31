@@ -1,6 +1,6 @@
 # U can AI 知识库
 
-给 **普通小白** 和 **非技术 AI 爱好者** 读的 curated 知识库。想维护或让 AI 改这个仓库，请看 [`AGENTS.md`](AGENTS.md)。
+给 U can AI 群友的知识库。想维护或让 AI 改这个仓库，请看 [`AGENTS.md`](AGENTS.md)。
 
 ## 怎么读
 
