@@ -1,0 +1,8 @@
+[submodule "upstream/lizheng-open-context"]
+	path = upstream/lizheng-open-context
+	url = https://github.com/sunyuzheng/lizheng-open-context.git
+	branch = main
+[submodule "upstream/context-infrastructure"]
+	path = upstream/context-infrastructure
+	url = https://github.com/grapeot/context-infrastructure.git
+	branch = main
