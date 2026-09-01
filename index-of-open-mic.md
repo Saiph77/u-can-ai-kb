@@ -163,36 +163,36 @@ U can AI 开放麦是一场持续的线上分享。本知识库把各期逐字�
 
 「怎么用」以首次讲清楚的那一期为准；跨期只在「也出现」里点一下。
 
-| 名称 | 类型 | 怎么用（摘要） | 详见 |
-|------|------|----------------|------|
-| **Codex** | Agent | Frank 心中的最佳工作台 = 聊天窗口 + 工作流文档；Leona：先让它采访你 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
-| **Claude Code** | Agent | 贴人性、前端审美好；与 Codex 可跨工具协作，不必共用一个 agent | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
-| **灵魂文档** | 方法 | 开工前 ≥30 分钟把需求聊成文档，再一次性实现 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
-| **抽卡 / 多模型** | 方法 | 同一任务 Claude / GPT / Grok 各做一遍，交叉找缺陷 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
+| 名称                     | 类型 | 怎么用（摘要） | 详见 |
+|--------------------------|------|----------------|------|
+| **Codex**                | Agent | Frank 心中的最佳工作台 = 聊天窗口 + 工作流文档；Leona：先让它采访你 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
+| **Claude Code**          | Agent | 贴人性、前端审美好；与 Codex 可跨工具协作，不必共用一个 agent | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
+| **灵魂文档**             | 方法 | 开工前 ≥30 分钟把需求聊成文档，再一次性实现 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
+| **抽卡 / 多模型**        | 方法 | 同一任务 Claude / GPT / Grok 各做一遍，交叉找缺陷 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
 | **clarify-requirements** | Skill | 在 skills.me 搜此名（**不是** grill-me，也不是 GitHub）；毒舌 PM，需求拆清才干活 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
-| **ecc** | Skill 合集 | 大量 skills + 改/删文件 hook 强制确认 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
-| **Firecrawl** | 爬虫 | 给 agent 抓网页和公众号；本地部署吃内存 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
-| **wechat cli** | 开源 | 让 AI 读本地微信做总结 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
-| **record and replay** | 插件 | 操作录一遍给 AI 看，用演示代替描述 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
-| **三层 memory** | 记忆 | 会话内 / 跨会话 / 跨 Claude Code↔Codex | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
-| **OpenClaw** | 个人助手 | 读写本地文件夹；C 端商业悖论样本；普通人安全风险大 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
-| **WorkBuddy** | Agent | 国内桌面 agent；职能标品；混元 3D 青少年 demo | [02](open-mic-archive/02-第二期-我们的AI心法/知识页.md) [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
-| **GEO** | 方法 | 在生成式引擎的信息源里占位（豆包携程帖收录快） | [02](open-mic-archive/02-第二期-我们的AI心法/知识页.md) |
-| **Opportunity Skill** | Skill | Human Card：导出图转发给对方的 agent | [03](open-mic-archive/03-第三期-AI时代的品味与教育/知识页.md) |
-| **颗粒度库 + 三 agent** | 方法 | 数据只分析、内容只出选题、创作才动笔；最小单位是一句话 | [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) |
-| **双层收款** | 架构 | 海外 Cloud Run + 国内备案支付回调 | [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) |
-| **show don't tell** | 方法 | 给输入/输出范例，再写进文档防失忆 | [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) |
-| **Harness** | 工程 | 缓存 / 沙箱 / 网关 / 上下文；可把 token 成本打到约 20% | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
-| **MCP** | 协议 | 员工 agent 统一提交产出，量化 ROI | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
-| **Handover** | 方法 | 隐性流程写成任务单，agent 交接，人抽验 | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
-| **Slack @Claude / qm** | 协作 | 团队可见的 AI 交接；qm 为团队版 OpenClaw | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
-| **Cursor** | IDE | 秦和义从 RPA 转 AI 开发的入口 | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
-| **TradeWork** | Agent | 龙霖搭销售工作台；纠错记录亦作 Trae work | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
-| **RPA / 影刀** | 自动化 | 交付兜底；发票 OCR 年千万级案例在第六期闵宇翔 | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
-| **Graph RAG** | 知识库 | 上海企业主动提出的需求形态 | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
-| **四步复用** | 方法 | 拆、选、编、造；平台结构模板化 | [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
-| **反问式开发** | 方法 | Codex 提 20–30 个选项问题后再写代码 | [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
-| **乔哈里窗 × AI** | 方法 | 四人知/不知象限，用来管上下文和找未知 | [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
+| **ecc**                  | Skill 合集 | 大量 skills + 改/删文件 hook 强制确认 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
+| **Firecrawl**            | 爬虫 | 给 agent 抓网页和公众号；本地部署吃内存 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
+| **wechat cli**           | 开源 | 让 AI 读本地微信做总结 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
+| **record and replay**    | 插件 | 操作录一遍给 AI 看，用演示代替描述 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
+| **三层 memory**          | 记忆 | 会话内 / 跨会话 / 跨 Claude Code↔Codex | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) |
+| **OpenClaw**             | 个人助手 | 读写本地文件夹；C 端商业悖论样本；普通人安全风险大 | [01](open-mic-archive/01-第一期-省token是个假问题/知识页.md) [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
+| **WorkBuddy**            | Agent | 国内桌面 agent；职能标品；混元 3D 青少年 demo | [02](open-mic-archive/02-第二期-我们的AI心法/知识页.md) [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
+| **GEO**                  | 方法 | 在生成式引擎的信息源里占位（豆包携程帖收录快） | [02](open-mic-archive/02-第二期-我们的AI心法/知识页.md) |
+| **Opportunity Skill**    | Skill | Human Card：导出图转发给对方的 agent | [03](open-mic-archive/03-第三期-AI时代的品味与教育/知识页.md) |
+| **颗粒度库 + 三 agent**  | 方法 | 数据只分析、内容只出选题、创作才动笔；最小单位是一句话 | [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) |
+| **双层收款**             | 架构 | 海外 Cloud Run + 国内备案支付回调 | [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) |
+| **show don't tell**      | 方法 | 给输入/输出范例，再写进文档防失忆 | [04](open-mic-archive/04-第四期-我的AI工作台/知识页.md) |
+| **Harness**              | 工程 | 缓存 / 沙箱 / 网关 / 上下文；可把 token 成本打到约 20% | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
+| **MCP**                  | 协议 | 员工 agent 统一提交产出，量化 ROI | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
+| **Handover**             | 方法 | 隐性流程写成任务单，agent 交接，人抽验 | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
+| **Slack @Claude / qm**   | 协作 | 团队可见的 AI 交接；qm 为团队版 OpenClaw | [05](open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md) |
+| **Cursor**               | IDE | 秦和义从 RPA 转 AI 开发的入口 | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
+| **TraeWork**             | Agent | 龙霖搭销售工作台；纠错记录亦作 Trae work | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
+| **RPA / 影刀**           | 自动化 | 交付兜底；发票 OCR 年千万级案例在第六期闵宇翔 | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
+| **Graph RAG**            | 知识库 | 上海企业主动提出的需求形态 | [06](open-mic-archive/06-第六期-AI与青少年教育/知识页.md) |
+| **四步复用**             | 方法 | 拆、选、编、造；平台结构模板化 | [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
+| **反问式开发**           | 方法 | Codex 提 20–30 个选项问题后再写代码 | [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
+| **乔哈里窗 × AI**        | 方法 | 四人知/不知象限，用来管上下文和找未知 | [07](open-mic-archive/07-第七期-麻瓜的AI江湖/知识页.md) |
 
 Dify 在第五期被当作**上一代**「提示词 + 调用」，用来识别「还不是 AI native」。CodeBuddy 是腾讯游戏 IDE，不要和 WorkBuddy 混。
 
