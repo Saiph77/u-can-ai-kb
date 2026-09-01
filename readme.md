@@ -1,47 +1,64 @@
-# U can AI 知识库
+# U can AI 知识库阅读指南
 
-给 U can AI 群友的知识库。想维护或让 AI 改这个仓库，请看 [`AGENTS.md`](AGENTS.md)。
+欢迎来到 U can AI 知识库。本仓库收录了关于 AI 认知、实战方法论、开放麦实录以及专家专栏的核心内容。
 
-## 怎么读
+本文档旨在帮助你以最高效的方式快速定位所需知识，理清仓库结构与阅读路径。
 
-| 你想… | 打开 |
-|------|------|
-| 从哪里读起 | [`index-by-audience.md`](index-by-audience.md) → [`by-audience/`](by-audience/) |
-| 按文章 / 视频 / Skill 形态找 | [`index-by-format.md`](index-by-format.md) → [`by-format/`](by-format/) |
-| 读开放麦第 1–7 期 | [`index-of-open-mic.md`](index-of-open-mic.md) → [`open-mic-archive/`](open-mic-archive/) |
-| 读 Jenny 写的成文 | [`Jenny/`](Jenny/) |
-| 读 Frank 访谈与指令 | [`Frank/`](Frank/) |
-| 在浏览器里翻 | `python3 viewer/server.py` → http://127.0.0.1:8766 |
+---
 
-建议路径：先读 `index-by-audience.md` 里「从这里开始」的 3 篇锚点；通勤用 `by-audience/05-视频精选/`；开放麦用档案索引按主题 / 嘉宾 / 工具跳。
+## 🧭 快速阅读导航
 
-## 开放麦怎么分
+根据你的实际需求，选择最适合的入口：
 
-`open-mic-archive/` 是开放麦的**唯一目录**（知识页、逐字稿、AI 总结、原稿都在各期文件夹里）。Jenny 成文另放 `Jenny/`，不要混读。
+| 学习与应用目标 | 推荐入口 | 核心内容说明 |
+| :--- | :--- | :--- |
+| **建立认知 / 快速入门** | [`index-by-audience.md`](index-by-audience.md) → `00-从这里开始/` | 精选 3 篇核心锚点文章，建立清晰的 AI 协作与世界观认知。 |
+| **实战技能 / 提示词与工作流** | [`index-by-format.md`](index-by-format.md) → `05-执行方法-skill/` | 沉淀可复用的具体 Prompt、执行技巧与标准化操作方法。 |
+| **开放麦精选与实录** | [`index-of-open-mic.md`](index-of-open-mic.md) → `open-mic-archive/` | 收录第 1–7 期开放麦现场逐字稿、知识总结与讨论回顾。 |
+| **深度评述与复盘专栏** | [`Jenny/`](Jenny/) | Jenny 撰写的开放麦对外精选文章与深度评述。 |
+| **硬核指令与访谈实录** | [`Frank/`](Frank/) | Frank 的深度访谈、System Prompts、Memory 与 Skills 沉淀。 |
+| **本地网页交互阅读** | 运行 `python3 viewer/server.py` | 启动本地服务，浏览器访问 [http://127.0.0.1:8766](http://127.0.0.1:8766) 进行图文浏览。 |
 
-| 类型 | 是什么 | 在哪 |
-|------|--------|------|
-| 知识页 | 可带走的判断、工具、观众价值 | `open-mic-archive/0N-…/知识页.md` |
-| 逐字稿 | 修订后的现场原文（保留原文件名） | 各期文件夹内含「逐字稿」的文件 |
-| AI 总结 | 复盘稿 / 工作稿 | 各期 `AI总结-*.md`（若该文件就是成文，见 Jenny） |
-| Jenny 成文 | 对外发表的评述 | `Jenny/` |
+---
 
-## 目录
+## 📑 开放麦内容分类说明
 
-```
+`open-mic-archive/` 目录下每期活动包含多种版本的文件，请按需选用：
+
+* **`知识页.md`**：核心提炼，包含每期提炼出的关键判断、工具推荐与核心价值。
+* **`逐字稿`**：现场完整对话记录，还原嘉宾第一视角的完整分享与交流细节。
+* **`AI总结-*.md`**：基于录音与文本提炼的结构化复盘纪要。
+* **`Jenny/`**：独立整理的高品质对外成文，适合连贯阅读与传播。
+
+---
+
+## 🗂️ 仓库目录结构总览
+
+```text
 u-can-ai-kb/
-├── readme.md                 # 给人读（本文件）
-├── AGENTS.md                 # 给 AI / 协作者
-├── index-by-audience.md
-├── index-by-format.md
-├── index-of-open-mic.md
-├── by-audience/              # 按读者入口
-├── by-format/                # 按内容形态
-├── open-mic-archive/         # 开放麦原文
-├── Jenny/                    # Jenny 成文（第 1–7 期）
-├── Frank/                    # 访谈、指令、mems、skills
-├── viewer/                   # 本地预览，端口 8766
-└── upstream/                 # 立正 / Infra 子模块（完整源库，非阅读入口）
+├── readme.md                 # 基础说明文档
+├── readme-gemini.md          # 知识库精简与分类阅读指南（本文件）
+├── AGENTS.md                 # 面向 AI 与仓库协作者的维护规范
+│
+├── by-audience/              # 按受众与阅读场景组织的知识分类
+├── by-format/                # 按内容形态（长文、视频、Skill、规则）划分的目录
+│
+├── open-mic-archive/         # 开放麦各期原始归档（知识页、逐字稿、AI总结）
+├── Jenny/                    # 开放麦对外精选成文专栏
+├── Frank/                    # 访谈实录、指令沉淀与技能配置
+│
+├── viewer/                   # 本地轻量 Web 预览工具（端口 8766）
+└── upstream/                 # 上游源仓库 Git 子模块（底层参考源）
 ```
 
-本仓库自包含，不依赖其他本地目录。维护方式见 [`AGENTS.md`](AGENTS.md)。
+---
+
+## 📌 推荐学习路径
+
+1. **第一阶段：核心认知**
+   阅读 `by-audience/00-从这里开始/` 中的核心锚点文章，建立统一的认知基准。
+2. **第二阶段：场景落地**
+   根据实际业务或开发需求，查阅 `by-format/05-执行方法-skill/` 获取具体实施方案。
+3. **第三阶段：深度探索**
+   查阅 `Jenny/` 专栏与 `Frank/` 指令集，深入理解 AI 系统的设计与进阶协作模式。
+
