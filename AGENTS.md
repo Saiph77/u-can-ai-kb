@@ -13,6 +13,7 @@
 | `open-mic-archive/` | 开放麦唯一副本 | 直接改各期文件夹 |
 | `Jenny/` | 开放麦对外成文 | 直接改；与 archive 里的源文件对应，不要把成文当逐字稿 |
 | `Frank/` | 访谈、指令、mems、skills | 直接改 |
+| `deep-news/` | 431 篇深度前沿资讯 | 包含 `index-by-time.md` 与 `index-by-topic.md`；同步由 `_sync.py` 驱动 |
 | `index-*.md` | 给人跳转的索引 | 改目录时一起改链接 |
 | `viewer/` | 本地预览（8766） | `python3 viewer/server.py` |
 | `upstream/` | 立正 / Infra 的 git 子模块（完整源库） | `git submodule update`；不要当阅读入口 |
@@ -49,5 +50,7 @@ git submodule update --init --recursive
 |------|------|
 | `upstream/lizheng-open-context` | https://github.com/sunyuzheng/lizheng-open-context.git |
 | `upstream/context-infrastructure` | https://github.com/grapeot/context-infrastructure.git |
+| `upstream/zvec-grep` | https://github.com/zvec-ai/zvec-grep.git |
+| `upstream/OpenViking` | https://github.com/volcengine/OpenViking.git |
 
 阅读用 `by-audience/` / `by-format/`，不要让读者去翻 `upstream/`。

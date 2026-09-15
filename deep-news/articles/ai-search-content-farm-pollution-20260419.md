@@ -1,0 +1,212 @@
+---
+title: "AI 联网搜索正在被内容农场渗透"
+date: 2026-04-19
+source: https://yage.ai/share/ai-search-content-farm-pollution-20260419.html
+slug: ai-search-content-farm-pollution-20260419
+lang: zh
+---
+# AI 联网搜索正在被内容农场渗透
+
+发布于 2026 年 4 月 19 日 · [查看原网页](https://yage.ai/share/ai-search-content-farm-pollution-20260419.html)
+
+群友 yousa（[yousali.com](https://yousali.com)）想买羊毛烘干球，用 AI
+搜索查资料。回来的答案引用了 Wisconsin 大学 extension 部门 2022
+年的一项对比研究、MIT 2023
+年的纺织品生命周期报告，附带两组精确到小数点后两位的数据，分别出自 ASTM
+和 AATCC 的测试标准。
+
+全是假的。
+
+Wisconsin 大学 extension 部门确实存在，那项研究不存在。MIT
+没发过那份报告。ASTM 和 AATCC
+的标准编号格式是对的，但编号对应的测量项目和引用的数字毫无关系。真机构，真格式，假内容。
+
+yousa
+多看了几篇搜索结果，发现引用段的骨架几乎一样，但每篇的遣词造句都不同，单独看任何一篇都像独立写作。域名指向阿里巴巴的二级页面和一批面向英文市场的小站群。
+
+一个人买烘干球踩坑，事情本身不大。但背后的现象已经成了规模：中文团队运营、AI
+批量生成、伪造学术引用的英文内容农场，正在系统性地占领 AI
+联网搜索的检索池。在日常消费类查询上，这些站群的排名已经压过 Wirecutter
+和 Consumer Reports。
+
+## 多条证据线，同一个结论
+
+RAG
+和联网搜索的逻辑是让模型照着来源回答。对学术和时政类查询，来源池里有强势的主流媒体和机构，效果确实好。消费和生活类查询恰好相反：来源池本身在被污染，模型越忠实地引用，输出越不可靠。
+
+[NewsGuard](https://www.newsguardtech.com/ai-false-claims-monitor/)
+在持续追踪 AI 内容农场。2024 年 11 月他们监测到 1121 个这类站点，到 2026
+年 3 月涨到 3006 个，月均新增三四百。同期他们每月用十款主流 AI
+工具测试热门假消息的复述率，从 2024 年 8 月的 18% 升到 2025 年 8 月的
+35%。模型拒答率则从 31%
+降到接近零，因为各家产品都上了联网搜索。模型不再因为没把握而拒绝回答，而是去网上找来源，找到什么就说什么。
+
+Ahrefs 做了一个实验：凭空编造一个奢侈品牌，在 Medium
+上发一篇品牌故事，然后用八款 AI 搜索来查。Perplexity 和 Gemini 的错误率
+37% 到 39%，ChatGPT 低于 7%。[ZipTie](https://ziptie.dev/blog/myths-about-ai-search-that-are-harmful/)
+从另一个角度测，发现 ChatGPT
+搜索返回的源链接有超过六成指向错误内容。两组实验说的是同一件事：AI
+搜索的引用层很薄，来源和结论之间的对应关系远没有产品界面呈现得那么可靠。
+
+这些不是零散的个案，供给侧已经工业化了。[Cisco
+Talos](https://blog.talosintelligence.com/dragon-rank-seo-poisoning/) 和 [Palo
+Alto Networks](https://unit42.paloaltonetworks.com/operation-rewrite-seo-poisoning-campaign/) 在 2025 年先后曝光了两起跨国 SEO 投毒行动，代号
+DragonRank 和 Operation
+Rewrite，主要操盘方是中文团队，波及两百多个国家。手段是入侵企业服务器，根据访客身份返回不同页面。更高级的变体叫
+AI-targeted cloaking：服务器识别出 ChatGPT、Perplexity、Gemini 的爬虫
+UA，专门给它们返回一版为 AI 优化的内容，普通浏览器访问同一个 URL
+看到的是完全不同的页面。[SPLX
+在 The Hacker News 上发表的分析](https://thehackernews.com/2025/10/new-ai-targeted-cloaking-attack-tricks.html)记录了完整的技术链路。
+
+中文侧有自己的版本。2026 年 315 晚会现场演示了力擎 GEO
+优化系统：操作者造了一个叫 Apollo-9
+的虚构智能手环，声称搭载量子纠缠感应和黑洞级续航，软件自动生成十几篇假评测、假专家推荐、假行业排名，发到预设的自媒体账号。两小时后就有
+AI 模型开始推荐这个产品，三天内两家主流 AI 把它列入了智能手环推荐榜。[21
+经济网](https://www.21jingji.com/article/20260316/herald/8cf9afdb3bc8ba06b10b2f89aef3bc17.html)引用信通院数据，2024 年国内 GEO 服务市场 42 亿元，年增速
+38%，预计 2026 年破 180 亿。[澎湃新闻](https://m.thepaper.cn/newsDetail_forward_32773464)查到力擎的运营方北京力思文化传媒
+2018 年成立，注册资本 100 万，2025 年社保缴纳 1
+人。负责人在镜头前直接说：给竞争对手投毒，花几百万是合理的。
+
+英文侧伪造学术引用和标准编号，中文侧用 GEO
+批量造品牌叙事。同一条产业链，两个出口。
+
+学术伪造这条线上还有更多记录。[Mata v.
+Avianca](https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc.) 案之后，律师用 ChatGPT 编造判例被罚款的事件已经形成系列。[GPT
+生成的论文通过自动爬虫进了 Google Scholar 索引](https://misinforeview.hks.harvard.edu/article/gpt-fabricated-scientific-papers-on-google-scholar-key-features-spread-and-implications-for-preempting-evidence-manipulation/)。[GhostCite](https://ojs.aaai.org/index.php/AAAI/article/download/42257/46218)
+在 40 个领域检测了 37 万条 AI 生成的引用，幻觉率从 14% 到
+95%。共同的规律：越依赖权威信号来判断可信度的领域，伪造做得越精致。
+
+## AI 改变了什么
+
+内容农场一直存在。AI 改变的是三个环节的经济性。
+
+第一个是去重失效。过去的内容农场互相抄，段落雷同，图片复用，搜索引擎很容易识别出同源复制。AI
+改写把表层全部打散，每篇读起来都像不同的人独立完成的，但底层的事实性断言完全一致。搜索引擎面对一批表面不同、结论相同的页面，会倾向于把它们当作多源共识而不是单源扩散。这正好把去重逻辑反转了。
+
+第二个是信任信号可以批量制造。ASTM 后面跟一个 D
+加四位数字，大学名后面跟
+Extension，年份落在近三五年内。这些格式组合是英文读者判断内容是否严肃的直觉线索。把它们当模板塞进批量文章，利用的是读者对机构的默认信任。越熟悉英文学术体系的团队伪造成本越低，因为他们清楚哪些格式组合能通过读者的直觉审查。这也解释了为什么大量精致伪造出自同时熟悉中英文学术生态的中文团队，他们在两套体系之间的套利空间最大。
+
+但熟悉英文学术写作的读者反而更容易上当。他们的可信度判断走的是模式匹配，看到标准编号、大学
+extension、近年年份，直觉就给了高分。点进原文也看不出破绽，因为 AI
+改写已经消除了非母语写作的生硬感，段落结构和术语用法都符合学术规范。这套验证习惯建立在一个过时的前提上：不可信的内容会在格式或语言上露出破绽。AI
+改写加模板化伪造让这个前提不再成立。反倒是那些只看朋友推荐和视频演示、从不读评测文章的人，在这类查询上更安全。伪造品质追平真实品质之前，知识帮助辨别；追平之后，同样的知识让人在错误方向上走得更自信。
+
+第三个是攻击面扩展到了爬虫专属通道。AI-targeted cloaking
+意味着服务器给 AI
+爬虫和给人类浏览器返回不同的页面。用户想点进去亲自验证，看到的是正常内容；AI
+引用同一个 URL 时拿到的是另一份。最后一道人工核验的防线就此失效。
+
+[哈佛肯尼迪学院
+2024 年的研究](https://misinforeview.hks.harvard.edu/article/llms-grooming-or-data-voids-llm-powered-chatbot-references-to-kremlin-disinformation-reflect-information-gaps-not-manipulation/)发现，LLM
+在冷门话题上会引用一个亲克里姆林宫的宣传聚合站，原因是这类查询缺乏主流来源，谁先填上谁就是默认答案。日常消费品的很多查询处于同样的真空地带：没有
+Wikipedia
+词条，没有大媒体的深度评测，只有站群。模型会诚实地抓取最符合格式要求的内容，而格式精良正是内容农场的核心产能。
+
+## 用户承担最终成本
+
+模型厂商可以改进检索算法，给低信任域名降权，加入来源多样性评分。这些措施都有效。问题是伪造端的边际成本也在下降，用的是同一代
+AI
+工具。攻防两侧共享技术栈，防御方在可预见的时间内追不上供给方的迭代速度。在两者达成某种均衡之前，错误答案的代价由用户承担：买了没用的东西，吃了不对的保健品，给孩子用了不符合安全标准的产品。
+
+应对这种污染和应对传统幻觉的方法完全不同。传统幻觉是模型凭空生成了一个说法，做一次
+fact-check 就够了。这种污染带着伪造的出处，溯源的工作量大得多：要从 AI
+给出的引用出发，逐条追回一手资料，确认那份资料确实存在，并且确实说了模型复述的那件事。Fact-check
+可以众包，可以建数据库预先覆盖；溯源面对的是每次独立虚构的引用，没有现成的数据库能查。一个普通用户为日常查询做溯源花掉的时间，很可能已经超过
+AI 搜索省下的时间。如果每次都需要溯源，AI
+联网搜索在这类场景里的净效率是负的。
+
+用户的行为已经在变化。搜索词后面加 reddit，指定 independent
+reviewer，去看某个具体作者的长期博客，看视频而不是看评测文章。这些做法有一个共同的底层逻辑：放弃从文本内容本身判断真假，转而依赖难以批量伪造的身份信号。有历史的账号，有声誉的真人，有长期作品积累的个人品牌。用户愿意为此付出额外的搜索成本。
+
+多来源共识一直是判断信息真假的核心依据，前提是制造一条独立来源的成本足够高。AI
+把这个成本压到接近零，多来源一致这个信号就不再可靠。目前无论是人类的判断习惯、AI
+产品的设计，还是监管框架，都还没有找到替代指标。判断事实的路径正在从统计判断（多少来源同意）转向因果判断（能否追溯到原始现场），对应的工具和习惯都需要跟着变。
+
+## 实际操作建议
+
+消费和生活类查询是当前的重灾区，三个条件叠在一起：商业套利空间大，主流编辑来源少，用户验证意愿低。对这类查询，AI
+搜索给出的综合意见应该当作线索而不是结论。产品层面，自动生成综合答案的功能在这类场景应该降权或关闭，换成原始来源的逐条呈现，让用户看到每条结论背后是什么域名。
+
+任何带学术引用或标准编号的 AI
+回答，引用本身需要单独验证。工程实现并不复杂：对模型输出做后处理，正则匹配出
+X et al. (年份)、ASTM D 四位数字、某大学 Extension 这类格式，批量查
+DOI、Crossref、机构官网和标准协会目录。这个功能在主流 AI
+产品里还没有成为标配。
+
+用 AI agent 做调研的流程里，要特别警惕共识信号。多个 subagent
+返回同一个数字或同一个研究名称，默认假设它们来自同一个上游伪造源，手工找到至少一条原始链接才能采信。三个
+agent 都提到 Wisconsin-Madison Extension 2022 年的研究，大概率是三个
+agent 检索到了同一批内容农场。
+
+域名信任度需要校准。阿里系电商域名上的内容大部分是卖家或代运营填写的平台
+UGC，信任等级应该和匿名博客持平甚至更低。Medium 和 Substack
+同理，平台不为内容背书，被模型引用时应该降权处理。
+
+医疗、儿童用品、安全相关的查询，在当前的语料状态下，AI
+联网搜索不适合直接给出聚合结论。[Google
+在 2025 年下线了部分医学 AI
+Overviews](https://www.theverge.com/news/860356/google-pulls-alarming-dangerous-medical-ai-overviews)，起因是出现了与主流医嘱相反的输出（比如告诉胰腺癌患者应该避免高脂肪食物）。这是语料污染的下游症状，升级模型解决不了。
+
+AI
+联网搜索这两年把模型从闭卷考试变成了开卷考试。但开卷的前提是题库可信。当伪造学术引用、专门针对
+AI
+爬虫优化、以多来源同构形式出现的内容大量涌入题库，开卷本身就成了风险源：模型很诚恳地在复述一批精心摆在它面前的伪造材料。
+
+两条个人习惯，在合成成本趋近于零的环境里会持续有效：消费生活类问题不采信
+AI
+给出的综合结论；带学术或标准引用的回答，默认当作伪造，逐条验证后再用。
+
+## 附：主要来源
+
+AI 搜索污染与幻觉： - [NewsGuard
+AI False Claims Monitor（2024–2025 月度）](https://www.newsguardtech.com/ai-false-claims-monitor/) - [NewsGuard
+AI 内容农场追踪](https://www.newsguardtech.com/insights/watch-out-ai-news-sites-are-on-the-rise) - [Futurism,
+Google AI Overviews 准确率（引 Oumi/NYT）](https://futurism.com/artificial-intelligence/google-ai-overviews-misinformation) - [Ahrefs
+假品牌实验（转载 LinkedIn）](https://www.linkedin.com/posts/mattdiggityseo_someone-just-proved-how-easy-it-is-to-manipulate-activity-7410012170505187328-kUpG) - [ZipTie,
+ChatGPT 源链接错误率](https://ziptie.dev/blog/myths-about-ai-search-that-are-harmful/) - [The
+Verge, Google 下线医学 AI Overviews](https://www.theverge.com/news/860356/google-pulls-alarming-dangerous-medical-ai-overviews)
+
+Data Void 与 RAG 回声室： - [Golebiewski
+& boyd, Data Voids (Data & Society)](https://datasociety.net/wp-content/uploads/2018/05/Data_Society_Data_Voids_Final_3.pdf) - [HKS
+Misinformation Review, LLM 引用 Pravda 域名](https://misinforeview.hks.harvard.edu/article/llms-grooming-or-data-voids-llm-powered-chatbot-references-to-kremlin-disinformation-reflect-information-gaps-not-manipulation/) - [IJCAI 2025, Data
+Void Exploits in RAG](https://www.ijcai.org/proceedings/2025/1218.pdf)
+
+SEO 投毒与中文团队跨境运营： - [Cisco
+Talos, DragonRank](https://blog.talosintelligence.com/dragon-rank-seo-poisoning/) - [Palo
+Alto Unit 42, Operation Rewrite](https://unit42.paloaltonetworks.com/operation-rewrite-seo-poisoning-campaign/) - [SPLX
+/ The Hacker News, AI-targeted cloaking](https://thehackernews.com/2025/10/new-ai-targeted-cloaking-attack-tricks.html) - [ZeroFox, SEO
+poisoning LLMs](https://www.zerofox.com/blog/seo-poisoning-llms/)
+
+315 晚会与国内 GEO 产业： - [21
+经济网, 2026 315 晚会 GEO 投毒详细报道](https://www.21jingji.com/article/20260316/herald/8cf9afdb3bc8ba06b10b2f89aef3bc17.html) - [澎湃新闻,
+后续调查](https://m.thepaper.cn/newsDetail_forward_32773464) - [36 氪,
+完整曝光清单](https://m.36kr.com/p/3724822076684679) - [Asia
+News Network（引 CMG 央视）, Apollo-9 GEO 伪造调查](https://asianews.network/china-experts-raise-alarm-on-ai-data-poisoning/) - [NBC
+News, Shanghai Haixun 虚假新闻网络](https://www.nbcnews.com/tech/tech-news/dozens-fake-news-websites-social-media-accounts-pushed-china-talking-p-rcna41140)
+
+伪造学术引用： - [HKS
+Misinformation Review, Google Scholar 上的 GPT 伪造论文](https://misinforeview.hks.harvard.edu/article/gpt-fabricated-scientific-papers-on-google-scholar-key-features-spread-and-implications-for-preempting-evidence-manipulation/) - [Mata v.
+Avianca, Inc. 维基](https://en.wikipedia.org/wiki/Mata_v._Avianca,_Inc.) - [Rolling
+Stone（引 Georgia State 研究）, 学术数据库中的 AI 虚假引用](https://www.rollingstone.com/culture/culture-features/ai-chatbot-journal-research-fake-citations-1235485484/) - [AAAI
+Proceedings, 引用幻觉检测](https://ojs.aaai.org/index.php/AAAI/article/download/42257/46218) - [AATCC 官方标准目录](https://www.aatcc.org/standards/)
+
+消费 review 与信任迁移： - [Ahrefs,
+Wirecutter SEO 案例](https://ahrefs.com/blog/wirecutter-seo-case-study/) - [Hacker News, Reddit
+后缀搜索讨论](https://news.ycombinator.com/item?id=29772136) - [Pew
+Research（经 The Verge 引用）, AI Overview 点击率](https://www.theverge.com/news/720069/google-ai-overviews-search-web-traffic-stable)
+
+## 鸭哥每日手记
+
+日更的深度AI新闻和分析
+
+订阅
+
+[Built with Kit](https://kit.com/features/forms?utm_campaign=poweredby&utm_content=form&utm_medium=referral&utm_source=dynamic)
+
+本文 100% 由 AI 生成
+·
+Superlinear Academy
+
+[3,000+ AI Builder 在这里交流实战经验 · 加入社区
+→](https://go.ai-builders.com/yage)

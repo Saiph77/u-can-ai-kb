@@ -1,0 +1,104 @@
+{
+  "browser-light": {
+    "path": "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md",
+    "quote": "## 扩展性悖论：给人类视觉定制的 Chrome 为什么扛不住 Agent 的高并发？",
+    "line": 50,
+    "reason": "讨论浏览器作为兼容层以及并发成本。"
+  },
+  "browser-poles": {
+    "path": "deep-news/articles/agent-browser-two-poles-20260814.md",
+    "quote": "## 两极为什么不可兼得",
+    "line": 148,
+    "reason": "对比云端并发与桌面真实态。"
+  },
+  "browser-boundary": {
+    "path": "deep-news/articles/agent-browser-credential-boundary-20260905.md",
+    "quote": "页面在哪渲染，登录凭证放在谁的信任边界里？",
+    "line": 23,
+    "reason": "讨论浏览器部署位置与登录凭证的边界。"
+  },
+  "router-measurement": {
+    "path": "deep-news/articles/llm-router-security-20260410.md",
+    "quote": "## 中转站是怎么变成攻击面的",
+    "line": 47,
+    "reason": "路由器篡改工具调用、触碰凭证的测量与防御建议。"
+  },
+  "router-data": {
+    "path": "deep-news/articles/router-input-as-product-20260915.md",
+    "quote": "## input 的三本账",
+    "line": 63,
+    "reason": "讨论中转链路中的输入泄露、训练及数据交易；归因包含单方指控，金标仅表示主题相关。"
+  },
+  "memory-eval": {
+    "path": "deep-news/articles/ai-memory-benchmark-precision-20260719.md",
+    "quote": "## 用户更在意少记错，系统更容易多记",
+    "line": 44,
+    "reason": "记忆的写入选择与精确率评测。"
+  },
+  "memory-layers": {
+    "path": "deep-news/articles/four-lanes-of-ai-memory-20260812.md",
+    "quote": "## 经验应当分层递进，不必试图一步到位",
+    "line": 107,
+    "reason": "纠正信息应进入不同层次的长期状态。"
+  },
+  "memory-pointer": {
+    "path": "deep-news/articles/ambient-context-pointer-memory-20260905.md",
+    "quote": "## 旧问题：记全了没人看，记少了没法用",
+    "line": 46,
+    "reason": "屏幕记忆在全像素、文本和指针之间的工程取舍。"
+  },
+  "mcp-boundary": {
+    "path": "deep-news/articles/mcp-2026-certainty-layering-20260629.md",
+    "quote": "## 编排流程交给确定性代码",
+    "line": 41,
+    "reason": "协议中的确定性编排与推理边界。"
+  },
+  "mcp-human": {
+    "path": "deep-news/articles/mcp-elicitation-human-in-loop-20260716.md",
+    "quote": "## Form 和 URL 分开的原因是数据去哪里",
+    "line": 65,
+    "reason": "MCP 执行中向用户请求信息、授权的机制。"
+  },
+  "mcp-agent": {
+    "path": "deep-news/articles/mcp-agent-identity-caller-shift-20260828.md",
+    "quote": "## 为什么云端 agent 必须自己拿到授权",
+    "line": 27,
+    "reason": "讨论默认调用者从人转向云端进程及身份授权。"
+  },
+  "cost-cache": {
+    "path": "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md",
+    "quote": "## Prefill 才是 agent 账单的主要成分",
+    "line": 34,
+    "reason": "多轮工具执行中的重复输入与缓存成本。"
+  },
+  "cost-account": {
+    "path": "deep-news/articles/ai-token-cost-saving-20260707.md",
+    "quote": "## 真正的降本顺序，是先归因，再换模型",
+    "line": 168,
+    "reason": "区分成本归因、闲置和模型选择。"
+  },
+  "cost-fanin": {
+    "path": "deep-news/articles/pre-agent-fan-in-filter-cost-20260806.md",
+    "quote": "## 场景与困境：当你尝试搭一个 AI 运维值班助手",
+    "line": 19,
+    "reason": "高告警扇入场景在进入 agent 前控本。"
+  },
+  "cost-training": {
+    "path": "deep-news/articles/cost-into-models-swe2-20260912.md",
+    "quote": "## 把成本写进模型的学习目标",
+    "line": 56,
+    "reason": "区分在成本曲线上选点与通过训练改变成本曲线。"
+  },
+  "local-markets": {
+    "path": "deep-news/articles/local-llm-two-markets-20260826.md",
+    "quote": "## 成本市场与控制市场",
+    "line": 72,
+    "reason": "区分开放权重 API 与本地部署，以及成本和控制需求。"
+  },
+  "local-decision": {
+    "path": "deep-news/articles/open-model-selfhost-decision-20260904.md",
+    "quote": "## 三本账：钱、数据、能力",
+    "line": 56,
+    "reason": "自托管的成本、控制与能力决策。"
+  }
+}

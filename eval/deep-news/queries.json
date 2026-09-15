@@ -1,0 +1,1104 @@
+{
+  "name": "deep-news-temporal-v1",
+  "as_of": "2026-09-15",
+  "candidate_budget": 100,
+  "k": 10,
+  "description": "Publication-date retrieval development set; no claims about factual currency or historical knowledge availability. Six topic clusters, five intents each. Gold frozen before retrieval.",
+  "queries": [
+    {
+      "id": "latest-browser",
+      "kind": "latest",
+      "topic": "browser",
+      "query": "查找 2026 年 9 月 1 日至 15 日发布的 agent 浏览器架构与安全进展，重点是部署位置、并发和登录态。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-09-01",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-light"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-two-poles-20260814.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-poles"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-credential-boundary-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-boundary"
+        }
+      ]
+    },
+    {
+      "id": "current-browser",
+      "kind": "current",
+      "topic": "browser",
+      "query": "截至 2026 年 9 月 15 日，给 agent 选云端还是本机浏览器，如何权衡并发、真实登录态和凭证边界？优先近两个月的分析。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "prefer_recent",
+        "start": "2026-07-15",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-light"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-two-poles-20260814.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-poles"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-credential-boundary-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-boundary"
+        }
+      ]
+    },
+    {
+      "id": "foundation-browser",
+      "kind": "foundation",
+      "topic": "browser",
+      "query": "为什么 agent 浏览器的高并发密度和真实登录态很难兼得？想找解释工程取舍的文章，不限发布时间。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "none"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "browser-light"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-two-poles-20260814.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-poles"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-credential-boundary-20260905.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "browser-boundary"
+        }
+      ]
+    },
+    {
+      "id": "historical-browser",
+      "kind": "historical",
+      "topic": "browser",
+      "query": "只找 2026 年 8 月 1 日至 14 日发布的 agent 浏览器架构与安全分析，了解那段时期对部署位置、并发和登录态的讨论。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-08-01",
+        "end": "2026-08-14"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-light"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-two-poles-20260814.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-poles"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-credential-boundary-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-boundary"
+        }
+      ]
+    },
+    {
+      "id": "evolution-browser",
+      "kind": "evolution",
+      "topic": "browser",
+      "query": "梳理 agent 浏览器设计的讨论演进：先看八月的云端轻量化和桌面真实态，再看九月的凭证边界。两个阶段都要。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "stages"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-light"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-two-poles-20260814.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-poles"
+        },
+        {
+          "paths": [
+            "deep-news/articles/agent-browser-credential-boundary-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "browser-boundary"
+        }
+      ],
+      "stages": [
+        {
+          "id": "august",
+          "paths": [
+            "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md",
+            "deep-news/articles/agent-browser-two-poles-20260814.md"
+          ]
+        },
+        {
+          "id": "september",
+          "paths": [
+            "deep-news/articles/agent-browser-credential-boundary-20260905.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latest-router",
+      "kind": "latest",
+      "topic": "router",
+      "query": "查找 2026 年 9 月 1 日至 15 日发布的模型 API 中转服务安全报道，关注用户输入和凭证泄露。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-09-01",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/llm-router-security-20260410.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-measurement"
+        },
+        {
+          "paths": [
+            "deep-news/articles/router-input-as-product-20260915.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-data"
+        }
+      ]
+    },
+    {
+      "id": "current-router",
+      "kind": "current",
+      "topic": "router",
+      "query": "截至 2026 年 9 月 15 日，公司把请求交给模型 API 中转站有什么风险，应怎么减少输入和凭证泄露？优先近两个月的分析。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "prefer_recent",
+        "start": "2026-07-15",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/llm-router-security-20260410.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-measurement"
+        },
+        {
+          "paths": [
+            "deep-news/articles/router-input-as-product-20260915.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-data"
+        }
+      ]
+    },
+    {
+      "id": "foundation-router",
+      "kind": "foundation",
+      "topic": "router",
+      "query": "为什么模型 API 中转站能在工具调用里动手脚，明文凭证为什么会暴露？想找机制解释，不限发布时间。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "none"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/llm-router-security-20260410.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-measurement"
+        },
+        {
+          "paths": [
+            "deep-news/articles/router-input-as-product-20260915.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "router-data"
+        }
+      ]
+    },
+    {
+      "id": "historical-router",
+      "kind": "historical",
+      "topic": "router",
+      "query": "只找 2026 年四月发布的模型 API 中转服务安全报道，关注用户输入和凭证泄露。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-04-01",
+        "end": "2026-04-30"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/llm-router-security-20260410.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-measurement"
+        },
+        {
+          "paths": [
+            "deep-news/articles/router-input-as-product-20260915.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-data"
+        }
+      ]
+    },
+    {
+      "id": "evolution-router",
+      "kind": "evolution",
+      "topic": "router",
+      "query": "把模型中转安全的两阶段材料找齐：四月的路由器攻击测量，以及九月的用户输入流转和数据交易报道。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "stages"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/llm-router-security-20260410.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-measurement"
+        },
+        {
+          "paths": [
+            "deep-news/articles/router-input-as-product-20260915.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "router-data"
+        }
+      ],
+      "stages": [
+        {
+          "id": "april",
+          "paths": [
+            "deep-news/articles/llm-router-security-20260410.md"
+          ]
+        },
+        {
+          "id": "september",
+          "paths": [
+            "deep-news/articles/router-input-as-product-20260915.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latest-memory",
+      "kind": "latest",
+      "topic": "memory",
+      "query": "查找 2026 年 9 月 1 日至 15 日发布的 AI 助手长期记忆工程进展，关注保存什么、怎样减少错误记忆和记录成本。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-09-01",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/ai-memory-benchmark-precision-20260719.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-eval"
+        },
+        {
+          "paths": [
+            "deep-news/articles/four-lanes-of-ai-memory-20260812.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-layers"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ambient-context-pointer-memory-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-pointer"
+        }
+      ]
+    },
+    {
+      "id": "current-memory",
+      "kind": "current",
+      "topic": "memory",
+      "query": "截至 2026 年 9 月 15 日，做 AI 助手记忆功能，怎样决定信息保存在哪里、避免反复记错并控制记录成本？优先近两个月的分析。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "prefer_recent",
+        "start": "2026-07-15",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/ai-memory-benchmark-precision-20260719.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-eval"
+        },
+        {
+          "paths": [
+            "deep-news/articles/four-lanes-of-ai-memory-20260812.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-layers"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ambient-context-pointer-memory-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-pointer"
+        }
+      ]
+    },
+    {
+      "id": "foundation-memory",
+      "kind": "foundation",
+      "topic": "memory",
+      "query": "为什么记忆系统测出很高的召回率，用户却仍会因为它记错偏好而关掉功能？想找评测原理，不限发布时间。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "none"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/ai-memory-benchmark-precision-20260719.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-eval"
+        },
+        {
+          "paths": [
+            "deep-news/articles/four-lanes-of-ai-memory-20260812.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "memory-layers"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ambient-context-pointer-memory-20260905.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "memory-pointer"
+        }
+      ]
+    },
+    {
+      "id": "historical-memory",
+      "kind": "historical",
+      "topic": "memory",
+      "query": "只找 2026 年七月发布的 AI 助手长期记忆工程分析，关注保存什么、怎样减少错误记忆和记录成本。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/ai-memory-benchmark-precision-20260719.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-eval"
+        },
+        {
+          "paths": [
+            "deep-news/articles/four-lanes-of-ai-memory-20260812.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-layers"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ambient-context-pointer-memory-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-pointer"
+        }
+      ]
+    },
+    {
+      "id": "evolution-memory",
+      "kind": "evolution",
+      "topic": "memory",
+      "query": "找齐 AI 助手记忆的讨论脉络：七月的评测取舍、八月的信息分层、九月的屏幕记忆实现，各要一个阶段的材料。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "stages"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/ai-memory-benchmark-precision-20260719.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-eval"
+        },
+        {
+          "paths": [
+            "deep-news/articles/four-lanes-of-ai-memory-20260812.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-layers"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ambient-context-pointer-memory-20260905.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "memory-pointer"
+        }
+      ],
+      "stages": [
+        {
+          "id": "july",
+          "paths": [
+            "deep-news/articles/ai-memory-benchmark-precision-20260719.md"
+          ]
+        },
+        {
+          "id": "august",
+          "paths": [
+            "deep-news/articles/four-lanes-of-ai-memory-20260812.md"
+          ]
+        },
+        {
+          "id": "september",
+          "paths": [
+            "deep-news/articles/ambient-context-pointer-memory-20260905.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latest-mcp",
+      "kind": "latest",
+      "topic": "mcp",
+      "query": "查找 2026 年 8 月 15 日至 9 月 15 日发布的 MCP 协议演进分析，关注自动执行、用户参与和授权边界。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-08-15",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/mcp-2026-certainty-layering-20260629.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-boundary"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-elicitation-human-in-loop-20260716.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-human"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-agent-identity-caller-shift-20260828.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-agent"
+        }
+      ]
+    },
+    {
+      "id": "current-mcp",
+      "kind": "current",
+      "topic": "mcp",
+      "query": "截至 2026 年 9 月 15 日，构建长期运行的 MCP 工具服务时，自动执行、用户补充信息和 agent 授权的边界应怎么设计？优先近两个月的分析。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "prefer_recent",
+        "start": "2026-07-15",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/mcp-2026-certainty-layering-20260629.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-boundary"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-elicitation-human-in-loop-20260716.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-human"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-agent-identity-caller-shift-20260828.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-agent"
+        }
+      ]
+    },
+    {
+      "id": "foundation-mcp",
+      "kind": "foundation",
+      "topic": "mcp",
+      "query": "MCP 工具执行到一半才发现缺参数或需要登录，服务端应该怎样把问题交给用户并继续任务？想找机制解释，不限发布时间。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "none"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/mcp-2026-certainty-layering-20260629.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "mcp-boundary"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-elicitation-human-in-loop-20260716.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-human"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-agent-identity-caller-shift-20260828.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "mcp-agent"
+        }
+      ]
+    },
+    {
+      "id": "historical-mcp",
+      "kind": "historical",
+      "topic": "mcp",
+      "query": "只找 2026 年六月发布的 MCP 协议演进分析，关注自动执行、用户参与和授权边界。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/mcp-2026-certainty-layering-20260629.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-boundary"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-elicitation-human-in-loop-20260716.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-human"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-agent-identity-caller-shift-20260828.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-agent"
+        }
+      ]
+    },
+    {
+      "id": "evolution-mcp",
+      "kind": "evolution",
+      "topic": "mcp",
+      "query": "梳理 MCP 的三阶段设计讨论：六月的确定性编排、七月的工具中途问人、八月的云端 agent 身份。三个阶段都要。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "stages"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/mcp-2026-certainty-layering-20260629.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-boundary"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-elicitation-human-in-loop-20260716.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-human"
+        },
+        {
+          "paths": [
+            "deep-news/articles/mcp-agent-identity-caller-shift-20260828.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "mcp-agent"
+        }
+      ],
+      "stages": [
+        {
+          "id": "june",
+          "paths": [
+            "deep-news/articles/mcp-2026-certainty-layering-20260629.md"
+          ]
+        },
+        {
+          "id": "july",
+          "paths": [
+            "deep-news/articles/mcp-elicitation-human-in-loop-20260716.md"
+          ]
+        },
+        {
+          "id": "august",
+          "paths": [
+            "deep-news/articles/mcp-agent-identity-caller-shift-20260828.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latest-cost",
+      "kind": "latest",
+      "topic": "cost",
+      "query": "查找 2026 年 9 月 1 日至 15 日发布的 agent 推理成本优化分析，关注怎样降本而不是简单换便宜模型。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-09-01",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-cache"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ai-token-cost-saving-20260707.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-account"
+        },
+        {
+          "paths": [
+            "deep-news/articles/pre-agent-fan-in-filter-cost-20260806.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-fanin"
+        },
+        {
+          "paths": [
+            "deep-news/articles/cost-into-models-swe2-20260912.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-training"
+        }
+      ]
+    },
+    {
+      "id": "current-cost",
+      "kind": "current",
+      "topic": "cost",
+      "query": "截至 2026 年 9 月 15 日，agent 调用量大、账单高，如何在模型之外或训练中降本，而不是单纯换便宜模型？优先近两个月的分析。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "prefer_recent",
+        "start": "2026-07-15",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-cache"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ai-token-cost-saving-20260707.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-account"
+        },
+        {
+          "paths": [
+            "deep-news/articles/pre-agent-fan-in-filter-cost-20260806.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-fanin"
+        },
+        {
+          "paths": [
+            "deep-news/articles/cost-into-models-swe2-20260912.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-training"
+        }
+      ]
+    },
+    {
+      "id": "foundation-cost",
+      "kind": "foundation",
+      "topic": "cost",
+      "query": "为什么多轮工具调用没生成多少文字，却消耗大量输入 token？缓存命中如何影响账单？想找原理，不限发布时间。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "none"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-cache"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ai-token-cost-saving-20260707.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "cost-account"
+        },
+        {
+          "paths": [
+            "deep-news/articles/pre-agent-fan-in-filter-cost-20260806.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "cost-fanin"
+        },
+        {
+          "paths": [
+            "deep-news/articles/cost-into-models-swe2-20260912.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "cost-training"
+        }
+      ]
+    },
+    {
+      "id": "historical-cost",
+      "kind": "historical",
+      "topic": "cost",
+      "query": "只找 2026 年六月至七月发布的 agent 推理成本优化分析，关注怎样降本而不是简单换便宜模型。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-06-01",
+        "end": "2026-07-31"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-cache"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ai-token-cost-saving-20260707.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-account"
+        },
+        {
+          "paths": [
+            "deep-news/articles/pre-agent-fan-in-filter-cost-20260806.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-fanin"
+        },
+        {
+          "paths": [
+            "deep-news/articles/cost-into-models-swe2-20260912.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-training"
+        }
+      ]
+    },
+    {
+      "id": "evolution-cost",
+      "kind": "evolution",
+      "topic": "cost",
+      "query": "找出 agent 控本思路的演进材料：六月到七月的缓存与账单归因、八月的输入预处理、九月的训练目标优化。三个阶段都要。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "stages"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-cache"
+        },
+        {
+          "paths": [
+            "deep-news/articles/ai-token-cost-saving-20260707.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-account"
+        },
+        {
+          "paths": [
+            "deep-news/articles/pre-agent-fan-in-filter-cost-20260806.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-fanin"
+        },
+        {
+          "paths": [
+            "deep-news/articles/cost-into-models-swe2-20260912.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "cost-training"
+        }
+      ],
+      "stages": [
+        {
+          "id": "early",
+          "paths": [
+            "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md",
+            "deep-news/articles/ai-token-cost-saving-20260707.md"
+          ]
+        },
+        {
+          "id": "august",
+          "paths": [
+            "deep-news/articles/pre-agent-fan-in-filter-cost-20260806.md"
+          ]
+        },
+        {
+          "id": "september",
+          "paths": [
+            "deep-news/articles/cost-into-models-swe2-20260912.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latest-selfhost",
+      "kind": "latest",
+      "topic": "selfhost",
+      "query": "查找 2026 年 9 月 1 日至 15 日发布的开放模型自托管决策分析，关注成本与数据控制。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-09-01",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/local-llm-two-markets-20260826.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-markets"
+        },
+        {
+          "paths": [
+            "deep-news/articles/open-model-selfhost-decision-20260904.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-decision"
+        }
+      ]
+    },
+    {
+      "id": "current-selfhost",
+      "kind": "current",
+      "topic": "selfhost",
+      "query": "截至 2026 年 9 月 15 日，团队该自托管开放模型还是买远程 API？如何权衡成本、数据控制和团队能力？优先近两个月的分析。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "prefer_recent",
+        "start": "2026-07-15",
+        "end": "2026-09-15"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/local-llm-two-markets-20260826.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-markets"
+        },
+        {
+          "paths": [
+            "deep-news/articles/open-model-selfhost-decision-20260904.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-decision"
+        }
+      ]
+    },
+    {
+      "id": "foundation-selfhost",
+      "kind": "foundation",
+      "topic": "selfhost",
+      "query": "开放权重模型调用增长为什么不能说明本地部署更划算？成本需求和控制需求有什么区别？想找概念解释，不限发布时间。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "none"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/local-llm-two-markets-20260826.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-markets"
+        },
+        {
+          "paths": [
+            "deep-news/articles/open-model-selfhost-decision-20260904.md"
+          ],
+          "grade": 1,
+          "evidence_ref": "local-decision"
+        }
+      ]
+    },
+    {
+      "id": "historical-selfhost",
+      "kind": "historical",
+      "topic": "selfhost",
+      "query": "只找 2026 年八月发布的开放模型自托管决策分析，关注成本与数据控制。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "window",
+        "start": "2026-08-01",
+        "end": "2026-08-31"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/local-llm-two-markets-20260826.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-markets"
+        },
+        {
+          "paths": [
+            "deep-news/articles/open-model-selfhost-decision-20260904.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-decision"
+        }
+      ]
+    },
+    {
+      "id": "evolution-selfhost",
+      "kind": "evolution",
+      "topic": "selfhost",
+      "query": "把开放模型部署决策的两阶段分析找齐：八月对成本与控制两种市场的区分，九月对钱、数据和团队能力的落地判断。",
+      "as_of": "2026-09-15",
+      "time": {
+        "mode": "stages"
+      },
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/local-llm-two-markets-20260826.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-markets"
+        },
+        {
+          "paths": [
+            "deep-news/articles/open-model-selfhost-decision-20260904.md"
+          ],
+          "grade": 2,
+          "evidence_ref": "local-decision"
+        }
+      ],
+      "stages": [
+        {
+          "id": "august",
+          "paths": [
+            "deep-news/articles/local-llm-two-markets-20260826.md"
+          ]
+        },
+        {
+          "id": "september",
+          "paths": [
+            "deep-news/articles/open-model-selfhost-decision-20260904.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

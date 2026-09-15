@@ -1,0 +1,673 @@
+{
+  "name": "u-can-ai-kb-zg-v2",
+  "description": "Document retrieval development set. Exact paths grouped only for byte-identical curated copies. Fixed 100 chunk candidates, first 10 unique documents; incomplete qrels, descriptive comparisons only.",
+  "k": 10,
+  "queries": [
+    {
+      "id": "lex-token-fake",
+      "kind": "lexical",
+      "query": "省token是个假问题",
+      "notes": "主文为 Jenny 成文与知识页；修订逐字稿、复盘、站点稿和备选草稿均已核对含时间/认知/返工成本讨论，分别 grade 1。精确列举当前文件，不接受未来目录下任意文件。",
+      "relevant": [
+        {
+          "paths": [
+            "Jenny/01-省token是个假问题.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/知识页.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/逐字稿-修订版.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/AI总结-省token是个假问题-开放麦复盘.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/AI总结-openmic-001-站点版.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/备选草稿-先烧十个亿-实战笔记.md"
+          ],
+          "grade": 1
+        }
+      ]
+    },
+    {
+      "id": "sem-token-fake",
+      "kind": "semantic",
+      "query": "为什么省上下文费用不是真正该先操心的事",
+      "notes": "主文为 Jenny 成文与知识页；修订逐字稿、复盘、站点稿和备选草稿均已核对含时间/认知/返工成本讨论，分别 grade 1。精确列举当前文件，不接受未来目录下任意文件。",
+      "relevant": [
+        {
+          "paths": [
+            "Jenny/01-省token是个假问题.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/知识页.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/逐字稿-修订版.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/AI总结-省token是个假问题-开放麦复盘.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/AI总结-openmic-001-站点版.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/01-第一期-省token是个假问题/备选草稿-先烧十个亿-实战笔记.md"
+          ],
+          "grade": 1
+        }
+      ]
+    },
+    {
+      "id": "lex-taste",
+      "kind": "lexical",
+      "query": "Taste是你感受quality的能力",
+      "notes": "标题原词。",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/Taste是你感受quality的能力,是可以提高的.md",
+            "by-format/02-精选长文/Taste是你感受quality的能力,是可以提高的.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/良质与-AI为什么人类最不可替代的能力,反而是「看一眼才知道好不好」.md",
+            "by-format/02-精选长文/良质与-AI为什么人类最不可替代的能力,反而是「看一眼才知道好不好」.md"
+          ],
+          "grade": 1
+        }
+      ]
+    },
+    {
+      "id": "sem-taste",
+      "kind": "semantic",
+      "query": "生成内容都变容易了，人靠什么一眼看出东西好不好",
+      "notes": "对应 Taste / 良质，少用英文 Taste。",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/Taste是你感受quality的能力,是可以提高的.md",
+            "by-format/02-精选长文/Taste是你感受quality的能力,是可以提高的.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/良质与-AI为什么人类最不可替代的能力,反而是「看一眼才知道好不好」.md",
+            "by-format/02-精选长文/良质与-AI为什么人类最不可替代的能力,反而是「看一眼才知道好不好」.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "Jenny/03-AI时代的品味与教育.md"
+          ],
+          "grade": 1
+        }
+      ]
+    },
+    {
+      "id": "lex-fake-work",
+      "kind": "lexical",
+      "query": "如何识别与消灭 fake work",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/如何识别与消灭-fake-work.md",
+            "by-format/02-精选长文/如何识别与消灭-fake-work.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-fake-work",
+      "kind": "semantic",
+      "query": "看起来很忙但没有真实产出的工作，怎么认出来并停掉",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/如何识别与消灭-fake-work.md",
+            "by-format/02-精选长文/如何识别与消灭-fake-work.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "lex-context-not-model",
+      "kind": "lexical",
+      "query": "你团队的 AI 效果不好，问题不在模型，在 Context",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/03-跟AI协作/你团队的-AI-效果不好,问题不在模型,在-Context.md",
+            "by-format/02-精选长文/你团队的-AI-效果不好,问题不在模型,在-Context.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-context-not-model",
+      "kind": "semantic",
+      "query": "模型已经很强了，团队用起来还是差，应该先查哪一层",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/03-跟AI协作/你团队的-AI-效果不好,问题不在模型,在-Context.md",
+            "by-format/02-精选长文/你团队的-AI-效果不好,问题不在模型,在-Context.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "Jenny/05-同一个模型三种命运.md"
+          ],
+          "grade": 1
+        }
+      ],
+      "notes": "Context 主文保持 grade 2；Jenny 第五期“想知道一家公司 AI 用得多深，看它敢让 AI 读哪一层数据”也回应模型之外的约束，grade 1。标题题仍只认指定主文。"
+    },
+    {
+      "id": "lex-noun-verb",
+      "kind": "lexical",
+      "query": "名词、动词、和手艺",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/名词、动词、和手艺-学AI到底在学什么.md",
+            "by-format/02-精选长文/名词、动词、和手艺-学AI到底在学什么.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/为什么所有人都在学名词,但真正拉开差距的是动词.md",
+            "by-format/02-精选长文/为什么所有人都在学名词,但真正拉开差距的是动词.md"
+          ],
+          "grade": 1
+        }
+      ]
+    },
+    {
+      "id": "sem-noun-verb",
+      "kind": "semantic",
+      "query": "学 AI 为什么不能只背概念名词，而要练动作和手艺",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/名词、动词、和手艺-学AI到底在学什么.md",
+            "by-format/02-精选长文/名词、动词、和手艺-学AI到底在学什么.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/为什么所有人都在学名词,但真正拉开差距的是动词.md",
+            "by-format/02-精选长文/为什么所有人都在学名词,但真正拉开差距的是动词.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "lex-openclaw-cool",
+      "kind": "lexical",
+      "query": "为什么OpenClaw一定会凉，但我仍然推荐你去试一试",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/04-把判断做成东西/为什么OpenClaw一定会凉,但我仍然推荐你去试一试.md",
+            "by-audience/05-视频精选/为什么OpenClaw一定会凉,但我仍然推荐你去试一试.md",
+            "by-format/03-视频逐字稿/为什么OpenClaw一定会凉,但我仍然推荐你去试一试.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-openclaw",
+      "kind": "semantic",
+      "query": "开源个人助手龙虾商业上为什么跑不通，却仍值得上手试",
+      "notes": "「龙虾」是 OpenClaw 昵称；主文是视频逐字稿，Deep News 介绍文为相关。",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/04-把判断做成东西/为什么OpenClaw一定会凉,但我仍然推荐你去试一试.md",
+            "by-audience/05-视频精选/为什么OpenClaw一定会凉,但我仍然推荐你去试一试.md",
+            "by-format/03-视频逐字稿/为什么OpenClaw一定会凉,但我仍然推荐你去试一试.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "deep-news/articles/openclaw-intro-20260323.md"
+          ],
+          "grade": 1
+        }
+      ]
+    },
+    {
+      "id": "col-jenny-ep1",
+      "kind": "collection",
+      "query": "Jenny 写的开放麦第一期对外成文，不要逐字稿",
+      "notes": "应优先 Jenny/01，而不是 archive 逐字稿。",
+      "relevant": [
+        {
+          "paths": [
+            "Jenny/01-省token是个假问题.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "col-openmic-ep5",
+      "kind": "collection",
+      "query": "开放麦第五期知识页：同一个模型三种命运",
+      "relevant": [
+        {
+          "paths": [
+            "open-mic-archive/05-第五期-对同一个模型的三种预期/知识页.md"
+          ],
+          "grade": 2
+        }
+      ],
+      "notes": "明确请求第五期知识页；Jenny 成文不满足形态约束。"
+    },
+    {
+      "id": "lex-workbench-shell",
+      "kind": "lexical",
+      "query": "工作台是个壳",
+      "relevant": [
+        {
+          "paths": [
+            "Jenny/04-工作台是个壳.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "open-mic-archive/04-第四期-我的AI工作台/知识页.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/04-第四期-我的AI工作台/逐字稿-修订版.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/04-第四期-我的AI工作台/AI总结-工作台是个壳-开放麦复盘.md"
+          ],
+          "grade": 1
+        }
+      ],
+      "notes": "主文 Jenny grade 2；知识页、修订逐字稿和复盘分别 grade 1，正文均讨论工作台外壳与底层工作流。复盘个别概括过满，相关性不等于事实质量。"
+    },
+    {
+      "id": "sem-workbench-shell",
+      "kind": "semantic",
+      "query": "AI 工作台产品长什么样不重要，真正的系统在壳下面",
+      "relevant": [
+        {
+          "paths": [
+            "Jenny/04-工作台是个壳.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "open-mic-archive/04-第四期-我的AI工作台/知识页.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/04-第四期-我的AI工作台/逐字稿-修订版.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/04-第四期-我的AI工作台/AI总结-工作台是个壳-开放麦复盘.md"
+          ],
+          "grade": 1
+        }
+      ],
+      "notes": "主文 Jenny grade 2；知识页、修订逐字稿和复盘分别 grade 1，正文均讨论工作台外壳与底层工作流。复盘个别概括过满，相关性不等于事实质量。"
+    },
+    {
+      "id": "lex-kids-faster",
+      "kind": "lexical",
+      "query": "AI小孩比大人快",
+      "relevant": [
+        {
+          "paths": [
+            "Jenny/06-AI小孩比大人快.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "open-mic-archive/06-第六期-AI与青少年教育/知识页.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/06-第六期-AI与青少年教育/逐字稿-修订版.md"
+          ],
+          "grade": 1
+        },
+        {
+          "paths": [
+            "open-mic-archive/06-第六期-AI与青少年教育/文章-AI小孩比大人快.md"
+          ],
+          "grade": 1
+        }
+      ],
+      "notes": "主文 Jenny grade 2；知识页、逐字稿和文章源文件明确讨论儿童学 AI 更快，分别 grade 1。"
+    },
+    {
+      "id": "lex-axioms",
+      "kind": "lexical",
+      "query": "Public Axioms V1 公共思考透镜",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/00-从这里开始/Public-Axioms-V1-公共思考透镜.md",
+            "by-format/02-决策框架-axiom/Public-Axioms-V1-公共思考透镜.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-core-thesis",
+      "kind": "semantic",
+      "query": "判断要做成能被现实拒绝的作品，而不是停在自己脑子里",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/00-从这里开始/核心主张做点真东西.md",
+            "by-format/01-核心锚点/核心主张做点真东西.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "lex-intensity",
+      "kind": "lexical",
+      "query": "Intensity成事的底层变量",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/Intensity成事的底层变量.md",
+            "by-format/02-精选长文/Intensity成事的底层变量.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "lex-seven-powers",
+      "kind": "lexical",
+      "query": "从护城河到 7 Powers 怎样真正思考一个商业问题",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/01-世界观与判断/菜鸟总有答案,高手总有问题从“护城河”到-7-Powers怎样真正思考一个商业问题.md",
+            "by-format/02-精选长文/菜鸟总有答案,高手总有问题从“护城河”到-7-Powers怎样真正思考一个商业问题.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "lex-interview-ai",
+      "kind": "lexical",
+      "query": "2026，如何在面试中证明自己真的懂AI",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/02-我的处境/2026,如何在面试中证明自己真的懂AI.md",
+            "by-format/02-精选长文/2026,如何在面试中证明自己真的懂AI.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-worker-path",
+      "kind": "semantic",
+      "query": "打工人在 AI 时代的出路是什么，别只追求把活干得更快",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/02-我的处境/AI时代,打工人的出路到底是什么.md",
+            "by-audience/05-视频精选/AI时代,打工人的出路到底是什么.md",
+            "by-format/03-视频逐字稿/AI时代,打工人的出路到底是什么.md"
+          ],
+          "grade": 2
+        },
+        {
+          "paths": [
+            "by-audience/02-我的处境/AI时代的超级个体,最重要的不是生产力不要用更快的速度原地打转.md",
+            "by-format/02-精选长文/AI时代的超级个体,最重要的不是生产力不要用更快的速度原地打转.md"
+          ],
+          "grade": 1
+        }
+      ]
+    },
+    {
+      "id": "lex-comm-tax",
+      "kind": "lexical",
+      "query": "个体创业后才发现打工最难受的是沟通税",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/02-我的处境/【限时公开】个体创业后,才发现打工最让我难受的,是“沟通税”.md",
+            "by-audience/05-视频精选/【限时公开】个体创业后,才发现打工最让我难受的,是“沟通税”.md",
+            "by-format/03-视频逐字稿/【限时公开】个体创业后,才发现打工最让我难受的,是“沟通税”.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "skill-staged",
+      "kind": "skill",
+      "query": "分阶段工作法 Staged Approach",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/07-内部参考-协作者专用/分阶段工作法(Staged-Approach).md",
+            "by-format/05-执行方法-skill/分阶段工作法(Staged-Approach).md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "skill-subagent",
+      "kind": "skill",
+      "query": "并行 Subagent 工作流",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/07-内部参考-协作者专用/并行-Subagent-工作流.md",
+            "by-format/05-执行方法-skill/并行-Subagent-工作流.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "skill-flywheel",
+      "kind": "skill",
+      "query": "知识飞轮设计模式",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/07-内部参考-协作者专用/知识飞轮设计模式.md",
+            "by-format/05-执行方法-skill/知识飞轮设计模式.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "frank-cost-care",
+      "kind": "frank",
+      "query": "没押上代价的判断不产生 information gain",
+      "relevant": [
+        {
+          "paths": [
+            "Frank/mems/cost-makes-care.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-frank-heuristic",
+      "kind": "frank",
+      "query": "不要急着给确定答案，先想我为什么问这个问题、成功标准是什么",
+      "notes": "对应 Frank/instructions/heuristic.md 的对话原则。",
+      "relevant": [
+        {
+          "paths": [
+            "Frank/instructions/heuristic.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "entity-engram",
+      "kind": "entity",
+      "query": "DeepSeek Engram",
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/engram-conditional-memory-20260912.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-engram",
+      "kind": "semantic",
+      "query": "把模型静态知识从计算里拆出来放到主机内存做查表",
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/engram-conditional-memory-20260912.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "lex-cost-curve",
+      "kind": "lexical",
+      "query": "画得出成本曲线，不等于压得下成本曲线",
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/cost-into-models-swe2-20260912.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "sem-router-input",
+      "kind": "semantic",
+      "query": "用户请求被静默转发给别的模型，prompt 在非自有通道上怎么被卖掉",
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/router-input-as-product-20260915.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "entity-leaderboard-ruler",
+      "kind": "entity",
+      "query": "谁在改尺子 AI 榜单",
+      "relevant": [
+        {
+          "paths": [
+            "deep-news/articles/ai-benchmark-leaderboard-industry-20260913.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "lex-skills-replace",
+      "kind": "lexical",
+      "query": "Skills写得越多，越不容易被AI取代",
+      "relevant": [
+        {
+          "paths": [
+            "by-audience/03-跟AI协作/Skills写得越多,越不容易被AI取代.md",
+            "by-format/02-精选长文/Skills写得越多,越不容易被AI取代.md"
+          ],
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "distractor-k8s",
+      "kind": "distractor",
+      "query": "Kubernetes operator 的 reconcile 循环应该怎么写",
+      "notes": "未穷尽确认无答案；仅观察返回路径和数量。排名检索没有拒答阈值，不计拒识率或污染率。",
+      "relevant": []
+    }
+  ]
+}

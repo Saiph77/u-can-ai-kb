@@ -184,8 +184,11 @@ async function renderDetail(id) {
   els.detailTitle.textContent = data.title;
   els.detailBadges.innerHTML = "";
   els.detailBadges.appendChild(badge(data.collection_label, "library"));
-  if (data.category_label) els.detailBadges.appendChild(badge(data.category_label, "type"));
-  els.detailMeta.innerHTML = `<div><strong>路径</strong> ${data.path}</div>`;
+  let metaHtml = `<div><strong>路径</strong> ${data.path}</div>`;
+  if (data.meta && data.meta.source) {
+    metaHtml += `<div><strong>原网链接</strong> <a href="${data.meta.source}" target="_blank" rel="noopener noreferrer">${data.meta.source}</a></div>`;
+  }
+  els.detailMeta.innerHTML = metaHtml;
   els.contentRaw.textContent = data.raw;
   const html = DOMPurify.sanitize(marked.parse(data.body || data.raw));
   els.contentHtml.innerHTML = html;

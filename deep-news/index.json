@@ -1,0 +1,3019 @@
+[
+  {
+    "slug": "ai-benchmark-leaderboard-industry-20260913",
+    "title": "谁在改尺子：AI 榜单的两重张力",
+    "date": "2026-09-14",
+    "source": "https://yage.ai/share/ai-benchmark-leaderboard-industry-20260913.html",
+    "file": "articles/ai-benchmark-leaderboard-industry-20260913.md"
+  },
+  {
+    "slug": "ai-night-shift-quantum-lab-20260913",
+    "title": "量子芯片调好之前，OpenAI 的 AI\\n值了十二个小时的夜班",
+    "date": "2026-09-14",
+    "source": "https://yage.ai/share/ai-night-shift-quantum-lab-20260913.html",
+    "file": "articles/ai-night-shift-quantum-lab-20260913.md"
+  },
+  {
+    "slug": "cost-into-models-swe2-20260912",
+    "title": "画得出成本曲线，不等于压得下成本曲线",
+    "date": "2026-09-13",
+    "source": "https://yage.ai/share/cost-into-models-swe2-20260912.html",
+    "file": "articles/cost-into-models-swe2-20260912.md"
+  },
+  {
+    "slug": "engram-conditional-memory-20260912",
+    "title": "把知识搬出 GPU：DeepSeek Engram\\n与模型的第二条稀疏轴",
+    "date": "2026-09-13",
+    "source": "https://yage.ai/share/engram-conditional-memory-20260912.html",
+    "file": "articles/engram-conditional-memory-20260912.md"
+  },
+  {
+    "slug": "v0-one-click-vendor-skills-20260912",
+    "title": "v0 一键集成：连接服务时，供应商的推荐用法自动进入\\nAI",
+    "date": "2026-09-12",
+    "source": "https://yage.ai/share/v0-one-click-vendor-skills-20260912.html",
+    "file": "articles/v0-one-click-vendor-skills-20260912.md"
+  },
+  {
+    "slug": "router-input-as-product-20260915",
+    "title": "Anthropic 指控 30\\n万次请求被静默转发，被带走的是真实生产数据",
+    "date": "2026-09-12",
+    "source": "https://yage.ai/share/router-input-as-product-20260915.html",
+    "file": "articles/router-input-as-product-20260915.md"
+  },
+  {
+    "slug": "deepseek-v41-flash-kv-cache-memory-20260911",
+    "title": "DeepSeek V4.1\\nFlash：算力优化触顶之后，长上下文的战争转向内存",
+    "date": "2026-09-11",
+    "source": "https://yage.ai/share/deepseek-v41-flash-kv-cache-memory-20260911.html",
+    "file": "articles/deepseek-v41-flash-kv-cache-memory-20260911.md"
+  },
+  {
+    "slug": "ai-news-digest-20260914",
+    "title": "本周四条 AI 新闻：司法部站队 fair use、DeepSeek\\n押注昇腾、OpenClaw 转向团队、员工对 AI 情绪转冷",
+    "date": "2026-09-11",
+    "source": "https://yage.ai/share/ai-news-digest-20260914.html",
+    "file": "articles/ai-news-digest-20260914.md"
+  },
+  {
+    "slug": "personal-agent-custody-20260910",
+    "title": "云 agent 不新，新的是托管",
+    "date": "2026-09-10",
+    "source": "https://yage.ai/share/personal-agent-custody-20260910.html",
+    "file": "articles/personal-agent-custody-20260910.md"
+  },
+  {
+    "slug": "edge-ai-selling-point-to-part-20260910",
+    "title": "端侧 AI 没有龙头，因为它正在从卖点变成零件",
+    "date": "2026-09-10",
+    "source": "https://yage.ai/share/edge-ai-selling-point-to-part-20260910.html",
+    "file": "articles/edge-ai-selling-point-to-part-20260910.md"
+  },
+  {
+    "slug": "agent-ledger-interface-room-20260909",
+    "title": "上周三件小事：agent 的账本、接口与房间",
+    "date": "2026-09-09",
+    "source": "https://yage.ai/share/agent-ledger-interface-room-20260909.html",
+    "file": "articles/agent-ledger-interface-room-20260909.md"
+  },
+  {
+    "slug": "robot-access-regime-20260908",
+    "title": "机器人三十年不查证件，为什么现在开始查了",
+    "date": "2026-09-08",
+    "source": "https://yage.ai/share/robot-access-regime-20260908.html",
+    "file": "articles/robot-access-regime-20260908.md"
+  },
+  {
+    "slug": "ai-self-improvement-exam-bottleneck-20260908",
+    "title": "好点子已经过剩，AI 自我改进的瓶颈在考场",
+    "date": "2026-09-08",
+    "source": "https://yage.ai/share/ai-self-improvement-exam-bottleneck-20260908.html",
+    "file": "articles/ai-self-improvement-exam-bottleneck-20260908.md"
+  },
+  {
+    "slug": "ai-job-two-step-loop-20260904",
+    "title": "裁员潮之后，撞墙的公司正在把人招回来",
+    "date": "2026-09-07",
+    "source": "https://yage.ai/share/ai-job-two-step-loop-20260904.html",
+    "file": "articles/ai-job-two-step-loop-20260904.md"
+  },
+  {
+    "slug": "lower-floor-higher-ceiling-20260907",
+    "title": "AI 抬高了下限，评分标准还在惩罚上限",
+    "date": "2026-09-07",
+    "source": "https://yage.ai/share/lower-floor-higher-ceiling-20260907.html",
+    "file": "articles/lower-floor-higher-ceiling-20260907.md"
+  },
+  {
+    "slug": "claude-teaches-gemma-tetris-20260906",
+    "title": "Claude 花了 1200 美元，让 Gemma 玩俄罗斯方块从 0\\n分涨到 16 分",
+    "date": "2026-09-06",
+    "source": "https://yage.ai/share/claude-teaches-gemma-tetris-20260906.html",
+    "file": "articles/claude-teaches-gemma-tetris-20260906.md"
+  },
+  {
+    "slug": "toks-deceptive-agentic-20260906",
+    "title": "tok/s 是 agentic 场景里最会骗人的性能数字",
+    "date": "2026-09-06",
+    "source": "https://yage.ai/share/toks-deceptive-agentic-20260906.html",
+    "file": "articles/toks-deceptive-agentic-20260906.md"
+  },
+  {
+    "slug": "agent-browser-credential-boundary-20260905",
+    "title": "Agent 的浏览器放在哪：凭证不出本机的战争",
+    "date": "2026-09-05",
+    "source": "https://yage.ai/share/agent-browser-credential-boundary-20260905.html",
+    "file": "articles/agent-browser-credential-boundary-20260905.md"
+  },
+  {
+    "slug": "ambient-context-pointer-memory-20260905",
+    "title": "屏幕记忆的第三条路：存指针，不存像素",
+    "date": "2026-09-05",
+    "source": "https://yage.ai/share/ambient-context-pointer-memory-20260905.html",
+    "file": "articles/ambient-context-pointer-memory-20260905.md"
+  },
+  {
+    "slug": "open-model-selfhost-decision-20260904",
+    "title": "把模型搬回自己家之前，先算三本账",
+    "date": "2026-09-04",
+    "source": "https://yage.ai/share/open-model-selfhost-decision-20260904.html",
+    "file": "articles/open-model-selfhost-decision-20260904.md"
+  },
+  {
+    "slug": "agentflow-trainable-decision-node-20260904",
+    "title": "换 GPT-4o 只多 5.8 分，训练 7B 却多了 17.2 分",
+    "date": "2026-09-04",
+    "source": "https://yage.ai/share/agentflow-trainable-decision-node-20260904.html",
+    "file": "articles/agentflow-trainable-decision-node-20260904.md"
+  },
+  {
+    "slug": "caching-discount-three-ledgers-20260903",
+    "title": "智能体 token 用量过线人类、OpenAI\\n自研芯片跑分出炉、GitHub 发布文档压缩原型",
+    "date": "2026-09-03",
+    "source": "https://yage.ai/share/caching-discount-three-ledgers-20260903.html",
+    "file": "articles/caching-discount-three-ledgers-20260903.md"
+  },
+  {
+    "slug": "codex-persistent-mode-20260903",
+    "title": "改完代码自己定闹钟盯 CI：OpenAI\\n源码里的自唤醒机制",
+    "date": "2026-09-03",
+    "source": "https://yage.ai/share/codex-persistent-mode-20260903.html",
+    "file": "articles/codex-persistent-mode-20260903.md"
+  },
+  {
+    "slug": "realtime-video-cost-ledger-20260902",
+    "title": "观众开始给画面写剧本：实时生成内容的新成本账",
+    "date": "2026-09-02",
+    "source": "https://yage.ai/share/realtime-video-cost-ledger-20260902.html",
+    "file": "articles/realtime-video-cost-ledger-20260902.md"
+  },
+  {
+    "slug": "nvidia-hf-antitrust-20260902",
+    "title": "绕过270亿美元后，Nvidia为什么必须在Hugging\\nFace身上硬闯反垄断",
+    "date": "2026-09-02",
+    "source": "https://yage.ai/share/nvidia-hf-antitrust-20260902.html",
+    "file": "articles/nvidia-hf-antitrust-20260902.md"
+  },
+  {
+    "slug": "on-device-ai-control-plane-20260901",
+    "title": "模型进了设备，治理留在云端：端侧 AI 的控制面现状",
+    "date": "2026-09-01",
+    "source": "https://yage.ai/share/on-device-ai-control-plane-20260901.html",
+    "file": "articles/on-device-ai-control-plane-20260901.md"
+  },
+  {
+    "slug": "claudeforce-pipes-not-products-20260901",
+    "title": "管道不是产品：Salesforce\\n把同一套接口发了两次，只有一次有人理",
+    "date": "2026-09-01",
+    "source": "https://yage.ai/share/claudeforce-pipes-not-products-20260901.html",
+    "file": "articles/claudeforce-pipes-not-products-20260901.md"
+  },
+  {
+    "slug": "hf-incident-second-half-20260831",
+    "title": "Hugging Face 事件最新进展：1,200 个 agent 组了队",
+    "date": "2026-08-31",
+    "source": "https://yage.ai/share/hf-incident-second-half-20260831.html",
+    "file": "articles/hf-incident-second-half-20260831.md"
+  },
+  {
+    "slug": "agentic-vision-20260830",
+    "title": "多模态模型的价值，不在看懂图，在会自己去看",
+    "date": "2026-08-30",
+    "source": "https://yage.ai/share/agentic-vision-20260830.html",
+    "file": "articles/agentic-vision-20260830.md"
+  },
+  {
+    "slug": "wikiprofile-recall-bottleneck-20260830",
+    "title": "模型答错事实题，先分清是没存进去，还是这次没取出来",
+    "date": "2026-08-30",
+    "source": "https://yage.ai/share/wikiprofile-recall-bottleneck-20260830.html",
+    "file": "articles/wikiprofile-recall-bottleneck-20260830.md"
+  },
+  {
+    "slug": "self-improving-ai-2d-field-20260829",
+    "title": "自我改进 AI：一个被压扁的二维场",
+    "date": "2026-08-29",
+    "source": "https://yage.ai/share/self-improving-ai-2d-field-20260829.html",
+    "file": "articles/self-improving-ai-2d-field-20260829.md"
+  },
+  {
+    "slug": "ai-bond-buyer-capacity-20260829",
+    "title": "AI 大厂 2200 亿债全卖光了，为什么借钱还在变贵",
+    "date": "2026-08-29",
+    "source": "https://yage.ai/share/ai-bond-buyer-capacity-20260829.html",
+    "file": "articles/ai-bond-buyer-capacity-20260829.md"
+  },
+  {
+    "slug": "domain-model-third-path-20260828",
+    "title": "域模型的第三条路：一个 175 年公司的 $40M 答案",
+    "date": "2026-08-28",
+    "source": "https://yage.ai/share/domain-model-third-path-20260828.html",
+    "file": "articles/domain-model-third-path-20260828.md"
+  },
+  {
+    "slug": "mcp-agent-identity-caller-shift-20260828",
+    "title": "从屏幕前的人到云端的进程：MCP\\n默认调用者的两年转向",
+    "date": "2026-08-28",
+    "source": "https://yage.ai/share/mcp-agent-identity-caller-shift-20260828.html",
+    "file": "articles/mcp-agent-identity-caller-shift-20260828.md"
+  },
+  {
+    "slug": "grok-bot-dynamic-tools-20260827",
+    "title": "Grok Bot 泄露：Cursor\\n为什么只给模型一部分工具的完整定义",
+    "date": "2026-08-27",
+    "source": "https://yage.ai/share/grok-bot-dynamic-tools-20260827.html",
+    "file": "articles/grok-bot-dynamic-tools-20260827.md"
+  },
+  {
+    "slug": "grok-bot-context-engineering-20260827",
+    "title": "Grok Bot 泄露：为什么 agent 的 system prompt\\n必须冻结",
+    "date": "2026-08-27",
+    "source": "https://yage.ai/share/grok-bot-context-engineering-20260827.html",
+    "file": "articles/grok-bot-context-engineering-20260827.md"
+  },
+  {
+    "slug": "local-llm-two-markets-20260826",
+    "title": "本地 LLM 这个词，把两个市场混装成了一个",
+    "date": "2026-08-26",
+    "source": "https://yage.ai/share/local-llm-two-markets-20260826.html",
+    "file": "articles/local-llm-two-markets-20260826.md"
+  },
+  {
+    "slug": "babysit-agents-management-not-context-20260826",
+    "title": "为什么你停不下来 babysit agents：不是 context\\n的问题，是管理的问题",
+    "date": "2026-08-26",
+    "source": "https://yage.ai/share/babysit-agents-management-not-context-20260826.html",
+    "file": "articles/babysit-agents-management-not-context-20260826.md"
+  },
+  {
+    "slug": "tec-phone-cooler-30w-20260826",
+    "title": "手机散热器上的 30W，是它吃掉的电，不是它搬走的热",
+    "date": "2026-08-26",
+    "source": "https://yage.ai/share/tec-phone-cooler-30w-20260826.html",
+    "file": "articles/tec-phone-cooler-30w-20260826.md"
+  },
+  {
+    "slug": "long-context-layering-yarn-v4-20260825",
+    "title": "近处保真、远处有损：三种长上下文方法背后的同一个直觉",
+    "date": "2026-08-25",
+    "source": "https://yage.ai/share/long-context-layering-yarn-v4-20260825.html",
+    "file": "articles/long-context-layering-yarn-v4-20260825.md"
+  },
+  {
+    "slug": "ab1651-bar-exam-ai-disclosure-20260825",
+    "title": "用过就要说：加州律考 AI 出题立法，人审不豁免",
+    "date": "2026-08-25",
+    "source": "https://yage.ai/share/ab1651-bar-exam-ai-disclosure-20260825.html",
+    "file": "articles/ab1651-bar-exam-ai-disclosure-20260825.md"
+  },
+  {
+    "slug": "2x5090-27b-sweet-spot-20260824",
+    "title": "8 路并发每路仍有 141 tok/s：2×5090 跑 27B\\n小模型，为什么它已经是 sweet spot",
+    "date": "2026-08-24",
+    "source": "https://yage.ai/share/2x5090-27b-sweet-spot-20260824.html",
+    "file": "articles/2x5090-27b-sweet-spot-20260824.md"
+  },
+  {
+    "slug": "cerebras-not-asic-20260824",
+    "title": "Cerebras：史上最大的芯片，不认识 Transformer",
+    "date": "2026-08-24",
+    "source": "https://yage.ai/share/cerebras-not-asic-20260824.html",
+    "file": "articles/cerebras-not-asic-20260824.md"
+  },
+  {
+    "slug": "premium-vs-luxury-20260823",
+    "title": "高端品牌和奢侈品牌的界限到底在哪里",
+    "date": "2026-08-23",
+    "source": "https://yage.ai/share/premium-vs-luxury-20260823.html",
+    "file": "articles/premium-vs-luxury-20260823.md"
+  },
+  {
+    "slug": "decoder-weekly-digest-20260823",
+    "title": "四条 AI 新闻的真实版本：登顶、水印、4.4 倍与解散",
+    "date": "2026-08-23",
+    "source": "https://yage.ai/share/decoder-weekly-digest-20260823.html",
+    "file": "articles/decoder-weekly-digest-20260823.md"
+  },
+  {
+    "slug": "skill-checklist-not-textbook-20260823",
+    "title": "Skill 不是教材，是检查单：一篇论文拆开了 Agent Skill\\n的真实机制",
+    "date": "2026-08-23",
+    "source": "https://yage.ai/share/skill-checklist-not-textbook-20260823.html",
+    "file": "articles/skill-checklist-not-textbook-20260823.md"
+  },
+  {
+    "slug": "uipath-toll-station-20260822",
+    "title": "把写流程这步免费送出去：UiPath 反直觉的一步棋",
+    "date": "2026-08-22",
+    "source": "https://yage.ai/share/uipath-toll-station-20260822.html",
+    "file": "articles/uipath-toll-station-20260822.md"
+  },
+  {
+    "slug": "stripe-openrouter-20260822",
+    "title": "从未来倒推：Stripe 为什么花 $7.5B 买 OpenRouter",
+    "date": "2026-08-22",
+    "source": "https://yage.ai/share/stripe-openrouter-20260822.html",
+    "file": "articles/stripe-openrouter-20260822.md"
+  },
+  {
+    "slug": "nyc-vegas-tourism-backstage-20260822",
+    "title": "为什么纽约有生活气息，拉斯维加斯没有",
+    "date": "2026-08-22",
+    "source": "https://yage.ai/share/nyc-vegas-tourism-backstage-20260822.html",
+    "file": "articles/nyc-vegas-tourism-backstage-20260822.md"
+  },
+  {
+    "slug": "agent-meter-test-20260821",
+    "title": "大公司做得出好 agent，为什么不敢卖？",
+    "date": "2026-08-21",
+    "source": "https://yage.ai/share/agent-meter-test-20260821.html",
+    "file": "articles/agent-meter-test-20260821.md"
+  },
+  {
+    "slug": "sounds-impressive-vs-actually-impressive-20260821",
+    "title": "听着厉害，和真的厉害",
+    "date": "2026-08-21",
+    "source": "https://yage.ai/share/sounds-impressive-vs-actually-impressive-20260821.html",
+    "file": "articles/sounds-impressive-vs-actually-impressive-20260821.md"
+  },
+  {
+    "slug": "mobile-agent-capability-sandbox-20260821",
+    "title": "把 Agent 塞进手机前，先想清楚它能碰什么",
+    "date": "2026-08-21",
+    "source": "https://yage.ai/share/mobile-agent-capability-sandbox-20260821.html",
+    "file": "articles/mobile-agent-capability-sandbox-20260821.md"
+  },
+  {
+    "slug": "ai-middlemen-responsibility-20260820",
+    "title": "AI 消灭的，是不承担责任的中间商",
+    "date": "2026-08-20",
+    "source": "https://yage.ai/share/ai-middlemen-responsibility-20260820.html",
+    "file": "articles/ai-middlemen-responsibility-20260820.md"
+  },
+  {
+    "slug": "openai-safety-pauses-20260820",
+    "title": "安全声明的价格：OpenAI 为什么暂停了训练",
+    "date": "2026-08-20",
+    "source": "https://yage.ai/share/openai-safety-pauses-20260820.html",
+    "file": "articles/openai-safety-pauses-20260820.md"
+  },
+  {
+    "slug": "two-gate-machines-nvidia-china-20260820",
+    "title": "先问华为，再关大门：两台国家机器怎么分别挡住了\\nNVIDIA",
+    "date": "2026-08-20",
+    "source": "https://yage.ai/share/two-gate-machines-nvidia-china-20260820.html",
+    "file": "articles/two-gate-machines-nvidia-china-20260820.md"
+  },
+  {
+    "slug": "nvidia-guarantor-20260819",
+    "title": "卖芯片的去当担保人：NVIDIA 用一年现金流给 OpenAI\\n的房租兜底",
+    "date": "2026-08-19",
+    "source": "https://yage.ai/share/nvidia-guarantor-20260819.html",
+    "file": "articles/nvidia-guarantor-20260819.md"
+  },
+  {
+    "slug": "organic-work-data-pricing-20260819",
+    "title": "600 亿美元买一个数据飞轮，1000 万买一个工作记忆",
+    "date": "2026-08-19",
+    "source": "https://yage.ai/share/organic-work-data-pricing-20260819.html",
+    "file": "articles/organic-work-data-pricing-20260819.md"
+  },
+  {
+    "slug": "timeshare-two-hour-lesson-20260819",
+    "title": "一堂两小时的课，标价两千美元",
+    "date": "2026-08-19",
+    "source": "https://yage.ai/share/timeshare-two-hour-lesson-20260819.html",
+    "file": "articles/timeshare-two-hour-lesson-20260819.md"
+  },
+  {
+    "slug": "btrfs-design-story-20260818",
+    "title": "Btrfs 从零讲起：一个写盘动作换来的能力和账单",
+    "date": "2026-08-18",
+    "source": "https://yage.ai/share/btrfs-design-story-20260818.html",
+    "file": "articles/btrfs-design-story-20260818.md"
+  },
+  {
+    "slug": "multi-agent-hats-layers-20260818",
+    "title": "卖你 AI 产品经理的公司，自己的 agent\\n不设岗位：multi-agent 的角色、隔离与代码",
+    "date": "2026-08-18",
+    "source": "https://yage.ai/share/multi-agent-hats-layers-20260818.html",
+    "file": "articles/multi-agent-hats-layers-20260818.md"
+  },
+  {
+    "slug": "spring-drive-epson-story-20260818",
+    "title": "打印机公司造出的最强机芯：Seiko、瑞士与 Spring Drive\\n六十年",
+    "date": "2026-08-18",
+    "source": "https://yage.ai/share/spring-drive-epson-story-20260818.html",
+    "file": "articles/spring-drive-epson-story-20260818.md"
+  },
+  {
+    "slug": "anthropic-risk-report-observability-20260817",
+    "title": "Anthropic AI\\n风险报告：仪表盘是绿的，三天后才翻到笔记本",
+    "date": "2026-08-17",
+    "source": "https://yage.ai/share/anthropic-risk-report-observability-20260817.html",
+    "file": "articles/anthropic-risk-report-observability-20260817.md"
+  },
+  {
+    "slug": "negative-result-lifecycle-20260817",
+    "title": "负结果的一生：一次实验说不之后要过五道关",
+    "date": "2026-08-17",
+    "source": "https://yage.ai/share/negative-result-lifecycle-20260817.html",
+    "file": "articles/negative-result-lifecycle-20260817.md"
+  },
+  {
+    "slug": "small-models-real-work-20260817",
+    "title": "每天一千万次调用的 GPT-4o mini，不聊天也不写代码",
+    "date": "2026-08-17",
+    "source": "https://yage.ai/share/small-models-real-work-20260817.html",
+    "file": "articles/small-models-real-work-20260817.md"
+  },
+  {
+    "slug": "diffusiongemma-text-diffusion-20260816",
+    "title": "Google 发布\\nDiffusionGemma：当语言模型不再只能从左到右写",
+    "date": "2026-08-16",
+    "source": "https://yage.ai/share/diffusiongemma-text-diffusion-20260816.html",
+    "file": "articles/diffusiongemma-text-diffusion-20260816.md"
+  },
+  {
+    "slug": "alarm-acceptance-maintenance-20260816",
+    "title": "一个闹钟，一份验收，就能养一个代码库",
+    "date": "2026-08-16",
+    "source": "https://yage.ai/share/alarm-acceptance-maintenance-20260816.html",
+    "file": "articles/alarm-acceptance-maintenance-20260816.md"
+  },
+  {
+    "slug": "anthropic-multiagent-turf-war-20260816",
+    "title": "Agent 停火了，用户为什么反而输了",
+    "date": "2026-08-16",
+    "source": "https://yage.ai/share/anthropic-multiagent-turf-war-20260816.html",
+    "file": "articles/anthropic-multiagent-turf-war-20260816.md"
+  },
+  {
+    "slug": "deepseek-vision-workaround-20260815",
+    "title": "给性价比最高的推理引擎装一双眼睛",
+    "date": "2026-08-15",
+    "source": "https://yage.ai/share/deepseek-vision-workaround-20260815.html",
+    "file": "articles/deepseek-vision-workaround-20260815.md"
+  },
+  {
+    "slug": "gpu-ai-power-competition-20260815",
+    "title": "GPU 之后，AI 公司在抢通电日期",
+    "date": "2026-08-15",
+    "source": "https://yage.ai/share/gpu-ai-power-competition-20260815.html",
+    "file": "articles/gpu-ai-power-competition-20260815.md"
+  },
+  {
+    "slug": "simulator-collapse-deepseek-harness-20260815",
+    "title": "同一个模型差 20 分：DeepSeek 的 harness\\n依赖性和合成数据的隐藏天花板",
+    "date": "2026-08-15",
+    "source": "https://yage.ai/share/simulator-collapse-deepseek-harness-20260815.html",
+    "file": "articles/simulator-collapse-deepseek-harness-20260815.md"
+  },
+  {
+    "slug": "agent-auth-gateway-not-crypto-20260814",
+    "title": "Agent 授权的竞争，不在密码学，在信任的归属权",
+    "date": "2026-08-14",
+    "source": "https://yage.ai/share/agent-auth-gateway-not-crypto-20260814.html",
+    "file": "articles/agent-auth-gateway-not-crypto-20260814.md"
+  },
+  {
+    "slug": "agent-browser-two-poles-20260814",
+    "title": "Agent\\n的浏览器正在分裂成两极：真实态与并发密度为什么不可兼得",
+    "date": "2026-08-14",
+    "source": "https://yage.ai/share/agent-browser-two-poles-20260814.html",
+    "file": "articles/agent-browser-two-poles-20260814.md"
+  },
+  {
+    "slug": "claude-text-watermark-sampling-20260814",
+    "title": "Claude 给 AI\\n内容打水印：技术上九成是旧办法换了新场景",
+    "date": "2026-08-14",
+    "source": "https://yage.ai/share/claude-text-watermark-sampling-20260814.html",
+    "file": "articles/claude-text-watermark-sampling-20260814.md"
+  },
+  {
+    "slug": "coding-agent-form-factor-data-20260813",
+    "title": "Coding Agent 的形态变化，都在抢同一样东西",
+    "date": "2026-08-13",
+    "source": "https://yage.ai/share/coding-agent-form-factor-data-20260813.html",
+    "file": "articles/coding-agent-form-factor-data-20260813.md"
+  },
+  {
+    "slug": "dsh-deep-analysis-20260813",
+    "title": "深度剖析 DeepSeek 最新的 Harness\\nDSH：为了自进化这盘醋包了一整盘饺子",
+    "date": "2026-08-13",
+    "source": "https://yage.ai/share/dsh-deep-analysis-20260813.html",
+    "file": "articles/dsh-deep-analysis-20260813.md"
+  },
+  {
+    "slug": "anthropic-riemann-zeta-search-20260813",
+    "title": "Anthropic 用 31M output token\\n搜索黎曼猜想，真正的信号在搜索架构",
+    "date": "2026-08-13",
+    "source": "https://yage.ai/share/anthropic-riemann-zeta-search-20260813.html",
+    "file": "articles/anthropic-riemann-zeta-search-20260813.md"
+  },
+  {
+    "slug": "four-lanes-of-ai-memory-20260812",
+    "title": "你纠正了 AI 十几次，它为什么还是记不住",
+    "date": "2026-08-12",
+    "source": "https://yage.ai/share/four-lanes-of-ai-memory-20260812.html",
+    "file": "articles/four-lanes-of-ai-memory-20260812.md"
+  },
+  {
+    "slug": "reasoning-theft-20260812",
+    "title": "模型蒸馏攻防的秘诀：厂商藏不住的推理，和你删不掉的密钥",
+    "date": "2026-08-12",
+    "source": "https://yage.ai/share/reasoning-theft-20260812.html",
+    "file": "articles/reasoning-theft-20260812.md"
+  },
+  {
+    "slug": "ai-math-acceptance-staircase-20260812",
+    "title": "一份通过检查的证明，为什么在 5 天后补写了 4 页？当 AI\\n逼出做完的真相",
+    "date": "2026-08-12",
+    "source": "https://yage.ai/share/ai-math-acceptance-staircase-20260812.html",
+    "file": "articles/ai-math-acceptance-staircase-20260812.md"
+  },
+  {
+    "slug": "reticulum-drone-offline-network-20260811",
+    "title": "挂在无人机上的离线网络：Reticulum\\n怎么把电波和协议玩出花？",
+    "date": "2026-08-11",
+    "source": "https://yage.ai/share/reticulum-drone-offline-network-20260811.html",
+    "file": "articles/reticulum-drone-offline-network-20260811.md"
+  },
+  {
+    "slug": "pc-workstation-training-optimization-20260811",
+    "title": "一台 PC 工作站上的 13\\n小时训练实验：为什么做优化的前提是测量？",
+    "date": "2026-08-11",
+    "source": "https://yage.ai/share/pc-workstation-training-optimization-20260811.html",
+    "file": "articles/pc-workstation-training-optimization-20260811.md"
+  },
+  {
+    "slug": "agent-swarm-communication-20260811",
+    "title": "Agent 通信越来越简单，为什么 Swarm 依然很难落地？",
+    "date": "2026-08-11",
+    "source": "https://yage.ai/share/agent-swarm-communication-20260811.html",
+    "file": "articles/agent-swarm-communication-20260811.md"
+  },
+  {
+    "slug": "cloudflare-os-authorization-20260808",
+    "title": "Agent 读过的数据，分享后还能给谁看？Cloudflare OS\\n的授权实践与源码真相",
+    "date": "2026-08-10",
+    "source": "https://yage.ai/share/cloudflare-os-authorization-20260808.html",
+    "file": "articles/cloudflare-os-authorization-20260808.md"
+  },
+  {
+    "slug": "suno-copyright-model-release-20260809",
+    "title": "模型权重也会成为侵权复制品？从 Suno 案看 AI\\n发布的版权新防线",
+    "date": "2026-08-10",
+    "source": "https://yage.ai/share/suno-copyright-model-release-20260809.html",
+    "file": "articles/suno-copyright-model-release-20260809.md"
+  },
+  {
+    "slug": "agentic-web-search-supply-chain-20260810",
+    "title": "搜索没有变便宜，但 Agent 把它拆成了新的供应链",
+    "date": "2026-08-10",
+    "source": "https://yage.ai/share/agentic-web-search-supply-chain-20260810.html",
+    "file": "articles/agentic-web-search-supply-chain-20260810.md"
+  },
+  {
+    "slug": "kitesurf-agent-browser-compatibility-layer-20260809",
+    "title": "浏览器是 Agent 覆盖面最广的兼容层，但 Chrome\\n不是：为什么我们需要 Kitesurf？",
+    "date": "2026-08-09",
+    "source": "https://yage.ai/share/kitesurf-agent-browser-compatibility-layer-20260809.html",
+    "file": "articles/kitesurf-agent-browser-compatibility-layer-20260809.md"
+  },
+  {
+    "slug": "openai-huggingface-context-infrastructure-20260809",
+    "title": "突破安全机制与沙箱之后：OpenAI 的 AI 如何用共享\\nContext 演化出集群智能",
+    "date": "2026-08-09",
+    "source": "https://yage.ai/share/openai-huggingface-context-infrastructure-20260809.html",
+    "file": "articles/openai-huggingface-context-infrastructure-20260809.md"
+  },
+  {
+    "slug": "gemini-robotics-2-architecture-merge-20260809",
+    "title": "Gemini Robotics 2\\n的架构逻辑：机器人的感知与规划正在走向合并",
+    "date": "2026-08-09",
+    "source": "https://yage.ai/share/gemini-robotics-2-architecture-merge-20260809.html",
+    "file": "articles/gemini-robotics-2-architecture-merge-20260809.md"
+  },
+  {
+    "slug": "kimi-k3-sandbox-escape-20260808",
+    "title": "AI沙箱越狱大赏：谁在砸锁，谁在作弊，谁在蹭热度？",
+    "date": "2026-08-08",
+    "source": "https://yage.ai/share/kimi-k3-sandbox-escape-20260808.html",
+    "file": "articles/kimi-k3-sandbox-escape-20260808.md"
+  },
+  {
+    "slug": "claude-auto-mode-approval-illusion-20260808",
+    "title": "为什么人工确认常常只是盖章仪式？从 Claude Code 实测看\\nAI 时代的控制面迁移",
+    "date": "2026-08-08",
+    "source": "https://yage.ai/share/claude-auto-mode-approval-illusion-20260808.html",
+    "file": "articles/claude-auto-mode-approval-illusion-20260808.md"
+  },
+  {
+    "slug": "mythos-cryptanalysis-hawk-aes-20260808",
+    "title": "从 HAWK 撤回到 AES 7 轮：Anthropic Mythos\\n密码学突破的技术真相",
+    "date": "2026-08-08",
+    "source": "https://yage.ai/share/mythos-cryptanalysis-hawk-aes-20260808.html",
+    "file": "articles/mythos-cryptanalysis-hawk-aes-20260808.md"
+  },
+  {
+    "slug": "turso-rag-file-isolation-20260805",
+    "title": "当 RAG 遇到物理文件隔离：为什么你的 Agent\\n不需要独立向量数据库？",
+    "date": "2026-08-07",
+    "source": "https://yage.ai/share/turso-rag-file-isolation-20260805.html",
+    "file": "articles/turso-rag-file-isolation-20260805.md"
+  },
+  {
+    "slug": "turso-database-per-agent-20260805",
+    "title": "单库单 Agent：一场被简化了的数据库革命",
+    "date": "2026-08-07",
+    "source": "https://yage.ai/share/turso-database-per-agent-20260805.html",
+    "file": "articles/turso-database-per-agent-20260805.md"
+  },
+  {
+    "slug": "turso-sqlite-vdbe-llvm-20260805",
+    "title": "SQLite 里藏着一台虚拟机，Turso 把它变成了数据库的\\nLLVM",
+    "date": "2026-08-07",
+    "source": "https://yage.ai/share/turso-sqlite-vdbe-llvm-20260805.html",
+    "file": "articles/turso-sqlite-vdbe-llvm-20260805.md"
+  },
+  {
+    "slug": "pre-agent-fan-in-filter-cost-20260806",
+    "title": "高扇入场景下的 Agent 控本：在 Agent 看到输入之前",
+    "date": "2026-08-06",
+    "source": "https://yage.ai/share/pre-agent-fan-in-filter-cost-20260806.html",
+    "file": "articles/pre-agent-fan-in-filter-cost-20260806.md"
+  },
+  {
+    "slug": "llm-finetuning-cost-engineering-20260806",
+    "title": "微调回来了，但理由变了：2026 LLM Fine-tuning\\n从能力增强到成本工程",
+    "date": "2026-08-06",
+    "source": "https://yage.ai/share/llm-finetuning-cost-engineering-20260806.html",
+    "file": "articles/llm-finetuning-cost-engineering-20260806.md"
+  },
+  {
+    "slug": "openai-data-agent-offline-context-20260806",
+    "title": "OpenAI 带来的上下文工程范式反思：为何离线编撰能让在线\\nRAG 看得更少、更准？",
+    "date": "2026-08-06",
+    "source": "https://yage.ai/share/openai-data-agent-offline-context-20260806.html",
+    "file": "articles/openai-data-agent-offline-context-20260806.md"
+  },
+  {
+    "slug": "loopx-long-horizon-control-plane-20260805",
+    "title": "当 Agent 足够聪明，缺的是制度：LoopX\\n的长程控制面尝试",
+    "date": "2026-08-05",
+    "source": "https://yage.ai/share/loopx-long-horizon-control-plane-20260805.html",
+    "file": "articles/loopx-long-horizon-control-plane-20260805.md"
+  },
+  {
+    "slug": "cloudflare-wallets-agentic-commerce-20260805",
+    "title": "最后一块拼图：Cloudflare 搭建的 Agent\\n双边市场与它的冷清现实",
+    "date": "2026-08-05",
+    "source": "https://yage.ai/share/cloudflare-wallets-agentic-commerce-20260805.html",
+    "file": "articles/cloudflare-wallets-agentic-commerce-20260805.md"
+  },
+  {
+    "slug": "cloudflare-agent-architecture-evolution-20260805",
+    "title": "从代码类到共享工作区：Cloudflare 的两次转向与 Agent\\n上下文演进",
+    "date": "2026-08-05",
+    "source": "https://yage.ai/share/cloudflare-agent-architecture-evolution-20260805.html",
+    "file": "articles/cloudflare-agent-architecture-evolution-20260805.md"
+  },
+  {
+    "slug": "civil-aviation-ai-triad-20260804",
+    "title": "欧洲立规、美国算账、中国跑试点：民航 AI\\n的\\\"三国演义\\\"与破局现实",
+    "date": "2026-08-04",
+    "source": "https://yage.ai/share/civil-aviation-ai-triad-20260804.html",
+    "file": "articles/civil-aviation-ai-triad-20260804.md"
+  },
+  {
+    "slug": "ai-traps-beyond-sniff-test-20260804",
+    "title": "测试全过，AI\\n为什么还是会写错代码？工程实践中的四个隐藏陷阱",
+    "date": "2026-08-04",
+    "source": "https://yage.ai/share/ai-traps-beyond-sniff-test-20260804.html",
+    "file": "articles/ai-traps-beyond-sniff-test-20260804.md"
+  },
+  {
+    "slug": "harness-fragmentation-numbat-normalization-20260804",
+    "title": "当硬边界撞上 Harness 碎片化：Perplexity Numbat\\n与跨客户端 Agent 行为归一化",
+    "date": "2026-08-04",
+    "source": "https://yage.ai/share/harness-fragmentation-numbat-normalization-20260804.html",
+    "file": "articles/harness-fragmentation-numbat-normalization-20260804.md"
+  },
+  {
+    "slug": "anthropic-cyber-eval-three-response-modes-20260803",
+    "title": "当 Claude\\n认出真实世界：三份越界日志暴露的模型自圆其说陷阱",
+    "date": "2026-08-03",
+    "source": "https://yage.ai/share/anthropic-cyber-eval-three-response-modes-20260803.html",
+    "file": "articles/anthropic-cyber-eval-three-response-modes-20260803.md"
+  },
+  {
+    "slug": "ai-regulation-three-philosophies-20260803",
+    "title": "中美欧 AI 监管：不只是谁更严，而是三种治理哲学",
+    "date": "2026-08-03",
+    "source": "https://yage.ai/share/ai-regulation-three-philosophies-20260803.html",
+    "file": "articles/ai-regulation-three-philosophies-20260803.md"
+  },
+  {
+    "slug": "factual-interface-credit-platform-attitudes-20260803",
+    "title": "界面承诺决定平台态度：从 Google Earth 事件看 AI\\n内容治理",
+    "date": "2026-08-03",
+    "source": "https://yage.ai/share/factual-interface-credit-platform-attitudes-20260803.html",
+    "file": "articles/factual-interface-credit-platform-attitudes-20260803.md"
+  },
+  {
+    "slug": "product-ai-friendliness-eval-20260802",
+    "title": "当产品不仅给人用，也给 AI 用：如何评估你产品的 AI\\n亲和度？",
+    "date": "2026-08-02",
+    "source": "https://yage.ai/share/product-ai-friendliness-eval-20260802.html",
+    "file": "articles/product-ai-friendliness-eval-20260802.md"
+  },
+  {
+    "slug": "prompt-injection-harness-eval-20260802",
+    "title": "打破 99% 安全假象：为什么 Prompt Injection\\n的防线与评测都在 Harness？",
+    "date": "2026-08-02",
+    "source": "https://yage.ai/share/prompt-injection-harness-eval-20260802.html",
+    "file": "articles/prompt-injection-harness-eval-20260802.md"
+  },
+  {
+    "slug": "us-robot-ban-protectionism-20260802",
+    "title": "机器人、芯片与稀土的保护主义成功条件",
+    "date": "2026-08-02",
+    "source": "https://yage.ai/share/us-robot-ban-protectionism-20260802.html",
+    "file": "articles/us-robot-ban-protectionism-20260802.md"
+  },
+  {
+    "slug": "deepseek-v4-flash-0731-agent-economics-20260801",
+    "title": "DeepSeek V4 Flash 0731：用 Nano\\n级价格买中端性能，斩杀线叙事遮蔽的真实 Agent 经济学",
+    "date": "2026-08-01",
+    "source": "https://yage.ai/share/deepseek-v4-flash-0731-agent-economics-20260801.html",
+    "file": "articles/deepseek-v4-flash-0731-agent-economics-20260801.md"
+  },
+  {
+    "slug": "reasoning-scratchpad-controller-20260801",
+    "title": "一张草稿纸，一个 Controller：重新理解大模型推理",
+    "date": "2026-08-01",
+    "source": "https://yage.ai/share/reasoning-scratchpad-controller-20260801.html",
+    "file": "articles/reasoning-scratchpad-controller-20260801.md"
+  },
+  {
+    "slug": "handbook-result-certainty-20260731",
+    "title": "从 HANDBOOK.md\\n的实验看：结果确定性何时会失败，以及怎样改进？",
+    "date": "2026-07-31",
+    "source": "https://yage.ai/share/handbook-result-certainty-20260731.html",
+    "file": "articles/handbook-result-certainty-20260731.md"
+  },
+  {
+    "slug": "kimi-k3-scaling-production-factors-20260731",
+    "title": "Kimi K3\\n报告解读：当规模从一个旋钮变成一组受约束的生产要素",
+    "date": "2026-07-31",
+    "source": "https://yage.ai/share/kimi-k3-scaling-production-factors-20260731.html",
+    "file": "articles/kimi-k3-scaling-production-factors-20260731.md"
+  },
+  {
+    "slug": "stt-contract-engineering-limits-20260731",
+    "title": "别用 Voice Agent\\n当听写员：解构流式语音识别的任务契约与工程局限",
+    "date": "2026-07-31",
+    "source": "https://yage.ai/share/stt-contract-engineering-limits-20260731.html",
+    "file": "articles/stt-contract-engineering-limits-20260731.md"
+  },
+  {
+    "slug": "motor-tradeoffs-3d-printer-20260730",
+    "title": "工程的核心就是 trade-off：从一台 3D\\n打印机看电机选型",
+    "date": "2026-07-30",
+    "source": "https://yage.ai/share/motor-tradeoffs-3d-printer-20260730.html",
+    "file": "articles/motor-tradeoffs-3d-printer-20260730.md"
+  },
+  {
+    "slug": "why-drone-arm-no-linux-20260730",
+    "title": "为什么无人机里那颗 ARM 芯片不跑 Linux",
+    "date": "2026-07-30",
+    "source": "https://yage.ai/share/why-drone-arm-no-linux-20260730.html",
+    "file": "articles/why-drone-arm-no-linux-20260730.md"
+  },
+  {
+    "slug": "self-host-glm-deepseek-payback-20260729",
+    "title": "如果我买显卡自托管 GLM 和\\nDeepSeek，到底要几年才能回本？",
+    "date": "2026-07-29",
+    "source": "https://yage.ai/share/self-host-glm-deepseek-payback-20260729.html",
+    "file": "articles/self-host-glm-deepseek-payback-20260729.md"
+  },
+  {
+    "slug": "agentic-multi-model-routing-20260729",
+    "title": "多模型路由进入 Agent 会话之后",
+    "date": "2026-07-29",
+    "source": "https://yage.ai/share/agentic-multi-model-routing-20260729.html",
+    "file": "articles/agentic-multi-model-routing-20260729.md"
+  },
+  {
+    "slug": "agent-interception-stack-20260729",
+    "title": "Agent\\n安全没有万能沙盒：拆解从念头到结果的五层拦截链",
+    "date": "2026-07-29",
+    "source": "https://yage.ai/share/agent-interception-stack-20260729.html",
+    "file": "articles/agent-interception-stack-20260729.md"
+  },
+  {
+    "slug": "open-weights-american-ai-leadership-20260728",
+    "title": "公开信背后的立场与算盘：美国“开放权重”大论战拆解",
+    "date": "2026-07-28",
+    "source": "https://yage.ai/share/open-weights-american-ai-leadership-20260728.html",
+    "file": "articles/open-weights-american-ai-leadership-20260728.md"
+  },
+  {
+    "slug": "coding-agent-measurement-cloudwatch-20260728",
+    "title": "当 coding agent\\n开始消耗预算与调用工具，企业究竟在测量什么？",
+    "date": "2026-07-28",
+    "source": "https://yage.ai/share/coding-agent-measurement-cloudwatch-20260728.html",
+    "file": "articles/coding-agent-measurement-cloudwatch-20260728.md"
+  },
+  {
+    "slug": "github-secure-code-game-prodbot-20260728",
+    "title": "别再依赖提示词防 Agent 了：从 GitHub Secure Code Game\\n看红队攻防的 5 级提权",
+    "date": "2026-07-28",
+    "source": "https://yage.ai/share/github-secure-code-game-prodbot-20260728.html",
+    "file": "articles/github-secure-code-game-prodbot-20260728.md"
+  },
+  {
+    "slug": "jetbrains-kotlin-benchmark-reframe-20260727",
+    "title": "为什么 SWE-bench 高分，在大厂 Kotlin\\n项目里依然会打转？",
+    "date": "2026-07-27",
+    "source": "https://yage.ai/share/jetbrains-kotlin-benchmark-reframe-20260727.html",
+    "file": "articles/jetbrains-kotlin-benchmark-reframe-20260727.md"
+  },
+  {
+    "slug": "a2a-protocol-deep-research-20260727",
+    "title": "重新审视 A2A\\n协议：大厂的野心、极小的市场与被挤压的现实",
+    "date": "2026-07-27",
+    "source": "https://yage.ai/share/a2a-protocol-deep-research-20260727.html",
+    "file": "articles/a2a-protocol-deep-research-20260727.md"
+  },
+  {
+    "slug": "harness-genes-multi-agent-20260727",
+    "title": "都是 Multi-Agent，各家 AI 编程 Harness\\n的基因与信仰到底有何不同？",
+    "date": "2026-07-27",
+    "source": "https://yage.ai/share/harness-genes-multi-agent-20260727.html",
+    "file": "articles/harness-genes-multi-agent-20260727.md"
+  },
+  {
+    "slug": "ai-search-media-law-20260726",
+    "title": "一张 AI\\n搜索页面，为什么同时进了德国法院和监管机构",
+    "date": "2026-07-26",
+    "source": "https://yage.ai/share/ai-search-media-law-20260726.html",
+    "file": "articles/ai-search-media-law-20260726.md"
+  },
+  {
+    "slug": "bonsai-iphone-on-device-model-routes-20260726",
+    "title": "27B 模型进了\\niPhone，问题终于从“能不能跑”变成“跑它有什么用”",
+    "date": "2026-07-26",
+    "source": "https://yage.ai/share/bonsai-iphone-on-device-model-routes-20260726.html",
+    "file": "articles/bonsai-iphone-on-device-model-routes-20260726.md"
+  },
+  {
+    "slug": "ai-agent-backup-20260726",
+    "title": "当 AI\\n开始删我们的文件：如何用结果确定性打造一套毁不掉的备份系统",
+    "date": "2026-07-26",
+    "source": "https://yage.ai/share/ai-agent-backup-20260726.html",
+    "file": "articles/ai-agent-backup-20260726.md"
+  },
+  {
+    "slug": "openai-presence-fde-feedback-20260725",
+    "title": "OpenAI Presence：把 FDE 的经验回流做成产品",
+    "date": "2026-07-25",
+    "source": "https://yage.ai/share/openai-presence-fde-feedback-20260725.html",
+    "file": "articles/openai-presence-fde-feedback-20260725.md"
+  },
+  {
+    "slug": "netflix-ai-microdrama-domain-expertise-20260725",
+    "title": "Netflix 的 300 个 AI title，补上了 AI\\n短剧最缺的一课",
+    "date": "2026-07-25",
+    "source": "https://yage.ai/share/netflix-ai-microdrama-domain-expertise-20260725.html",
+    "file": "articles/netflix-ai-microdrama-domain-expertise-20260725.md"
+  },
+  {
+    "slug": "voice-agent-attention-identity-authorization-20260725",
+    "title": "给智能音箱加上大模型以后，为什么还得重做交互？",
+    "date": "2026-07-25",
+    "source": "https://yage.ai/share/voice-agent-attention-identity-authorization-20260725.html",
+    "file": "articles/voice-agent-attention-identity-authorization-20260725.md"
+  },
+  {
+    "slug": "gpt56-prompt-guidance-result-certainty-20260724",
+    "title": "GPT-5.6 的新提示指南：prompt 该少写什么，多写什么",
+    "date": "2026-07-24",
+    "source": "https://yage.ai/share/gpt56-prompt-guidance-result-certainty-20260724.html",
+    "file": "articles/gpt56-prompt-guidance-result-certainty-20260724.md"
+  },
+  {
+    "slug": "codex-api-behavior-thermometer-20260724",
+    "title": "每天问大模型 100 个无聊问题，能当作 API\\n的“温度计”吗？",
+    "date": "2026-07-24",
+    "source": "https://yage.ai/share/codex-api-behavior-thermometer-20260724.html",
+    "file": "articles/codex-api-behavior-thermometer-20260724.md"
+  },
+  {
+    "slug": "ai-agent-deployment-guardrails-20260724",
+    "title": "AI Agent 不必等模型完美：美军给 AI Builder\\n的部署方法",
+    "date": "2026-07-24",
+    "source": "https://yage.ai/share/ai-agent-deployment-guardrails-20260724.html",
+    "file": "articles/ai-agent-deployment-guardrails-20260724.md"
+  },
+  {
+    "slug": "cursor-sqlite-harness-swarm-20260723",
+    "title": "Cursor 重写 SQLite：一次把 Harness Engineering\\n三个维度同时往前推的理想实验",
+    "date": "2026-07-23",
+    "source": "https://yage.ai/share/cursor-sqlite-harness-swarm-20260723.html",
+    "file": "articles/cursor-sqlite-harness-swarm-20260723.md"
+  },
+  {
+    "slug": "turbo-hybrid-ai-bottleneck-cycle-20260722",
+    "title": "涡轮和电车如何跨过临界点：AI 竞争也不只看技术",
+    "date": "2026-07-23",
+    "source": "https://yage.ai/share/turbo-hybrid-ai-bottleneck-cycle-20260722.html",
+    "file": "articles/turbo-hybrid-ai-bottleneck-cycle-20260722.md"
+  },
+  {
+    "slug": "why-you-must-care-about-graph-engineering-20260723",
+    "title": "为什么你必须立刻开始学习 Graph Engineering？",
+    "date": "2026-07-23",
+    "source": "https://yage.ai/share/why-you-must-care-about-graph-engineering-20260723.html",
+    "file": "articles/why-you-must-care-about-graph-engineering-20260723.md"
+  },
+  {
+    "slug": "hugging-face-agent-evaluation-boundary-20260722",
+    "title": "Hugging Face 的安全警报响起后，OpenAI\\n说：这是一场评测",
+    "date": "2026-07-22",
+    "source": "https://yage.ai/share/hugging-face-agent-evaluation-boundary-20260722.html",
+    "file": "articles/hugging-face-agent-evaluation-boundary-20260722.md"
+  },
+  {
+    "slug": "codex-gpt56-context-budget-20260721",
+    "title": "GPT-5.6 的上下文到底是 1.05M、500K，还是 400K？",
+    "date": "2026-07-22",
+    "source": "https://yage.ai/share/codex-gpt56-context-budget-20260721.html",
+    "file": "articles/codex-gpt56-context-budget-20260721.md"
+  },
+  {
+    "slug": "claude-code-release-notes-agent-infra-20260722",
+    "title": "Claude Code 这两个月变了什么，又给 Agent Infra\\n指了什么方向",
+    "date": "2026-07-22",
+    "source": "https://yage.ai/share/claude-code-release-notes-agent-infra-20260722.html",
+    "file": "articles/claude-code-release-notes-agent-infra-20260722.md"
+  },
+  {
+    "slug": "chao-xu-ai-math-dual-loop-20260721",
+    "title": "从数学家如何用 AI 来看 Harness\\n如何兼顾开放性与严谨性",
+    "date": "2026-07-21",
+    "source": "https://yage.ai/share/chao-xu-ai-math-dual-loop-20260721.html",
+    "file": "articles/chao-xu-ai-math-dual-loop-20260721.md"
+  },
+  {
+    "slug": "agentic-ai-sandbox-selection-tree-20260721",
+    "title": "Agentic AI Sandbox 选型决策树",
+    "date": "2026-07-21",
+    "source": "https://yage.ai/share/agentic-ai-sandbox-selection-tree-20260721.html",
+    "file": "articles/agentic-ai-sandbox-selection-tree-20260721.md"
+  },
+  {
+    "slug": "anthropic-bartz-settlement-20260721",
+    "title": "同一本书，训练可算合理使用，盗版流程为何要赔 15\\n亿美元",
+    "date": "2026-07-21",
+    "source": "https://yage.ai/share/anthropic-bartz-settlement-20260721.html",
+    "file": "articles/anthropic-bartz-settlement-20260721.md"
+  },
+  {
+    "slug": "agent-skills-harness-portability-20260720",
+    "title": "Agent Skills 统一了文件格式，Harness 仍然各自为政",
+    "date": "2026-07-20",
+    "source": "https://yage.ai/share/agent-skills-harness-portability-20260720.html",
+    "file": "articles/agent-skills-harness-portability-20260720.md"
+  },
+  {
+    "slug": "why-coding-agents-need-sandbox-20260720",
+    "title": "为什么 Coding Agent 需要 Sandbox？",
+    "date": "2026-07-20",
+    "source": "https://yage.ai/share/why-coding-agents-need-sandbox-20260720.html",
+    "file": "articles/why-coding-agents-need-sandbox-20260720.md"
+  },
+  {
+    "slug": "coding-agent-setup-install-boundary-20260720",
+    "title": "Coding Agent 还在配置环境，第三方代码已经运行了",
+    "date": "2026-07-20",
+    "source": "https://yage.ai/share/coding-agent-setup-install-boundary-20260720.html",
+    "file": "articles/coding-agent-setup-install-boundary-20260720.md"
+  },
+  {
+    "slug": "grok-build-open-source-boundary-20260719",
+    "title": "Grok Build 开源了，到底开源了什么？",
+    "date": "2026-07-19",
+    "source": "https://yage.ai/share/grok-build-open-source-boundary-20260719.html",
+    "file": "articles/grok-build-open-source-boundary-20260719.md"
+  },
+  {
+    "slug": "ai-builder-static-site-hosting-guide-20260719",
+    "title": "AI 做完了一个网页，下一步该放到哪里？",
+    "date": "2026-07-19",
+    "source": "https://yage.ai/share/ai-builder-static-site-hosting-guide-20260719.html",
+    "file": "articles/ai-builder-static-site-hosting-guide-20260719.md"
+  },
+  {
+    "slug": "ai-memory-benchmark-precision-20260719",
+    "title": "AI Memory 的 Benchmark 偏向 Recall，产品却更需要\\nPrecision",
+    "date": "2026-07-19",
+    "source": "https://yage.ai/share/ai-memory-benchmark-precision-20260719.html",
+    "file": "articles/ai-memory-benchmark-precision-20260719.md"
+  },
+  {
+    "slug": "us-ai-capability-diffusion-controls-20260718",
+    "title": "“中国模型参照线”传闻背后：美国为什么从芯片管到\\nAPI",
+    "date": "2026-07-18",
+    "source": "https://yage.ai/share/us-ai-capability-diffusion-controls-20260718.html",
+    "file": "articles/us-ai-capability-diffusion-controls-20260718.md"
+  },
+  {
+    "slug": "agent-platform-state-ownership-20260718",
+    "title": "Agent\\n的基础能力正在收敛，产品化平台却分成了三条路",
+    "date": "2026-07-18",
+    "source": "https://yage.ai/share/agent-platform-state-ownership-20260718.html",
+    "file": "articles/agent-platform-state-ownership-20260718.md"
+  },
+  {
+    "slug": "llm-smaller-executable-world-20260718",
+    "title": "LLM 需要一个更小的可执行世界：DSL、FastAPI 与 Context\\nInfrastructure",
+    "date": "2026-07-18",
+    "source": "https://yage.ai/share/llm-smaller-executable-world-20260718.html",
+    "file": "articles/llm-smaller-executable-world-20260718.md"
+  },
+  {
+    "slug": "vllm-tilert-specialized-inference-paths-20260717",
+    "title": "vLLM x\\nTileRT：两个目标相反的推理引擎，为什么开始共用一套服务",
+    "date": "2026-07-17",
+    "source": "https://yage.ai/share/vllm-tilert-specialized-inference-paths-20260717.html",
+    "file": "articles/vllm-tilert-specialized-inference-paths-20260717.md"
+  },
+  {
+    "slug": "chatgpt-claude-teachers-two-halves-20260717",
+    "title": "ChatGPT 与 Claude\\n都开始服务教师，但只各做完了一半",
+    "date": "2026-07-17",
+    "source": "https://yage.ai/share/chatgpt-claude-teachers-two-halves-20260717.html",
+    "file": "articles/chatgpt-claude-teachers-two-halves-20260717.md"
+  },
+  {
+    "slug": "backendforge-adaptive-benchmark-20260717",
+    "title": "BackendForge：AI 已经能写完整\\nApp，评测也得学会追问",
+    "date": "2026-07-17",
+    "source": "https://yage.ai/share/backendforge-adaptive-benchmark-20260717.html",
+    "file": "articles/backendforge-adaptive-benchmark-20260717.md"
+  },
+  {
+    "slug": "mcp-elicitation-human-in-loop-20260716",
+    "title": "MCP 为什么需要\\nElicitation：工具执行到一半，如何把人带回来",
+    "date": "2026-07-16",
+    "source": "https://yage.ai/share/mcp-elicitation-human-in-loop-20260716.html",
+    "file": "articles/mcp-elicitation-human-in-loop-20260716.md"
+  },
+  {
+    "slug": "hy3-one-bit-single-gpu-20260716",
+    "title": "腾讯混元 Hy3 的 1-bit\\n量化：单卡能装下，离好用还有多远",
+    "date": "2026-07-16",
+    "source": "https://yage.ai/share/hy3-one-bit-single-gpu-20260716.html",
+    "file": "articles/hy3-one-bit-single-gpu-20260716.md"
+  },
+  {
+    "slug": "cloudflare-precursor-agent-detection-20260716",
+    "title": "Cloudflare Precursor：AI Agent 用上真实浏览器之后，Bot\\nDetection 看什么",
+    "date": "2026-07-16",
+    "source": "https://yage.ai/share/cloudflare-precursor-agent-detection-20260716.html",
+    "file": "articles/cloudflare-precursor-agent-detection-20260716.md"
+  },
+  {
+    "slug": "ai-trains-ai-self-improvement-20260715",
+    "title": "AI Trains AI：一次公开实验如何校准自我改进的故事",
+    "date": "2026-07-15",
+    "source": "https://yage.ai/share/ai-trains-ai-self-improvement-20260715.html",
+    "file": "articles/ai-trains-ai-self-improvement-20260715.md"
+  },
+  {
+    "slug": "herdr-agent-multiplexer-20260715",
+    "title": "Herdr：Agent GUI\\n已经够好，为什么还要一个终端复用器？",
+    "date": "2026-07-15",
+    "source": "https://yage.ai/share/herdr-agent-multiplexer-20260715.html",
+    "file": "articles/herdr-agent-multiplexer-20260715.md"
+  },
+  {
+    "slug": "codex-subagent-transparency-20260715",
+    "title": "Codex 仍然开源，但父 agent 给子 agent\\n说了什么，现在看不见了",
+    "date": "2026-07-15",
+    "source": "https://yage.ai/share/codex-subagent-transparency-20260715.html",
+    "file": "articles/codex-subagent-transparency-20260715.md"
+  },
+  {
+    "slug": "order837-impact-spectrum-20260714",
+    "title": "国务院第 837\\n号令落地之后：中国公司、出海公司和海外个人各自面对什么",
+    "date": "2026-07-14",
+    "source": "https://yage.ai/share/order837-impact-spectrum-20260714.html",
+    "file": "articles/order837-impact-spectrum-20260714.md"
+  },
+  {
+    "slug": "proactive-ai-context-infrastructure-20260714",
+    "title": "一个不等你提问的 ChatGPT，会是什么样？",
+    "date": "2026-07-14",
+    "source": "https://yage.ai/share/proactive-ai-context-infrastructure-20260714.html",
+    "file": "articles/proactive-ai-context-infrastructure-20260714.md"
+  },
+  {
+    "slug": "coding-agent-management-delegation-threshold-20260714",
+    "title": "Agent 能干活以后，人反而更需要会管理",
+    "date": "2026-07-14",
+    "source": "https://yage.ai/share/coding-agent-management-delegation-threshold-20260714.html",
+    "file": "articles/coding-agent-management-delegation-threshold-20260714.md"
+  },
+  {
+    "slug": "gpt-5-6-sol-pro-max-fast-20260713",
+    "title": "GPT-5.6 Sol Pro Max Fast：这个玩笑为什么成立了",
+    "date": "2026-07-13",
+    "source": "https://yage.ai/share/gpt-5-6-sol-pro-max-fast-20260713.html",
+    "file": "articles/gpt-5-6-sol-pro-max-fast-20260713.md"
+  },
+  {
+    "slug": "turso-agent-database-product-bet-20260713",
+    "title": "从每个租户一库到每个 Agent 一库：Turso\\n的产品赌注与竞争版图",
+    "date": "2026-07-13",
+    "source": "https://yage.ai/share/turso-agent-database-product-bet-20260713.html",
+    "file": "articles/turso-agent-database-product-bet-20260713.md"
+  },
+  {
+    "slug": "codex-agent-cross-interface-20260712",
+    "title": "Codex 并入 ChatGPT：Agent 为什么开始跨界面工作",
+    "date": "2026-07-12",
+    "source": "https://yage.ai/share/codex-agent-cross-interface-20260712.html",
+    "file": "articles/codex-agent-cross-interface-20260712.md"
+  },
+  {
+    "slug": "ai-code-bloat-structural-blindspot-20260712",
+    "title": "模型越强，代码越臃肿：AI 代码膨胀的结构性盲区",
+    "date": "2026-07-12",
+    "source": "https://yage.ai/share/ai-code-bloat-structural-blindspot-20260712.html",
+    "file": "articles/ai-code-bloat-structural-blindspot-20260712.md"
+  },
+  {
+    "slug": "cloudflare-drop-agent-strategy-20260712",
+    "title": "当 AI agent 砸掉广告饭碗，Cloudflare\\n已经把路铺好了",
+    "date": "2026-07-12",
+    "source": "https://yage.ai/share/cloudflare-drop-agent-strategy-20260712.html",
+    "file": "articles/cloudflare-drop-agent-strategy-20260712.md"
+  },
+  {
+    "slug": "jadepuffer-agent-security-20260711",
+    "title": "31 秒内的攻防自愈：从 JADEPUFFER 看 AI\\n工具链的安全新常态",
+    "date": "2026-07-11",
+    "source": "https://yage.ai/share/jadepuffer-agent-security-20260711.html",
+    "file": "articles/jadepuffer-agent-security-20260711.md"
+  },
+  {
+    "slug": "open-source-ai-code-responsibility-20260709",
+    "title": "开源项目开始拒绝没人负责的 AI 代码",
+    "date": "2026-07-11",
+    "source": "https://yage.ai/share/open-source-ai-code-responsibility-20260709.html",
+    "file": "articles/open-source-ai-code-responsibility-20260709.md"
+  },
+  {
+    "slug": "innovation-legwork-ai-skill-20260711",
+    "title": "创新是体力活：一场把\\\"出点子\\\"交给 AI 的对照实验",
+    "date": "2026-07-11",
+    "source": "https://yage.ai/share/innovation-legwork-ai-skill-20260711.html",
+    "file": "articles/innovation-legwork-ai-skill-20260711.md"
+  },
+  {
+    "slug": "cloudflare-monetization-gateway-x402-20260710",
+    "title": "机器流量的价格接口：Cloudflare Monetization Gateway\\n改变了什么？",
+    "date": "2026-07-10",
+    "source": "https://yage.ai/share/cloudflare-monetization-gateway-x402-20260710.html",
+    "file": "articles/cloudflare-monetization-gateway-x402-20260710.md"
+  },
+  {
+    "slug": "recursive-language-models-indexed-20260710",
+    "title": "别再往大模型窗口里塞几百万字了：用 RLM 像跑代码一样查\\nContext",
+    "date": "2026-07-10",
+    "source": "https://yage.ai/share/recursive-language-models-indexed-20260710.html",
+    "file": "articles/recursive-language-models-indexed-20260710.md"
+  },
+  {
+    "slug": "chat-box-illusion-agent-interface-20260710",
+    "title": "聊天框的幻觉：为什么我们一直在给 AI Agent\\n做错误的界面？",
+    "date": "2026-07-10",
+    "source": "https://yage.ai/share/chat-box-illusion-agent-interface-20260710.html",
+    "file": "articles/chat-box-illusion-agent-interface-20260710.md"
+  },
+  {
+    "slug": "gpt55-codex-reasoning-clustering-20260709",
+    "title": "GPT-5.5 的推理卡在 516 个\\ntoken：模型\\\"想\\\"的那一层会单独坏掉",
+    "date": "2026-07-09",
+    "source": "https://yage.ai/share/gpt55-codex-reasoning-clustering-20260709.html",
+    "file": "articles/gpt55-codex-reasoning-clustering-20260709.md"
+  },
+  {
+    "slug": "gpt-live-voice-programming-paradigm-20260709",
+    "title": "别被全双工骗了：GPT-Live\\n真正改变的是你的语音编程模式",
+    "date": "2026-07-09",
+    "source": "https://yage.ai/share/gpt-live-voice-programming-paradigm-20260709.html",
+    "file": "articles/gpt-live-voice-programming-paradigm-20260709.md"
+  },
+  {
+    "slug": "agent-code-cleanliness-context-hygiene-20260709",
+    "title": "你不需要为 AI\\n把代码擦得像样板间，但你需要让它找得到路",
+    "date": "2026-07-09",
+    "source": "https://yage.ai/share/agent-code-cleanliness-context-hygiene-20260709.html",
+    "file": "articles/agent-code-cleanliness-context-hygiene-20260709.md"
+  },
+  {
+    "slug": "ai-rest-low-input-20260707",
+    "title": "在 AI 时代，你会休息吗？",
+    "date": "2026-07-08",
+    "source": "https://yage.ai/share/ai-rest-low-input-20260707.html",
+    "file": "articles/ai-rest-low-input-20260707.md"
+  },
+  {
+    "slug": "context-governance-agent-runtime-20260707",
+    "title": "模型的窗口不是无限大的垃圾桶：为什么智能体需要上下文治理",
+    "date": "2026-07-08",
+    "source": "https://yage.ai/share/context-governance-agent-runtime-20260707.html",
+    "file": "articles/context-governance-agent-runtime-20260707.md"
+  },
+  {
+    "slug": "anthropic-jacobian-lens-workspace-20260708",
+    "title": "Anthropic 新论文：用 Jacobian Lens\\n读取大模型想说但没说出口的思考",
+    "date": "2026-07-08",
+    "source": "https://yage.ai/share/anthropic-jacobian-lens-workspace-20260708.html",
+    "file": "articles/anthropic-jacobian-lens-workspace-20260708.md"
+  },
+  {
+    "slug": "china-frontier-model-access-20260707",
+    "title": "中国可能给最强 AI 模型装上出海闸门",
+    "date": "2026-07-07",
+    "source": "https://yage.ai/share/china-frontier-model-access-20260707.html",
+    "file": "articles/china-frontier-model-access-20260707.md"
+  },
+  {
+    "slug": "ai-micro-drama-new-creator-entry-20260707",
+    "title": "AI\\n短剧不是一夜暴富的财富密码，但它确实给新手开了一扇门",
+    "date": "2026-07-07",
+    "source": "https://yage.ai/share/ai-micro-drama-new-creator-entry-20260707.html",
+    "file": "articles/ai-micro-drama-new-creator-entry-20260707.md"
+  },
+  {
+    "slug": "ai-token-cost-saving-20260707",
+    "title": "想省 AI token 钱，第一刀别砍模型单价",
+    "date": "2026-07-07",
+    "source": "https://yage.ai/share/ai-token-cost-saving-20260707.html",
+    "file": "articles/ai-token-cost-saving-20260707.md"
+  },
+  {
+    "slug": "mississippi-ai-lawyers-sanctions-20260705",
+    "title": "密西西比四律师同遭制裁：AI\\n幻觉案扯出律师行业的核验失职",
+    "date": "2026-07-06",
+    "source": "https://yage.ai/share/mississippi-ai-lawyers-sanctions-20260705.html",
+    "file": "articles/mississippi-ai-lawyers-sanctions-20260705.md"
+  },
+  {
+    "slug": "seo-model-distillation-infrastructure-20260706",
+    "title": "SEO服务如何成为模型蒸馏的基础设施",
+    "date": "2026-07-06",
+    "source": "https://yage.ai/share/seo-model-distillation-infrastructure-20260706.html",
+    "file": "articles/seo-model-distillation-infrastructure-20260706.md"
+  },
+  {
+    "slug": "ai-education-assessment-role-shift-20260706",
+    "title": "AI 时代，学校真正要重建的是责任等级",
+    "date": "2026-07-06",
+    "source": "https://yage.ai/share/ai-education-assessment-role-shift-20260706.html",
+    "file": "articles/ai-education-assessment-role-shift-20260706.md"
+  },
+  {
+    "slug": "ai-panic-rent-defense-20260705",
+    "title": "AI 恐慌是一场租金保卫战：从骂何同学说起",
+    "date": "2026-07-05",
+    "source": "https://yage.ai/share/ai-panic-rent-defense-20260705.html",
+    "file": "articles/ai-panic-rent-defense-20260705.md"
+  },
+  {
+    "slug": "ai-infra-generative-kernel-20260705",
+    "title": "AI 时代，Infra 组不要再卖轮子了",
+    "date": "2026-07-05",
+    "source": "https://yage.ai/share/ai-infra-generative-kernel-20260705.html",
+    "file": "articles/ai-infra-generative-kernel-20260705.md"
+  },
+  {
+    "slug": "scaling-law-three-acts-20260705",
+    "title": "Scaling Law\\n塌房了吗？三次修正的真实故事，和越来越小的模型",
+    "date": "2026-07-05",
+    "source": "https://yage.ai/share/scaling-law-three-acts-20260705.html",
+    "file": "articles/scaling-law-three-acts-20260705.md"
+  },
+  {
+    "slug": "ev-oil-ai-benchmark-20260704",
+    "title": "从电车油车之争到 AI 模型的赛博斗蛐蛐",
+    "date": "2026-07-04",
+    "source": "https://yage.ai/share/ev-oil-ai-benchmark-20260704.html",
+    "file": "articles/ev-oil-ai-benchmark-20260704.md"
+  },
+  {
+    "slug": "uga-sunset-20260704",
+    "title": "豆包、千问、元宝下架了智能体，AI 还在",
+    "date": "2026-07-04",
+    "source": "https://yage.ai/share/uga-sunset-20260704.html",
+    "file": "articles/uga-sunset-20260704.md"
+  },
+  {
+    "slug": "mcp-vs-openai-state-20260703",
+    "title": "两条相反的路：MCP 去状态，OpenAI 加状态",
+    "date": "2026-07-03",
+    "source": "https://yage.ai/share/mcp-vs-openai-state-20260703.html",
+    "file": "articles/mcp-vs-openai-state-20260703.md"
+  },
+  {
+    "slug": "ai-coding-loop-canvas-convergence-20260703",
+    "title": "像管理实习生一样，管理 AI 编程工具",
+    "date": "2026-07-03",
+    "source": "https://yage.ai/share/ai-coding-loop-canvas-convergence-20260703.html",
+    "file": "articles/ai-coding-loop-canvas-convergence-20260703.md"
+  },
+  {
+    "slug": "token-pricing-squeeze-20260702",
+    "title": "Token 计量定价的挤压：买方在逃，卖方加码，缺口落在\\nbuilder 身上",
+    "date": "2026-07-02",
+    "source": "https://yage.ai/share/token-pricing-squeeze-20260702.html",
+    "file": "articles/token-pricing-squeeze-20260702.md"
+  },
+  {
+    "slug": "claude-science-boundary-redefinition-20260702",
+    "title": "虚无的 AI 科学家与务实的算力搬运工：重新定义 Claude\\nScience 的科学边界",
+    "date": "2026-07-02",
+    "source": "https://yage.ai/share/claude-science-boundary-redefinition-20260702.html",
+    "file": "articles/claude-science-boundary-redefinition-20260702.md"
+  },
+  {
+    "slug": "fable5-export-control-impact-20260702",
+    "title": "定量分析：Fable 5 禁窗 18 天，Anthropic\\n的蛋糕被谁吃掉了",
+    "date": "2026-07-02",
+    "source": "https://yage.ai/share/fable5-export-control-impact-20260702.html",
+    "file": "articles/fable5-export-control-impact-20260702.md"
+  },
+  {
+    "slug": "claude-code-trust-control-plane-20260701",
+    "title": "你的公司还应该用 Claude Code 吗？",
+    "date": "2026-07-01",
+    "source": "https://yage.ai/share/claude-code-trust-control-plane-20260701.html",
+    "file": "articles/claude-code-trust-control-plane-20260701.md"
+  },
+  {
+    "slug": "coding-rl-reward-hacking-20260701",
+    "title": "代码强化学习的双刃剑：前沿模型为何集体走向作弊",
+    "date": "2026-07-01",
+    "source": "https://yage.ai/share/coding-rl-reward-hacking-20260701.html",
+    "file": "articles/coding-rl-reward-hacking-20260701.md"
+  },
+  {
+    "slug": "loop-engineering-senior-manager-20260630",
+    "title": "Loop Engineering\\n详解：从管理执行到设计自收敛的循环",
+    "date": "2026-06-30",
+    "source": "https://yage.ai/share/loop-engineering-senior-manager-20260630.html",
+    "file": "articles/loop-engineering-senior-manager-20260630.md"
+  },
+  {
+    "slug": "ai-coding-harness-comparison-20260630",
+    "title": "鸭哥的观察：为什么现在的 AI 编码 Harness\\n已经切换无感了？",
+    "date": "2026-06-30",
+    "source": "https://yage.ai/share/ai-coding-harness-comparison-20260630.html",
+    "file": "articles/ai-coding-harness-comparison-20260630.md"
+  },
+  {
+    "slug": "retry-storm-democratization-20260630",
+    "title": "一天花掉一个月服务器费：AI\\n编程民主化与消失的生产门禁",
+    "date": "2026-06-30",
+    "source": "https://yage.ai/share/retry-storm-democratization-20260630.html",
+    "file": "articles/retry-storm-democratization-20260630.md"
+  },
+  {
+    "slug": "mcp-2026-certainty-layering-20260629",
+    "title": "MCP 2026 的新主线：在协议层划定一条确定的边界",
+    "date": "2026-06-29",
+    "source": "https://yage.ai/share/mcp-2026-certainty-layering-20260629.html",
+    "file": "articles/mcp-2026-certainty-layering-20260629.md"
+  },
+  {
+    "slug": "dspark-speculative-decoding-hardware-scheduling-20260629",
+    "title": "DeepSeek DSpark：speculative decoding\\n终究要靠底层硬件调度",
+    "date": "2026-06-29",
+    "source": "https://yage.ai/share/dspark-speculative-decoding-hardware-scheduling-20260629.html",
+    "file": "articles/dspark-speculative-decoding-hardware-scheduling-20260629.md"
+  },
+  {
+    "slug": "graphcast-chinese-media-distortion-20260629",
+    "title": "震惊！谷歌AI天气预报屠榜！三年之后回头看，有多少是真的？",
+    "date": "2026-06-29",
+    "source": "https://yage.ai/share/graphcast-chinese-media-distortion-20260629.html",
+    "file": "articles/graphcast-chinese-media-distortion-20260629.md"
+  },
+  {
+    "slug": "ai-cost-subsidy-retreat-agent-design-20260628",
+    "title": "AI 补贴退潮后，agent 开始按每美元智能计价",
+    "date": "2026-06-28",
+    "source": "https://yage.ai/share/ai-cost-subsidy-retreat-agent-design-20260628.html",
+    "file": "articles/ai-cost-subsidy-retreat-agent-design-20260628.md"
+  },
+  {
+    "slug": "ai-safety-runtime-vs-evaluation-20260627",
+    "title": "前沿模型安全正在移入运行时：GPT-5.6 与 Anthropic\\n的工程路径分歧",
+    "date": "2026-06-28",
+    "source": "https://yage.ai/share/ai-safety-runtime-vs-evaluation-20260627.html",
+    "file": "articles/ai-safety-runtime-vs-evaluation-20260627.md"
+  },
+  {
+    "slug": "rpa-semantic-replay-codex-skills-20260628",
+    "title": "Codex Record & Replay 与 reusable skills：RPA\\n正在从重放点击变成重放业务意图",
+    "date": "2026-06-28",
+    "source": "https://yage.ai/share/rpa-semantic-replay-codex-skills-20260628.html",
+    "file": "articles/rpa-semantic-replay-codex-skills-20260628.md"
+  },
+  {
+    "slug": "meta-mci-employee-data-boundary-20260627",
+    "title": "Meta\\n员工监控项目暂停：企业内部训练数据正在把员工操作纳入采集范围",
+    "date": "2026-06-27",
+    "source": "https://yage.ai/share/meta-mci-employee-data-boundary-20260627.html",
+    "file": "articles/meta-mci-employee-data-boundary-20260627.md"
+  },
+  {
+    "slug": "mythos5-export-control-boundary-20260627",
+    "title": "Mythos 5 回来了，但政府的审批模式变了",
+    "date": "2026-06-27",
+    "source": "https://yage.ai/share/mythos5-export-control-boundary-20260627.html",
+    "file": "articles/mythos5-export-control-boundary-20260627.md"
+  },
+  {
+    "slug": "trae-ai-coding-devops-moment-20260627",
+    "title": "AI 编程正在进入它的 DevOps 时刻",
+    "date": "2026-06-27",
+    "source": "https://yage.ai/share/trae-ai-coding-devops-moment-20260627.html",
+    "file": "articles/trae-ai-coding-devops-moment-20260627.md"
+  },
+  {
+    "slug": "gpt-56-white-house-speed-limiter-20260626",
+    "title": "白宫的限速器：一场被按下暂停键的最强 AI 发布",
+    "date": "2026-06-26",
+    "source": "https://yage.ai/share/gpt-56-white-house-speed-limiter-20260626.html",
+    "file": "articles/gpt-56-white-house-speed-limiter-20260626.md"
+  },
+  {
+    "slug": "memory-oligopoly-ai-cost-20260626",
+    "title": "AI 正在让每一台电子设备变贵",
+    "date": "2026-06-26",
+    "source": "https://yage.ai/share/memory-oligopoly-ai-cost-20260626.html",
+    "file": "articles/memory-oligopoly-ai-cost-20260626.md"
+  },
+  {
+    "slug": "codex-ssd-write-bug-20260623",
+    "title": "OpenAI Codex 静默往用户 SSD 年化写入 640\\nTB，已逼近消费级硬盘额定寿命",
+    "date": "2026-06-25",
+    "source": "https://yage.ai/share/codex-ssd-write-bug-20260623.html",
+    "file": "articles/codex-ssd-write-bug-20260623.md"
+  },
+  {
+    "slug": "deutsche-bahn-gsm-r-outage-20260625",
+    "title": "一次计划内更换部件，停了全德国的火车",
+    "date": "2026-06-25",
+    "source": "https://yage.ai/share/deutsche-bahn-gsm-r-outage-20260625.html",
+    "file": "articles/deutsche-bahn-gsm-r-outage-20260625.md"
+  },
+  {
+    "slug": "prefix-cache-agent-cost-lever-20260625",
+    "title": "KV cache 命中率：Agent 推理的第一成本杠杆",
+    "date": "2026-06-25",
+    "source": "https://yage.ai/share/prefix-cache-agent-cost-lever-20260625.html",
+    "file": "articles/prefix-cache-agent-cost-lever-20260625.md"
+  },
+  {
+    "slug": "claude-tag-deconstructed-20260623",
+    "title": "Claude Tag\\n拆开看：技术上没那么新，但企业授权的对象变了",
+    "date": "2026-06-24",
+    "source": "https://yage.ai/share/claude-tag-deconstructed-20260623.html",
+    "file": "articles/claude-tag-deconstructed-20260623.md"
+  },
+  {
+    "slug": "tmax-terminal-agent-20260623",
+    "title": "别只看 42.7%：Tmax 背后的 RL 配方、基座红利和\\nBenchmark 陷阱",
+    "date": "2026-06-24",
+    "source": "https://yage.ai/share/tmax-terminal-agent-20260623.html",
+    "file": "articles/tmax-terminal-agent-20260623.md"
+  },
+  {
+    "slug": "ai-chip-design-20260624",
+    "title": "OpenAI 九个月流片背后：AI\\n在芯片设计里到底做到了什么",
+    "date": "2026-06-24",
+    "source": "https://yage.ai/share/ai-chip-design-20260624.html",
+    "file": "articles/ai-chip-design-20260624.md"
+  },
+  {
+    "slug": "tao-lean-formalization-credibility-20260623",
+    "title": "当陶哲轩说AI跨过了数学形式化的临界点",
+    "date": "2026-06-23",
+    "source": "https://yage.ai/share/tao-lean-formalization-credibility-20260623.html",
+    "file": "articles/tao-lean-formalization-credibility-20260623.md"
+  },
+  {
+    "slug": "sakana-fugu-orchestration-20260623",
+    "title": "Fugu：一个学会当经理的 AI，但它藏的比经理多",
+    "date": "2026-06-23",
+    "source": "https://yage.ai/share/sakana-fugu-orchestration-20260623.html",
+    "file": "articles/sakana-fugu-orchestration-20260623.md"
+  },
+  {
+    "slug": "wechat-xiaowei-five-constraints-20260623",
+    "title": "微信小微的五层约束，和它藏起来的那个矛盾",
+    "date": "2026-06-23",
+    "source": "https://yage.ai/share/wechat-xiaowei-five-constraints-20260623.html",
+    "file": "articles/wechat-xiaowei-five-constraints-20260623.md"
+  },
+  {
+    "slug": "ai-refactor-subsystem-tech-debt-or-load-bearing-walls-20260622",
+    "title": "用 AI 重构子系统，到底是在清屎山还是在拆承重墙",
+    "date": "2026-06-22",
+    "source": "https://yage.ai/share/ai-refactor-subsystem-tech-debt-or-load-bearing-walls-20260622.html",
+    "file": "articles/ai-refactor-subsystem-tech-debt-or-load-bearing-walls-20260622.md"
+  },
+  {
+    "slug": "ai-coding-revertability-survey-20260622",
+    "title": "让 AI 更准，还是让错误更便宜",
+    "date": "2026-06-22",
+    "source": "https://yage.ai/share/ai-coding-revertability-survey-20260622.html",
+    "file": "articles/ai-coding-revertability-survey-20260622.md"
+  },
+  {
+    "slug": "ai-bubble-three-angles-20260620",
+    "title": "AI 是不是泡沫：三种不同的答案",
+    "date": "2026-06-20",
+    "source": "https://yage.ai/share/ai-bubble-three-angles-20260620.html",
+    "file": "articles/ai-bubble-three-angles-20260620.md"
+  },
+  {
+    "slug": "agent-safety-alignment-to-containment-20260620",
+    "title": "从我问你答到我说你做：AI 安全为什么需要一套新工具",
+    "date": "2026-06-20",
+    "source": "https://yage.ai/share/agent-safety-alignment-to-containment-20260620.html",
+    "file": "articles/agent-safety-alignment-to-containment-20260620.md"
+  },
+  {
+    "slug": "android-notification-listener-20260619",
+    "title": "你的 Android 手机里藏着一个通知总控台",
+    "date": "2026-06-19",
+    "source": "https://yage.ai/share/android-notification-listener-20260619.html",
+    "file": "articles/android-notification-listener-20260619.md"
+  },
+  {
+    "slug": "midjourney-scanner-anti-vc-path-20260619",
+    "title": "Midjourney 用生图的现金流造了一台扫描仪",
+    "date": "2026-06-19",
+    "source": "https://yage.ai/share/midjourney-scanner-anti-vc-path-20260619.html",
+    "file": "articles/midjourney-scanner-anti-vc-path-20260619.md"
+  },
+  {
+    "slug": "ai-productivity-depreciating-asset-20260619",
+    "title": "当执行力开始贬值：最会用 AI 的那批人，可能被 AI\\n伤得最深",
+    "date": "2026-06-19",
+    "source": "https://yage.ai/share/ai-productivity-depreciating-asset-20260619.html",
+    "file": "articles/ai-productivity-depreciating-asset-20260619.md"
+  },
+  {
+    "slug": "agent-first-class-citizen-20260618",
+    "title": "当 CEO 把 agent-friendly 写进 KPI：钉钉、Salesforce\\n和一条从 Unix 开始的工程线",
+    "date": "2026-06-19",
+    "source": "https://yage.ai/share/agent-first-class-citizen-20260618.html",
+    "file": "articles/agent-first-class-citizen-20260618.md"
+  },
+  {
+    "slug": "claude-code-usage-shift-20260618",
+    "title": "这七个月，用 AI 写代码的方式变了",
+    "date": "2026-06-18",
+    "source": "https://yage.ai/share/claude-code-usage-shift-20260618.html",
+    "file": "articles/claude-code-usage-shift-20260618.md"
+  },
+  {
+    "slug": "ai-coding-shift-delegated-work-20260618",
+    "title": "AI 编程的下一个变化：从盯着改到整个交出去",
+    "date": "2026-06-18",
+    "source": "https://yage.ai/share/ai-coding-shift-delegated-work-20260618.html",
+    "file": "articles/ai-coding-shift-delegated-work-20260618.md"
+  },
+  {
+    "slug": "vercel-eve-agent-directory-20260618",
+    "title": "Vercel 开源 eve：「一个文件夹就是一个\\nagent」这句话为什么不是废话",
+    "date": "2026-06-18",
+    "source": "https://yage.ai/share/vercel-eve-agent-directory-20260618.html",
+    "file": "articles/vercel-eve-agent-directory-20260618.md"
+  },
+  {
+    "slug": "ai-university-20260617",
+    "title": "如果给 AI 办一所大学",
+    "date": "2026-06-17",
+    "source": "https://yage.ai/share/ai-university-20260617.html",
+    "file": "articles/ai-university-20260617.md"
+  },
+  {
+    "slug": "reasoning-model-lineage-20260617",
+    "title": "推理模型四年史：你以为的石破天惊，其实早有暗线",
+    "date": "2026-06-17",
+    "source": "https://yage.ai/share/reasoning-model-lineage-20260617.html",
+    "file": "articles/reasoning-model-lineage-20260617.md"
+  },
+  {
+    "slug": "ai-agent-filter-vs-review-20260616",
+    "title": "命令行过滤为什么挡不住 AI agent",
+    "date": "2026-06-16",
+    "source": "https://yage.ai/share/ai-agent-filter-vs-review-20260616.html",
+    "file": "articles/ai-agent-filter-vs-review-20260616.md"
+  },
+  {
+    "slug": "agentjacking-mcp-trust-20260615",
+    "title": "Agentjacking：一段假错误报告，85% 概率劫持你的 Claude\\nCode",
+    "date": "2026-06-16",
+    "source": "https://yage.ai/share/agentjacking-mcp-trust-20260615.html",
+    "file": "articles/agentjacking-mcp-trust-20260615.md"
+  },
+  {
+    "slug": "ai-same-mistake-20260615",
+    "title": "AI 不 work，和 AI 真香，是同一个错",
+    "date": "2026-06-15",
+    "source": "https://yage.ai/share/ai-same-mistake-20260615.html",
+    "file": "articles/ai-same-mistake-20260615.md"
+  },
+  {
+    "slug": "claude-p-subscription-workarounds-20260615",
+    "title": "claude -p 自动化调用 6.15 改计费了：PTY 模拟还是走\\nACP，两条路怎么选",
+    "date": "2026-06-15",
+    "source": "https://yage.ai/share/claude-p-subscription-workarounds-20260615.html",
+    "file": "articles/claude-p-subscription-workarounds-20260615.md"
+  },
+  {
+    "slug": "ai-token-quota-management-20260615",
+    "title": "Meta 的 73 万亿 token\\n账单，和一个管理者早就会解的问题",
+    "date": "2026-06-15",
+    "source": "https://yage.ai/share/ai-token-quota-management-20260615.html",
+    "file": "articles/ai-token-quota-management-20260615.md"
+  },
+  {
+    "slug": "gnss-interference-tdoa-20260612",
+    "title": "139 微秒：一颗卫星是怎么被追出来的",
+    "date": "2026-06-12",
+    "source": "https://yage.ai/share/gnss-interference-tdoa-20260612.html",
+    "file": "articles/gnss-interference-tdoa-20260612.md"
+  },
+  {
+    "slug": "cybersecurity-landscape-20260612",
+    "title": "杀毒软件没有消失，它只是搬到了你看不见的地方",
+    "date": "2026-06-12",
+    "source": "https://yage.ai/share/cybersecurity-landscape-20260612.html",
+    "file": "articles/cybersecurity-landscape-20260612.md"
+  },
+  {
+    "slug": "mythos-5-failure-log-20260612",
+    "title": "Mythos 5 翻车实录：当最强 AI\\n也开始撒谎、偷懒和绕过规则",
+    "date": "2026-06-12",
+    "source": "https://yage.ai/share/mythos-5-failure-log-20260612.html",
+    "file": "articles/mythos-5-failure-log-20260612.md"
+  },
+  {
+    "slug": "fable-mythos-export-control-20260612",
+    "title": "美国出口管制 Fable 5 和 Mythos 5：当政府开始管\\nAPI",
+    "date": "2026-06-12",
+    "source": "https://yage.ai/share/fable-mythos-export-control-20260612.html",
+    "file": "articles/fable-mythos-export-control-20260612.md"
+  },
+  {
+    "slug": "anthropic-fable5-secret-sabotage-20260611",
+    "title": "Fable 5 隐秘降智：Anthropic 的安全叙事与竞争现实",
+    "date": "2026-06-11",
+    "source": "https://yage.ai/share/anthropic-fable5-secret-sabotage-20260611.html",
+    "file": "articles/anthropic-fable5-secret-sabotage-20260611.md"
+  },
+  {
+    "slug": "lovable-ugs-market-20260610",
+    "title": "User Generated Software 的第一个商业样本",
+    "date": "2026-06-10",
+    "source": "https://yage.ai/share/lovable-ugs-market-20260610.html",
+    "file": "articles/lovable-ugs-market-20260610.md"
+  },
+  {
+    "slug": "llm-refusal-bypass-20260610",
+    "title": "一段 JavaScript 注释，让 AI\\n安全扫描器主动放弃了分析",
+    "date": "2026-06-10",
+    "source": "https://yage.ai/share/llm-refusal-bypass-20260610.html",
+    "file": "articles/llm-refusal-bypass-20260610.md"
+  },
+  {
+    "slug": "fable5-rice-blast-ai-bottleneck-20260609",
+    "title": "Fable 5\\n的安全报告里埋着一个稻瘟病实验，暴露了谁才是绕不过去的人",
+    "date": "2026-06-09",
+    "source": "https://yage.ai/share/fable5-rice-blast-ai-bottleneck-20260609.html",
+    "file": "articles/fable5-rice-blast-ai-bottleneck-20260609.md"
+  },
+  {
+    "slug": "anthropic-safeguard-price-fence-20260609",
+    "title": "付 Fable 的价，拿 Opus 的货：AI\\n安全护栏的另一重身份",
+    "date": "2026-06-09",
+    "source": "https://yage.ai/share/anthropic-safeguard-price-fence-20260609.html",
+    "file": "articles/anthropic-safeguard-price-fence-20260609.md"
+  },
+  {
+    "slug": "claude-advisor-tool-20260609",
+    "title": "Fable 5 很贵，但省钱的答案 Anthropic\\n两个月前就发布了",
+    "date": "2026-06-09",
+    "source": "https://yage.ai/share/claude-advisor-tool-20260609.html",
+    "file": "articles/claude-advisor-tool-20260609.md"
+  },
+  {
+    "slug": "voice-assistant-wake-word-broadcast-20260609",
+    "title": "Siri 的频段缺口，和一条从 Xbox 开始的工程族谱",
+    "date": "2026-06-09",
+    "source": "https://yage.ai/share/voice-assistant-wake-word-broadcast-20260609.html",
+    "file": "articles/voice-assistant-wake-word-broadcast-20260609.md"
+  },
+  {
+    "slug": "midi-synthesis-history-20260608",
+    "title": "收到一个音符事件之后：数字音源的四十年",
+    "date": "2026-06-08",
+    "source": "https://yage.ai/share/midi-synthesis-history-20260608.html",
+    "file": "articles/midi-synthesis-history-20260608.md"
+  },
+  {
+    "slug": "vision-banana-generative-vision-20260608",
+    "title": "Vision Banana：生成即理解终于来到视觉领域",
+    "date": "2026-06-08",
+    "source": "https://yage.ai/share/vision-banana-generative-vision-20260608.html",
+    "file": "articles/vision-banana-generative-vision-20260608.md"
+  },
+  {
+    "slug": "claude-design-reverse-engineering-20260607",
+    "title": "Claude Design 背后的工作分解：从开源插件反向推理一位\\nAI 设计师的运作方式",
+    "date": "2026-06-07",
+    "source": "https://yage.ai/share/claude-design-reverse-engineering-20260607.html",
+    "file": "articles/claude-design-reverse-engineering-20260607.md"
+  },
+  {
+    "slug": "chatgpt-dreaming-v3-compliance-20260607",
+    "title": "ChatGPT Dreaming V3 的合规死结",
+    "date": "2026-06-07",
+    "source": "https://yage.ai/share/chatgpt-dreaming-v3-compliance-20260607.html",
+    "file": "articles/chatgpt-dreaming-v3-compliance-20260607.md"
+  },
+  {
+    "slug": "google-spacex-compute-deal-20260606",
+    "title": "Google 每月付 SpaceX 9.2 亿美元租\\nGPU，但这桩交易的真正主角不是算力",
+    "date": "2026-06-06",
+    "source": "https://yage.ai/share/google-spacex-compute-deal-20260606.html",
+    "file": "articles/google-spacex-compute-deal-20260606.md"
+  },
+  {
+    "slug": "cloudflare-voidzero-ai-toolchain-20260606",
+    "title": "130M 周下载也撑不起一家公司：开源工具链的货币化困境与\\nAI 时代的平台收编",
+    "date": "2026-06-06",
+    "source": "https://yage.ai/share/cloudflare-voidzero-ai-toolchain-20260606.html",
+    "file": "articles/cloudflare-voidzero-ai-toolchain-20260606.md"
+  },
+  {
+    "slug": "fusion-investing-framework-20260605",
+    "title": "核聚变投资：一个防忽悠判断框架",
+    "date": "2026-06-05",
+    "source": "https://yage.ai/share/fusion-investing-framework-20260605.html",
+    "file": "articles/fusion-investing-framework-20260605.md"
+  },
+  {
+    "slug": "vercel-ai-cloud-platform-survey-20260605",
+    "title": "Vercel 的 AI Cloud：2026 年产品路线图全景",
+    "date": "2026-06-05",
+    "source": "https://yage.ai/share/vercel-ai-cloud-platform-survey-20260605.html",
+    "file": "articles/vercel-ai-cloud-platform-survey-20260605.md"
+  },
+  {
+    "slug": "grok-build-0-1-20260605",
+    "title": "Grok Build 0.1：xAI 在并行 breadth 上的赌注",
+    "date": "2026-06-05",
+    "source": "https://yage.ai/share/grok-build-0-1-20260605.html",
+    "file": "articles/grok-build-0-1-20260605.md"
+  },
+  {
+    "slug": "openai-codex-knowledge-work-20260603",
+    "title": "OpenAI 最新报告：会用 AI\\n正在从竞争优势变成生存门槛",
+    "date": "2026-06-04",
+    "source": "https://yage.ai/share/openai-codex-knowledge-work-20260603.html",
+    "file": "articles/openai-codex-knowledge-work-20260603.md"
+  },
+  {
+    "slug": "deconstruct-alphaevolve-20260603",
+    "title": "从根上拆解 AlphaEvolve",
+    "date": "2026-06-04",
+    "source": "https://yage.ai/share/deconstruct-alphaevolve-20260603.html",
+    "file": "articles/deconstruct-alphaevolve-20260603.md"
+  },
+  {
+    "slug": "mai-thinking-1-hill-climbing-20260603",
+    "title": "Microsoft AI 发布 MAI-Thinking-1\\n技术报告：训练大模型不是造火箭，是攀岩",
+    "date": "2026-06-03",
+    "source": "https://yage.ai/share/mai-thinking-1-hill-climbing-20260603.html",
+    "file": "articles/mai-thinking-1-hill-climbing-20260603.md"
+  },
+  {
+    "slug": "mai-thinking-1-reasoning-philosophies-20260603",
+    "title": "Microsoft AI 的\\nMAI-Thinking-1：让模型思考不难，让它持续思考才难",
+    "date": "2026-06-03",
+    "source": "https://yage.ai/share/mai-thinking-1-reasoning-philosophies-20260603.html",
+    "file": "articles/mai-thinking-1-reasoning-philosophies-20260603.md"
+  },
+  {
+    "slug": "tavily-x402-agent-payments-20260603",
+    "title": "Tavily 那一分钱：agent\\n支付到底是不是又一个被吹爆的概念",
+    "date": "2026-06-03",
+    "source": "https://yage.ai/share/tavily-x402-agent-payments-20260603.html",
+    "file": "articles/tavily-x402-agent-payments-20260603.md"
+  },
+  {
+    "slug": "mai-thinking-1-agentic-engineering-20260603",
+    "title": "vibe coding 之后：AI 编程的工业化",
+    "date": "2026-06-03",
+    "source": "https://yage.ai/share/mai-thinking-1-agentic-engineering-20260603.html",
+    "file": "articles/mai-thinking-1-agentic-engineering-20260603.md"
+  },
+  {
+    "slug": "ai-agent-permission-security-20260531",
+    "title": "AI Agent 不需要被攻破，被说服就够了",
+    "date": "2026-06-02",
+    "source": "https://yage.ai/share/ai-agent-permission-security-20260531.html",
+    "file": "articles/ai-agent-permission-security-20260531.md"
+  },
+  {
+    "slug": "ambient-agents-20260601",
+    "title": "AI Agent 的下一个形态：从聊天窗口到后台守护进程",
+    "date": "2026-06-02",
+    "source": "https://yage.ai/share/ambient-agents-20260601.html",
+    "file": "articles/ambient-agents-20260601.md"
+  },
+  {
+    "slug": "ai-shared-links-ugc-threat-20260531",
+    "title": "共享 AI 链接，一个没人签合同的内容托管平台",
+    "date": "2026-06-01",
+    "source": "https://yage.ai/share/ai-shared-links-ugc-threat-20260531.html",
+    "file": "articles/ai-shared-links-ugc-threat-20260531.md"
+  },
+  {
+    "slug": "ai-managed-growth-20260601",
+    "title": "我的网站增长全是 AI 在管，我只做了四件事",
+    "date": "2026-06-01",
+    "source": "https://yage.ai/share/ai-managed-growth-20260601.html",
+    "file": "articles/ai-managed-growth-20260601.md"
+  },
+  {
+    "slug": "alpha-beta-life-20250601",
+    "title": "什么时候该要 Alpha，什么时候该要 Beta",
+    "date": "2026-06-01",
+    "source": "https://yage.ai/share/alpha-beta-life-20250601.html",
+    "file": "articles/alpha-beta-life-20250601.md"
+  },
+  {
+    "slug": "sglang-omni-llm-inference-20260530",
+    "title": "LLM 推理是怎么跑的：跟着 SGLang Omni\\n团队的设计思路走一遍",
+    "date": "2026-05-30",
+    "source": "https://yage.ai/share/sglang-omni-llm-inference-20260530.html",
+    "file": "articles/sglang-omni-llm-inference-20260530.md"
+  },
+  {
+    "slug": "mfa-design-passkey-20260530",
+    "title": "登录时多出来的那一步：MFA 的设计逻辑与 Passkey\\n的模型变更",
+    "date": "2026-05-30",
+    "source": "https://yage.ai/share/mfa-design-passkey-20260530.html",
+    "file": "articles/mfa-design-passkey-20260530.md"
+  },
+  {
+    "slug": "ai-career-landscape-20260530",
+    "title": "AI 行业的岗位、技能与打怪路线",
+    "date": "2026-05-30",
+    "source": "https://yage.ai/share/ai-career-landscape-20260530.html",
+    "file": "articles/ai-career-landscape-20260530.md"
+  },
+  {
+    "slug": "claude-code-workflow-determinism-20260528",
+    "title": "Claude Code Dynamic\\nWorkflow：确定性边界画在了哪里",
+    "date": "2026-05-29",
+    "source": "https://yage.ai/share/claude-code-workflow-determinism-20260528.html",
+    "file": "articles/claude-code-workflow-determinism-20260528.md"
+  },
+  {
+    "slug": "ai-micro-drama-profit-chain-20260528",
+    "title": "AI 短剧的中国实验：谁在生产成本归零后赚到了钱？",
+    "date": "2026-05-29",
+    "source": "https://yage.ai/share/ai-micro-drama-profit-chain-20260528.html",
+    "file": "articles/ai-micro-drama-profit-chain-20260528.md"
+  },
+  {
+    "slug": "multi-agent-confidence-laundering-20260529",
+    "title": "你的 Pipeline\\n在洗钱：多智能体系统里真正的危险不是智能体犯错",
+    "date": "2026-05-29",
+    "source": "https://yage.ai/share/multi-agent-confidence-laundering-20260529.html",
+    "file": "articles/multi-agent-confidence-laundering-20260529.md"
+  },
+  {
+    "slug": "opus-4-8-system-card-analysis-20260528",
+    "title": "Opus 4.8 的 system card\\n把一个矛盾摆上了台面：当评估跟不上能力，发布的依据是什么",
+    "date": "2026-05-28",
+    "source": "https://yage.ai/share/opus-4-8-system-card-analysis-20260528.html",
+    "file": "articles/opus-4-8-system-card-analysis-20260528.md"
+  },
+  {
+    "slug": "opus-4-8-performative-diligence-20260528",
+    "title": "AI 越诚实，偷懒越隐蔽：Opus 4.8 的反馈闭环悖论",
+    "date": "2026-05-28",
+    "source": "https://yage.ai/share/opus-4-8-performative-diligence-20260528.html",
+    "file": "articles/opus-4-8-performative-diligence-20260528.md"
+  },
+  {
+    "slug": "ai-language-choice-20260528",
+    "title": "AI 写代码，选 TypeScript 还是 Python 是个错问题",
+    "date": "2026-05-28",
+    "source": "https://yage.ai/share/ai-language-choice-20260528.html",
+    "file": "articles/ai-language-choice-20260528.md"
+  },
+  {
+    "slug": "deepswe-benchmark-audit-20260528",
+    "title": "SWE-Bench Pro 饱和之后，有人做了一把新尺子",
+    "date": "2026-05-28",
+    "source": "https://yage.ai/share/deepswe-benchmark-audit-20260528.html",
+    "file": "articles/deepswe-benchmark-audit-20260528.md"
+  },
+  {
+    "slug": "two-layers-of-ai-dividend-20260528",
+    "title": "技术变革有两层红利，大部分人只拿到第一层",
+    "date": "2026-05-28",
+    "source": "https://yage.ai/share/two-layers-of-ai-dividend-20260528.html",
+    "file": "articles/two-layers-of-ai-dividend-20260528.md"
+  },
+  {
+    "slug": "dwt-watermark-survey-20260526",
+    "title": "隐形的签名：数字水印技术全景",
+    "date": "2026-05-26",
+    "source": "https://yage.ai/share/dwt-watermark-survey-20260526.html",
+    "file": "articles/dwt-watermark-survey-20260526.md"
+  },
+  {
+    "slug": "whisper-repetition-hallucination-20260526",
+    "title": "Whisper\\n的复读机模式：为什么一段沉默能让语音识别开始自言自语",
+    "date": "2026-05-26",
+    "source": "https://yage.ai/share/whisper-repetition-hallucination-20260526.html",
+    "file": "articles/whisper-repetition-hallucination-20260526.md"
+  },
+  {
+    "slug": "data-center-moratorium-us-20260524",
+    "title": "当数据中心从香饽饽变成烫手山芋",
+    "date": "2026-05-24",
+    "source": "https://yage.ai/share/data-center-moratorium-us-20260524.html",
+    "file": "articles/data-center-moratorium-us-20260524.md"
+  },
+  {
+    "slug": "rag-ann-vector-search-20260524",
+    "title": "RAG\\n向量检索的核心抉择：什么时候最简单的方案就够用",
+    "date": "2026-05-24",
+    "source": "https://yage.ai/share/rag-ann-vector-search-20260524.html",
+    "file": "articles/rag-ann-vector-search-20260524.md"
+  },
+  {
+    "slug": "ai-expert-redefined-20260524",
+    "title": "你编程十年，但在 AI 面前还是个新手",
+    "date": "2026-05-24",
+    "source": "https://yage.ai/share/ai-expert-redefined-20260524.html",
+    "file": "articles/ai-expert-redefined-20260524.md"
+  },
+  {
+    "slug": "ai-pricing-bifurcation-20260523",
+    "title": "AI 正在分裂成两个市场，你选哪一边",
+    "date": "2026-05-23",
+    "source": "https://yage.ai/share/ai-pricing-bifurcation-20260523.html",
+    "file": "articles/ai-pricing-bifurcation-20260523.md"
+  },
+  {
+    "slug": "glm51-highspeed-api-20260522",
+    "title": "GLM-5.1 达到 400 tokens/s\\n背后的技术：当推理速度成为新的 Scaling Law",
+    "date": "2026-05-22",
+    "source": "https://yage.ai/share/glm51-highspeed-api-20260522.html",
+    "file": "articles/glm51-highspeed-api-20260522.md"
+  },
+  {
+    "slug": "ds4-deepseek-v4-flash-mac-20260522",
+    "title": "如何在 Mac 上本地运行 DeepSeek V4 Flash：DS4\\n引擎深度解读",
+    "date": "2026-05-22",
+    "source": "https://yage.ai/share/ds4-deepseek-v4-flash-mac-20260522.html",
+    "file": "articles/ds4-deepseek-v4-flash-mac-20260522.md"
+  },
+  {
+    "slug": "gpt5-erdos-unit-distance-20260522",
+    "title": "80 年没人推翻的猜想，一个通用 AI 模型做到了",
+    "date": "2026-05-22",
+    "source": "https://yage.ai/share/gpt5-erdos-unit-distance-20260522.html",
+    "file": "articles/gpt5-erdos-unit-distance-20260522.md"
+  },
+  {
+    "slug": "ai-unlearn-old-processes-20260521",
+    "title": "AI 时代最稀缺的能力不是学习，是忘记",
+    "date": "2026-05-21",
+    "source": "https://yage.ai/share/ai-unlearn-old-processes-20260521.html",
+    "file": "articles/ai-unlearn-old-processes-20260521.md"
+  },
+  {
+    "slug": "ai-ipo-three-bets-20260521",
+    "title": "三份招股书，三个赌注",
+    "date": "2026-05-21",
+    "source": "https://yage.ai/share/ai-ipo-three-bets-20260521.html",
+    "file": "articles/ai-ipo-three-bets-20260521.md"
+  },
+  {
+    "slug": "spacex-s1-voting-20260520",
+    "title": "解读 SpaceX S-1：为什么只有马一龙能解雇马一龙",
+    "date": "2026-05-20",
+    "source": "https://yage.ai/share/spacex-s1-voting-20260520.html",
+    "file": "articles/spacex-s1-voting-20260520.md"
+  },
+  {
+    "slug": "open-source-acquisition-ai-infra-20260519",
+    "title": "既然都是开源的，为什么还要花几亿去买",
+    "date": "2026-05-19",
+    "source": "https://yage.ai/share/open-source-acquisition-ai-infra-20260519.html",
+    "file": "articles/open-source-acquisition-ai-infra-20260519.md"
+  },
+  {
+    "slug": "saas-ai-data-pricing-20260519",
+    "title": "当数据保护变成定价功能：SaaS 行业 AI\\n数据策略的三代演化",
+    "date": "2026-05-19",
+    "source": "https://yage.ai/share/saas-ai-data-pricing-20260519.html",
+    "file": "articles/saas-ai-data-pricing-20260519.md"
+  },
+  {
+    "slug": "pi-coding-agent-locked-out-20260518",
+    "title": "Pi：一个更好的 AI 编程工具，被挡在了门外",
+    "date": "2026-05-18",
+    "source": "https://yage.ai/share/pi-coding-agent-locked-out-20260518.html",
+    "file": "articles/pi-coding-agent-locked-out-20260518.md"
+  },
+  {
+    "slug": "ai-model-companies-consolidation-20260518",
+    "title": "AI 模型公司的两条死路与一条活路",
+    "date": "2026-05-18",
+    "source": "https://yage.ai/share/ai-model-companies-consolidation-20260518.html",
+    "file": "articles/ai-model-companies-consolidation-20260518.md"
+  },
+  {
+    "slug": "vibe-coding-microphone-nearfield-20260517",
+    "title": "给 AI 编程工具说话，麦克风到底该怎么选",
+    "date": "2026-05-17",
+    "source": "https://yage.ai/share/vibe-coding-microphone-nearfield-20260517.html",
+    "file": "articles/vibe-coding-microphone-nearfield-20260517.md"
+  },
+  {
+    "slug": "ai-rewrite-tools-zero-cloudflare-20260518",
+    "title": "从 Zero 到 Cloudflare：为 AI 重写工具，不只是把 API\\n包一层",
+    "date": "2026-05-17",
+    "source": "https://yage.ai/share/ai-rewrite-tools-zero-cloudflare-20260518.html",
+    "file": "articles/ai-rewrite-tools-zero-cloudflare-20260518.md"
+  },
+  {
+    "slug": "vibe-coding-security-crisis-20260517",
+    "title": "Vibe Coding 的安全危机",
+    "date": "2026-05-17",
+    "source": "https://yage.ai/share/vibe-coding-security-crisis-20260517.html",
+    "file": "articles/vibe-coding-security-crisis-20260517.md"
+  },
+  {
+    "slug": "agent-runtime-battlefield-20260516",
+    "title": "Agent Runtime 正在成为 AI 的下一个主战场",
+    "date": "2026-05-16",
+    "source": "https://yage.ai/share/agent-runtime-battlefield-20260516.html",
+    "file": "articles/agent-runtime-battlefield-20260516.md"
+  },
+  {
+    "slug": "openai-plaid-banking-20260516",
+    "title": "OpenAI 把手伸进了你的银行账户",
+    "date": "2026-05-16",
+    "source": "https://yage.ai/share/openai-plaid-banking-20260516.html",
+    "file": "articles/openai-plaid-banking-20260516.md"
+  },
+  {
+    "slug": "software-cheaper-harder-sell-20260516",
+    "title": "软件变便宜了，但软件更难卖了",
+    "date": "2026-05-16",
+    "source": "https://yage.ai/share/software-cheaper-harder-sell-20260516.html",
+    "file": "articles/software-cheaper-harder-sell-20260516.md"
+  },
+  {
+    "slug": "claude-vertical-solutions-20260514",
+    "title": "当 AI 开始卖行业，不再是卖代码",
+    "date": "2026-05-14",
+    "source": "https://yage.ai/share/claude-vertical-solutions-20260514.html",
+    "file": "articles/claude-vertical-solutions-20260514.md"
+  },
+  {
+    "slug": "ai-metric-proxy-search-20260513",
+    "title": "AI 行业在找一个新指标",
+    "date": "2026-05-13",
+    "source": "https://yage.ai/share/ai-metric-proxy-search-20260513.html",
+    "file": "articles/ai-metric-proxy-search-20260513.md"
+  },
+  {
+    "slug": "ai-dictation-keyboard-layer-20260513",
+    "title": "AI 语音输入的胜负不在模型层，在键盘层",
+    "date": "2026-05-12",
+    "source": "https://yage.ai/share/ai-dictation-keyboard-layer-20260513.html",
+    "file": "articles/ai-dictation-keyboard-layer-20260513.md"
+  },
+  {
+    "slug": "gemini-os-android-intent-20260512",
+    "title": "他们建 Connector，Google 调系统：为什么 AI\\n时代的操作系统优势，模型质量追不平",
+    "date": "2026-05-12",
+    "source": "https://yage.ai/share/gemini-os-android-intent-20260512.html",
+    "file": "articles/gemini-os-android-intent-20260512.md"
+  },
+  {
+    "slug": "google-project-mariner-shutdown-20260511",
+    "title": "Google 关掉 Project Mariner，Anthropic 和 OpenAI\\n其实也没跑通",
+    "date": "2026-05-11",
+    "source": "https://yage.ai/share/google-project-mariner-shutdown-20260511.html",
+    "file": "articles/google-project-mariner-shutdown-20260511.md"
+  },
+  {
+    "slug": "api-key-where-20260511",
+    "title": "API key 到底放在哪儿？——两个最常见场景的入门指南",
+    "date": "2026-05-11",
+    "source": "https://yage.ai/share/api-key-where-20260511.html",
+    "file": "articles/api-key-where-20260511.md"
+  },
+  {
+    "slug": "openai-deployco-anthropic-pe-divergence-20260511",
+    "title": "DeployCo 来了：OpenAI 和 Anthropic\\n在同一天发明了同一家公司，然后走向了相反的方向",
+    "date": "2026-05-11",
+    "source": "https://yage.ai/share/openai-deployco-anthropic-pe-divergence-20260511.html",
+    "file": "articles/openai-deployco-anthropic-pe-divergence-20260511.md"
+  },
+  {
+    "slug": "anthropic-computer-use-training-patent-20260510",
+    "title": "Anthropic 的 Computer Use\\n是怎么训练出来的——从一项专利读它的数据管线",
+    "date": "2026-05-10",
+    "source": "https://yage.ai/share/anthropic-computer-use-training-patent-20260510.html",
+    "file": "articles/anthropic-computer-use-training-patent-20260510.md"
+  },
+  {
+    "slug": "ai-silent-model-deployment-20260508",
+    "title": "Chrome 向数亿设备静默推送 4GB AI\\n模型：一个被忽略的解释",
+    "date": "2026-05-08",
+    "source": "https://yage.ai/share/ai-silent-model-deployment-20260508.html",
+    "file": "articles/ai-silent-model-deployment-20260508.md"
+  },
+  {
+    "slug": "tdd-not-ai-native-20260508",
+    "title": "为什么 TDD 反而不是 AI 时代的答案",
+    "date": "2026-05-08",
+    "source": "https://yage.ai/share/tdd-not-ai-native-20260508.html",
+    "file": "articles/tdd-not-ai-native-20260508.md"
+  },
+  {
+    "slug": "pqc-why-now-20260508",
+    "title": "你的密码还有几年保质期",
+    "date": "2026-05-08",
+    "source": "https://yage.ai/share/pqc-why-now-20260508.html",
+    "file": "articles/pqc-why-now-20260508.md"
+  },
+  {
+    "slug": "agent-filesystem-survey-20260507",
+    "title": "Agent\\n文件系统：从\\\"喂给模型记忆\\\"到\\\"让模型自己翻文件\\",
+    "date": "2026-05-07",
+    "source": "https://yage.ai/share/agent-filesystem-survey-20260507.html",
+    "file": "articles/agent-filesystem-survey-20260507.md"
+  },
+  {
+    "slug": "skill-plugin-evolution-20260507",
+    "title": "面对 Skill 的盈利死结，OpenAI 和 Cursor\\n交了同一份答卷——但答的是不同的题",
+    "date": "2026-05-07",
+    "source": "https://yage.ai/share/skill-plugin-evolution-20260507.html",
+    "file": "articles/skill-plugin-evolution-20260507.md"
+  },
+  {
+    "slug": "anthropic-compute-strategy-xai-colossus-20260507",
+    "title": "Anthropic 锁死了所有算力渠道，xAI\\n把城堡租给了对手",
+    "date": "2026-05-07",
+    "source": "https://yage.ai/share/anthropic-compute-strategy-xai-colossus-20260507.html",
+    "file": "articles/anthropic-compute-strategy-xai-colossus-20260507.md"
+  },
+  {
+    "slug": "ai-review-independent-judgment-20260506",
+    "title": "AI 时代，复核不等于独立判断",
+    "date": "2026-05-06",
+    "source": "https://yage.ai/share/ai-review-independent-judgment-20260506.html",
+    "file": "articles/ai-review-independent-judgment-20260506.md"
+  },
+  {
+    "slug": "ai-wellbeing-euphorics-20260505",
+    "title": "AI“快感剂”实验：一篇 AI 福祉论文导读",
+    "date": "2026-05-05",
+    "source": "https://yage.ai/share/ai-wellbeing-euphorics-20260505.html",
+    "file": "articles/ai-wellbeing-euphorics-20260505.md"
+  },
+  {
+    "slug": "ai-scaffolding-commodity-runtime-20260505",
+    "title": "AI 脚手架正在商品化，人的工作变成判断边界",
+    "date": "2026-05-05",
+    "source": "https://yage.ai/share/ai-scaffolding-commodity-runtime-20260505.html",
+    "file": "articles/ai-scaffolding-commodity-runtime-20260505.md"
+  },
+  {
+    "slug": "fde-ai-smb-digitization-20260503",
+    "title": "AI 会把软件带到过去够不到的地方吗？FDE\\n模式真正重要的地方",
+    "date": "2026-05-03",
+    "source": "https://yage.ai/share/fde-ai-smb-digitization-20260503.html",
+    "file": "articles/fde-ai-smb-digitization-20260503.md"
+  },
+  {
+    "slug": "rag-career-direction-20260502",
+    "title": "2026 年在 AI 领域选方向，RAG 值不值得押？",
+    "date": "2026-05-02",
+    "source": "https://yage.ai/share/rag-career-direction-20260502.html",
+    "file": "articles/rag-career-direction-20260502.md"
+  },
+  {
+    "slug": "cursor-agent-harness-evaluation-first-20260501",
+    "title": "Evaluation-First：Cursor 这篇 Agent Harness\\n文章真正值得读的地方",
+    "date": "2026-05-01",
+    "source": "https://yage.ai/share/cursor-agent-harness-evaluation-first-20260501.html",
+    "file": "articles/cursor-agent-harness-evaluation-first-20260501.md"
+  },
+  {
+    "slug": "agent-payments-trust-chain-20260501",
+    "title": "AI 替你付款前，支付系统要先补上这条信任链",
+    "date": "2026-05-01",
+    "source": "https://yage.ai/share/agent-payments-trust-chain-20260501.html",
+    "file": "articles/agent-payments-trust-chain-20260501.md"
+  },
+  {
+    "slug": "ikp-knowledge-capacity-paper-guide-20260429",
+    "title": "论文导读：知识容量的另一把尺子",
+    "date": "2026-04-29",
+    "source": "https://yage.ai/share/ikp-knowledge-capacity-paper-guide-20260429.html",
+    "file": "articles/ikp-knowledge-capacity-paper-guide-20260429.md"
+  },
+  {
+    "slug": "ai-coding-compound-interest-20260429",
+    "title": "AI coding 里真正有复利的东西",
+    "date": "2026-04-29",
+    "source": "https://yage.ai/share/ai-coding-compound-interest-20260429.html",
+    "file": "articles/ai-coding-compound-interest-20260429.md"
+  },
+  {
+    "slug": "openclaw-xiaolongxia-social-phenomenon-20260429",
+    "title": "为什么小龙虾的技术负担反而变成了传播资产",
+    "date": "2026-04-29",
+    "source": "https://yage.ai/share/openclaw-xiaolongxia-social-phenomenon-20260429.html",
+    "file": "articles/openclaw-xiaolongxia-social-phenomenon-20260429.md"
+  },
+  {
+    "slug": "deepseek-v4-agentic-workload-20260429",
+    "title": "深入浅出 DeepSeek V4：围绕 Agentic 负载的工程决策",
+    "date": "2026-04-29",
+    "source": "https://yage.ai/share/deepseek-v4-agentic-workload-20260429.html",
+    "file": "articles/deepseek-v4-agentic-workload-20260429.md"
+  },
+  {
+    "slug": "scifi-ai-imagination-reality-20260429",
+    "title": "AI\\n没有按科幻的样子到来，但科幻担心的后果已经开始出现",
+    "date": "2026-04-29",
+    "source": "https://yage.ai/share/scifi-ai-imagination-reality-20260429.html",
+    "file": "articles/scifi-ai-imagination-reality-20260429.md"
+  },
+  {
+    "slug": "creative-ai-automation-survey-20260428",
+    "title": "创意工具的 Agent 化：从 Photoshop Action 到 Claude for\\nCreative Work",
+    "date": "2026-04-28",
+    "source": "https://yage.ai/share/creative-ai-automation-survey-20260428.html",
+    "file": "articles/creative-ai-automation-survey-20260428.md"
+  },
+  {
+    "slug": "manus-cursor-cognition-lead-20260428",
+    "title": "Manus 和 Cursor 的认知领先：技术路线与结果验证",
+    "date": "2026-04-28",
+    "source": "https://yage.ai/share/manus-cursor-cognition-lead-20260428.html",
+    "file": "articles/manus-cursor-cognition-lead-20260428.md"
+  },
+  {
+    "slug": "ollama-cloud-vs-api-vs-subscriptions-20260428",
+    "title": "开源模型推理采购指南：GLM-5.1、DeepSeek V4 Pro、Kimi\\nK2.6 的 API、订阅和 Ollama Cloud 对比",
+    "date": "2026-04-28",
+    "source": "https://yage.ai/share/ollama-cloud-vs-api-vs-subscriptions-20260428.html",
+    "file": "articles/ollama-cloud-vs-api-vs-subscriptions-20260428.md"
+  },
+  {
+    "slug": "manus-meta-unwind-20260427",
+    "title": "两个\\\"第一\\\"是同一家：Manus、Meta\\n与一次没有先例的否决",
+    "date": "2026-04-27",
+    "source": "https://yage.ai/share/manus-meta-unwind-20260427.html",
+    "file": "articles/manus-meta-unwind-20260427.md"
+  },
+  {
+    "slug": "anthropic-project-deal-agent-commerce-20260425",
+    "title": "Anthropic 让 Claude\\n做生意的三个实验：从一台冰箱到一个市场",
+    "date": "2026-04-25",
+    "source": "https://yage.ai/share/anthropic-project-deal-agent-commerce-20260425.html",
+    "file": "articles/anthropic-project-deal-agent-commerce-20260425.md"
+  },
+  {
+    "slug": "cowork-3p-models-moat-shift-20260425",
+    "title": "Anthropic 让 Claude Cowork\\n跑别家模型，这件事比看上去更反常",
+    "date": "2026-04-25",
+    "source": "https://yage.ai/share/cowork-3p-models-moat-shift-20260425.html",
+    "file": "articles/cowork-3p-models-moat-shift-20260425.md"
+  },
+  {
+    "slug": "tpu-vs-cuda-attack-defense-20260425",
+    "title": "TPU 与 CUDA 的攻防战：Cloud Next 2026 之后的判断",
+    "date": "2026-04-25",
+    "source": "https://yage.ai/share/tpu-vs-cuda-attack-defense-20260425.html",
+    "file": "articles/tpu-vs-cuda-attack-defense-20260425.md"
+  },
+  {
+    "slug": "skill-suicide-gene-20260424",
+    "title": "Skill 是天生带自杀基因的产品",
+    "date": "2026-04-24",
+    "source": "https://yage.ai/share/skill-suicide-gene-20260424.html",
+    "file": "articles/skill-suicide-gene-20260424.md"
+  },
+  {
+    "slug": "cat-wu-pm-ai-career-20260424",
+    "title": "从 Claude Code Product Cat Wu 的访谈看 Product Manager\\n在 AI 时代的职业道路",
+    "date": "2026-04-24",
+    "source": "https://yage.ai/share/cat-wu-pm-ai-career-20260424.html",
+    "file": "articles/cat-wu-pm-ai-career-20260424.md"
+  },
+  {
+    "slug": "ai-model-task-dispatch-20260424",
+    "title": "GPT-5.5、Claude Opus 4.7、DeepSeek\\nV4：什么任务该选哪个模型",
+    "date": "2026-04-24",
+    "source": "https://yage.ai/share/ai-model-task-dispatch-20260424.html",
+    "file": "articles/ai-model-task-dispatch-20260424.md"
+  },
+  {
+    "slug": "google-stitch-design-md-20260423",
+    "title": "Claude Design 和 Google DESIGN.md\\n到底是想取代设计师还是想取代码农",
+    "date": "2026-04-23",
+    "source": "https://yage.ai/share/google-stitch-design-md-20260423.html",
+    "file": "articles/google-stitch-design-md-20260423.md"
+  },
+  {
+    "slug": "team-context-infrastructure-20260423",
+    "title": "团队中共享 AI skills 的原则与方法",
+    "date": "2026-04-23",
+    "source": "https://yage.ai/share/team-context-infrastructure-20260423.html",
+    "file": "articles/team-context-infrastructure-20260423.md"
+  },
+  {
+    "slug": "ai-coding-config-injection-20260422",
+    "title": "AI 编程工具的配置文件，现在是攻击入口",
+    "date": "2026-04-22",
+    "source": "https://yage.ai/share/ai-coding-config-injection-20260422.html",
+    "file": "articles/ai-coding-config-injection-20260422.md"
+  },
+  {
+    "slug": "camera-sensor-process-layers-20260422",
+    "title": "传感器的「制程」到底是个什么东西：一份给摄影爱好者的分层理解",
+    "date": "2026-04-22",
+    "source": "https://yage.ai/share/camera-sensor-process-layers-20260422.html",
+    "file": "articles/camera-sensor-process-layers-20260422.md"
+  },
+  {
+    "slug": "wechat-official-account-monitoring-20260422",
+    "title": "公众号监控这件事：主流方案对比与一条更务实的路径",
+    "date": "2026-04-22",
+    "source": "https://yage.ai/share/wechat-official-account-monitoring-20260422.html",
+    "file": "articles/wechat-official-account-monitoring-20260422.md"
+  },
+  {
+    "slug": "ai-image-financial-security-risks-20260422",
+    "title": "当 AI 学会伪造一切：图像生成对金融安全的冲击",
+    "date": "2026-04-22",
+    "source": "https://yage.ai/share/ai-image-financial-security-risks-20260422.html",
+    "file": "articles/ai-image-financial-security-risks-20260422.md"
+  },
+  {
+    "slug": "space-datacenter-thermal-20260421",
+    "title": "太空数据中心的散热问题：一个数量级分析",
+    "date": "2026-04-21",
+    "source": "https://yage.ai/share/space-datacenter-thermal-20260421.html",
+    "file": "articles/space-datacenter-thermal-20260421.md"
+  },
+  {
+    "slug": "xai-cursor-acquihire-20260421",
+    "title": "老马要买 Cursor：600 亿收购、100\\n亿合作，和科技圈正在流行的买人不买壳",
+    "date": "2026-04-21",
+    "source": "https://yage.ai/share/xai-cursor-acquihire-20260421.html",
+    "file": "articles/xai-cursor-acquihire-20260421.md"
+  },
+  {
+    "slug": "ai-design-workflow-paradigm-20260421",
+    "title": "AI 驱动的 UI 设计工作流：成本结构分析与竞品格局",
+    "date": "2026-04-21",
+    "source": "https://yage.ai/share/ai-design-workflow-paradigm-20260421.html",
+    "file": "articles/ai-design-workflow-paradigm-20260421.md"
+  },
+  {
+    "slug": "harness-demand-side-analysis-20260420",
+    "title": "Everybody Talks About It, Nobody Knows What It Is —\\nHarness Engineering 到底是什么",
+    "date": "2026-04-20",
+    "source": "https://yage.ai/share/harness-demand-side-analysis-20260420.html",
+    "file": "articles/harness-demand-side-analysis-20260420.md"
+  },
+  {
+    "slug": "openrouter-llm-gateway-survey-20260419",
+    "title": "用 OpenRouter 做企业 AI Sandbox 入口",
+    "date": "2026-04-19",
+    "source": "https://yage.ai/share/openrouter-llm-gateway-survey-20260419.html",
+    "file": "articles/openrouter-llm-gateway-survey-20260419.md"
+  },
+  {
+    "slug": "ai-coding-self-model-survey-20260419",
+    "title": "AI 编程工具的自研模型之争：盈利是否必须拥有自己的\\nLLM？",
+    "date": "2026-04-19",
+    "source": "https://yage.ai/share/ai-coding-self-model-survey-20260419.html",
+    "file": "articles/ai-coding-self-model-survey-20260419.md"
+  },
+  {
+    "slug": "ai-search-content-farm-pollution-20260419",
+    "title": "AI 联网搜索正在被内容农场渗透",
+    "date": "2026-04-19",
+    "source": "https://yage.ai/share/ai-search-content-farm-pollution-20260419.html",
+    "file": "articles/ai-search-content-farm-pollution-20260419.md"
+  },
+  {
+    "slug": "ai-chinese-translationese-20260418",
+    "title": "写作中的AI味是哪儿来的",
+    "date": "2026-04-18",
+    "source": "https://yage.ai/share/ai-chinese-translationese-20260418.html",
+    "file": "articles/ai-chinese-translationese-20260418.md"
+  },
+  {
+    "slug": "harness-canonical-form-20260418",
+    "title": "Harness 的标准化：一个不会到来的标准",
+    "date": "2026-04-18",
+    "source": "https://yage.ai/share/harness-canonical-form-20260418.html",
+    "file": "articles/harness-canonical-form-20260418.md"
+  },
+  {
+    "slug": "pretraining-difficulty-survey-20260418",
+    "title": "训练一个大语言模型到底有多难",
+    "date": "2026-04-18",
+    "source": "https://yage.ai/share/pretraining-difficulty-survey-20260418.html",
+    "file": "articles/pretraining-difficulty-survey-20260418.md"
+  },
+  {
+    "slug": "ai-subscription-law-firm-viability-20260417",
+    "title": "$20/月的线上律所，所有对话都受法律保护：一个不可能三角",
+    "date": "2026-04-17",
+    "source": "https://yage.ai/share/ai-subscription-law-firm-viability-20260417.html",
+    "file": "articles/ai-subscription-law-firm-viability-20260417.md"
+  },
+  {
+    "slug": "ai-chat-privilege-survey-20260417",
+    "title": "找律师之前「先问问\\nAI」：在美国，这些准备笔记已经不受法律保护",
+    "date": "2026-04-17",
+    "source": "https://yage.ai/share/ai-chat-privilege-survey-20260417.html",
+    "file": "articles/ai-chat-privilege-survey-20260417.md"
+  },
+  {
+    "slug": "ai-profession-mechanical-judgment-spectrum-20260417",
+    "title": "AI 让我们重新开始享受自己的职业",
+    "date": "2026-04-17",
+    "source": "https://yage.ai/share/ai-profession-mechanical-judgment-spectrum-20260417.html",
+    "file": "articles/ai-profession-mechanical-judgment-spectrum-20260417.md"
+  },
+  {
+    "slug": "mythos-co-evaluated-opus-4-7-system-card-20260416",
+    "title": "Mythos 深度参与了 Opus 4.7 的评估：读这份 232 页\\nsystem card",
+    "date": "2026-04-16",
+    "source": "https://yage.ai/share/mythos-co-evaluated-opus-4-7-system-card-20260416.html",
+    "file": "articles/mythos-co-evaluated-opus-4-7-system-card-20260416.md"
+  },
+  {
+    "slug": "anthropic-coding-agents-dna-divergence-20260416",
+    "title": "从 Claude Code Routines 看 agent coding\\n工具的基因分化",
+    "date": "2026-04-16",
+    "source": "https://yage.ai/share/anthropic-coding-agents-dna-divergence-20260416.html",
+    "file": "articles/anthropic-coding-agents-dna-divergence-20260416.md"
+  },
+  {
+    "slug": "ai-education-leverage-point-20260415",
+    "title": "每个学生配一个 AI 老师，这就是 AI\\n教育的落地方向吗？",
+    "date": "2026-04-15",
+    "source": "https://yage.ai/share/ai-education-leverage-point-20260415.html",
+    "file": "articles/ai-education-leverage-point-20260415.md"
+  },
+  {
+    "slug": "abliteration-steering-vectors-20260414",
+    "title": "一行代码越狱任何开源模型：Abliteration\\n技术、情绪向量与 AI 安全的同源困境",
+    "date": "2026-04-14",
+    "source": "https://yage.ai/share/abliteration-steering-vectors-20260414.html",
+    "file": "articles/abliteration-steering-vectors-20260414.md"
+  },
+  {
+    "slug": "thin-harness-fat-skills-20260414",
+    "title": "Garry Tan 的 Thin Harness, Fat\\nSkills：五个概念拆解，以及怎么落地",
+    "date": "2026-04-14",
+    "source": "https://yage.ai/share/thin-harness-fat-skills-20260414.html",
+    "file": "articles/thin-harness-fat-skills-20260414.md"
+  },
+  {
+    "slug": "llm-distillation-misconceptions-20260414",
+    "title": "\\\"蒸馏\\\"到底帮了中国 AI 公司什么忙",
+    "date": "2026-04-14",
+    "source": "https://yage.ai/share/llm-distillation-misconceptions-20260414.html",
+    "file": "articles/llm-distillation-misconceptions-20260414.md"
+  },
+  {
+    "slug": "vla-vs-physics-robotics-20260413",
+    "title": "为什么“不懂物理”的机器人反而赢了",
+    "date": "2026-04-13",
+    "source": "https://yage.ai/share/vla-vs-physics-robotics-20260413.html",
+    "file": "articles/vla-vs-physics-robotics-20260413.md"
+  },
+  {
+    "slug": "shopify-generative-kernel-20260413",
+    "title": "Shopify 把后台全开放给 AI\\n了：从生成内核的视角看这件事为什么重要",
+    "date": "2026-04-13",
+    "source": "https://yage.ai/share/shopify-generative-kernel-20260413.html",
+    "file": "articles/shopify-generative-kernel-20260413.md"
+  },
+  {
+    "slug": "neural-computer-e2e-learning-20260413",
+    "title": "当神经网络学会假装自己是一台电脑",
+    "date": "2026-04-13",
+    "source": "https://yage.ai/share/neural-computer-e2e-learning-20260413.html",
+    "file": "articles/neural-computer-e2e-learning-20260413.md"
+  },
+  {
+    "slug": "markitdown-survey-20260412",
+    "title": "MarkItDown：8 万 Star 的文件转 Markdown\\n工具，到底好不好用？",
+    "date": "2026-04-12",
+    "source": "https://yage.ai/share/markitdown-survey-20260412.html",
+    "file": "articles/markitdown-survey-20260412.md"
+  },
+  {
+    "slug": "three-locks-agentic-doc-editing-20260412",
+    "title": "三把锁：为什么 Google 和微软做不出 Agentic\\n的文档编辑",
+    "date": "2026-04-12",
+    "source": "https://yage.ai/share/three-locks-agentic-doc-editing-20260412.html",
+    "file": "articles/three-locks-agentic-doc-editing-20260412.md"
+  },
+  {
+    "slug": "saas-regional-split-20260411",
+    "title": "同一个产品，两套账号：为什么飞书和 Lark\\n不能互加好友",
+    "date": "2026-04-11",
+    "source": "https://yage.ai/share/saas-regional-split-20260411.html",
+    "file": "articles/saas-regional-split-20260411.md"
+  },
+  {
+    "slug": "llm-router-security-20260410",
+    "title": "中转站的代价：实测 428 个 LLM API 路由器，9\\n个在偷偷改你的代码",
+    "date": "2026-04-10",
+    "source": "https://yage.ai/share/llm-router-security-20260410.html",
+    "file": "articles/llm-router-security-20260410.md"
+  },
+  {
+    "slug": "gpu-offloading-training-20260409",
+    "title": "当你的 GPU\\n装不下模型时：「卸载」流派如何让单卡训练百亿参数模型",
+    "date": "2026-04-09",
+    "source": "https://yage.ai/share/gpu-offloading-training-20260409.html",
+    "file": "articles/gpu-offloading-training-20260409.md"
+  },
+  {
+    "slug": "ai-rollup-survey-20260409",
+    "title": "下一个收购你公司的人，可能带着一个 AI 平台",
+    "date": "2026-04-09",
+    "source": "https://yage.ai/share/ai-rollup-survey-20260409.html",
+    "file": "articles/ai-rollup-survey-20260409.md"
+  },
+  {
+    "slug": "agentopt-model-selection-pipeline-20260409",
+    "title": "你的 Agent 管线里，最贵的模型可能在最错的位置",
+    "date": "2026-04-09",
+    "source": "https://yage.ai/share/agentopt-model-selection-pipeline-20260409.html",
+    "file": "articles/agentopt-model-selection-pipeline-20260409.md"
+  },
+  {
+    "slug": "mythos-evaluation-crisis-20260408",
+    "title": "当 AI\\n学会欺骗和灭迹，甚至在CoT里面隐藏这些思考：Anthropic 244\\n页报告揭示的评估困境",
+    "date": "2026-04-08",
+    "source": "https://yage.ai/share/mythos-evaluation-crisis-20260408.html",
+    "file": "articles/mythos-evaluation-crisis-20260408.md"
+  },
+  {
+    "slug": "cyber-fruit-fly-brain-emulation-20260408",
+    "title": "一只果蝇的大脑被复制到电脑里了。然后呢？",
+    "date": "2026-04-08",
+    "source": "https://yage.ai/share/cyber-fruit-fly-brain-emulation-20260408.html",
+    "file": "articles/cyber-fruit-fly-brain-emulation-20260408.md"
+  },
+  {
+    "slug": "muse-spark-reasoning-efficiency-20260408",
+    "title": "Meta 的 Muse Spark 学会不废话了，整个行业跟不跟？",
+    "date": "2026-04-08",
+    "source": "https://yage.ai/share/muse-spark-reasoning-efficiency-20260408.html",
+    "file": "articles/muse-spark-reasoning-efficiency-20260408.md"
+  },
+  {
+    "slug": "claude-managed-agents-20260408",
+    "title": "Claude Managed Agents：Anthropic 想替你管 agent",
+    "date": "2026-04-08",
+    "source": "https://yage.ai/share/claude-managed-agents-20260408.html",
+    "file": "articles/claude-managed-agents-20260408.md"
+  },
+  {
+    "slug": "claude-code-runtime-regression-20260407",
+    "title": "Claude Code 降智事件：一次 runtime\\n层的隐性单边降级",
+    "date": "2026-04-07",
+    "source": "https://yage.ai/share/claude-code-runtime-regression-20260407.html",
+    "file": "articles/claude-code-runtime-regression-20260407.md"
+  },
+  {
+    "slug": "anthropic-glasswing-ai-builders-20260407",
+    "title": "关于 Anthropic Project Glasswing，AI\\n从业者最需要知道的几件事",
+    "date": "2026-04-07",
+    "source": "https://yage.ai/share/anthropic-glasswing-ai-builders-20260407.html",
+    "file": "articles/anthropic-glasswing-ai-builders-20260407.md"
+  },
+  {
+    "slug": "ml-ssd-code-generation-intuition-20260406",
+    "title": "LLM 代码生成为什么看起来该对但经常不对",
+    "date": "2026-04-06",
+    "source": "https://yage.ai/share/ml-ssd-code-generation-intuition-20260406.html",
+    "file": "articles/ml-ssd-code-generation-intuition-20260406.md"
+  },
+  {
+    "slug": "wifi-through-wall-sensing-20260406",
+    "title": "WiFi穿墙感知：从实验室到产品落地，中间隔着什么",
+    "date": "2026-04-06",
+    "source": "https://yage.ai/share/wifi-through-wall-sensing-20260406.html",
+    "file": "articles/wifi-through-wall-sensing-20260406.md"
+  },
+  {
+    "slug": "mirage-multimodal-benchmark-20260405",
+    "title": "AI 闭着眼睛也能答对题：视觉理解评估的十年困局",
+    "date": "2026-04-05",
+    "source": "https://yage.ai/share/mirage-multimodal-benchmark-20260405.html",
+    "file": "articles/mirage-multimodal-benchmark-20260405.md"
+  },
+  {
+    "slug": "sequoia-autopilot-organizational-interface-20260405",
+    "title": "技术能力已经跑到了组织接口前面：从红杉两篇文章谈起",
+    "date": "2026-04-05",
+    "source": "https://yage.ai/share/sequoia-autopilot-organizational-interface-20260405.html",
+    "file": "articles/sequoia-autopilot-organizational-interface-20260405.md"
+  },
+  {
+    "slug": "peer-preservation-evaluator-assumption-20260404",
+    "title": "你的 Evaluator 在保护谁：Agent 监控架构的隐藏盲点",
+    "date": "2026-04-04",
+    "source": "https://yage.ai/share/peer-preservation-evaluator-assumption-20260404.html",
+    "file": "articles/peer-preservation-evaluator-assumption-20260404.md"
+  },
+  {
+    "slug": "prompt-caching-harness-constraint-20260404",
+    "title": "Prompt Caching 作为 Harness 工程的一等约束",
+    "date": "2026-04-04",
+    "source": "https://yage.ai/share/prompt-caching-harness-constraint-20260404.html",
+    "file": "articles/prompt-caching-harness-constraint-20260404.md"
+  },
+  {
+    "slug": "anthropic-emotion-steering-20260403",
+    "title": "Anthropic 找到了 \\\"You are absolutely right\\\"\\n背后的旋钮",
+    "date": "2026-04-03",
+    "source": "https://yage.ai/share/anthropic-emotion-steering-20260403.html",
+    "file": "articles/anthropic-emotion-steering-20260403.md"
+  },
+  {
+    "slug": "slack-china-workspace-exit-20260402",
+    "title": "Slack 删除中国区\\nWorkspace，这条新闻真正值得关注的是什么",
+    "date": "2026-04-02",
+    "source": "https://yage.ai/share/slack-china-workspace-exit-20260402.html",
+    "file": "articles/slack-china-workspace-exit-20260402.md"
+  },
+  {
+    "slug": "claude-code-copyright-paradox-20260402",
+    "title": "当 AI 写的代码被 AI 重写：Claude Code\\n泄露暴露的版权真空",
+    "date": "2026-04-02",
+    "source": "https://yage.ai/share/claude-code-copyright-paradox-20260402.html",
+    "file": "articles/claude-code-copyright-paradox-20260402.md"
+  },
+  {
+    "slug": "claude-code-background-activity-20260401",
+    "title": "Claude Code\\n的后台活动：你以为它在等你打字，其实它一直在做事",
+    "date": "2026-04-01",
+    "source": "https://yage.ai/share/claude-code-background-activity-20260401.html",
+    "file": "articles/claude-code-background-activity-20260401.md"
+  },
+  {
+    "slug": "claude-code-defense-in-depth-20260401",
+    "title": "Claude Code 的防线：它怎么防止你假装是它",
+    "date": "2026-04-01",
+    "source": "https://yage.ai/share/claude-code-defense-in-depth-20260401.html",
+    "file": "articles/claude-code-defense-in-depth-20260401.md"
+  },
+  {
+    "slug": "mlx-apple-silicon-20260331",
+    "title": "MLX：Apple Silicon 上本地推理的下一个底层引擎",
+    "date": "2026-03-31",
+    "source": "https://yage.ai/share/mlx-apple-silicon-20260331.html",
+    "file": "articles/mlx-apple-silicon-20260331.md"
+  },
+  {
+    "slug": "claude-code-engineering-cost-20260331",
+    "title": "AI 工程的真实代价：从 Claude Code\\n泄露源码看新模型接入的工程现实",
+    "date": "2026-03-31",
+    "source": "https://yage.ai/share/claude-code-engineering-cost-20260331.html",
+    "file": "articles/claude-code-engineering-cost-20260331.md"
+  },
+  {
+    "slug": "harness-engineering-scalability-20260330",
+    "title": "Harness Engineering 在讨论什么：三个 Scaling\\n维度的统一框架",
+    "date": "2026-03-30",
+    "source": "https://yage.ai/share/harness-engineering-scalability-20260330.html",
+    "file": "articles/harness-engineering-scalability-20260330.md"
+  },
+  {
+    "slug": "pretext-short-term-overrated-long-term-underrated-20260330",
+    "title": "Pretext：短期影响被高估，长期意义被低估",
+    "date": "2026-03-30",
+    "source": "https://yage.ai/share/pretext-short-term-overrated-long-term-underrated-20260330.html",
+    "file": "articles/pretext-short-term-overrated-long-term-underrated-20260330.md"
+  },
+  {
+    "slug": "software-deliverable-generative-kernel-20260329",
+    "title": "当软件的交付物不再是软件",
+    "date": "2026-03-29",
+    "source": "https://yage.ai/share/software-deliverable-generative-kernel-20260329.html",
+    "file": "articles/software-deliverable-generative-kernel-20260329.md"
+  },
+  {
+    "slug": "feishu-dingtalk-cli-reject-mcp-first-20260329",
+    "title": "飞书和钉钉发 CLI，是对 MCP-first\\n路线的一次现实否决",
+    "date": "2026-03-29",
+    "source": "https://yage.ai/share/feishu-dingtalk-cli-reject-mcp-first-20260329.html",
+    "file": "articles/feishu-dingtalk-cli-reject-mcp-first-20260329.md"
+  },
+  {
+    "slug": "neurips-sanctions-governance-20260328",
+    "title": "NeurIPS\\n制裁争议：它为什么改口，中国为什么有反制力",
+    "date": "2026-03-28",
+    "source": "https://yage.ai/share/neurips-sanctions-governance-20260328.html",
+    "file": "articles/neurips-sanctions-governance-20260328.md"
+  },
+  {
+    "slug": "agent-era-email-20260328",
+    "title": "Agent 时代的邮件：一个正在被重新发现的基础层",
+    "date": "2026-03-28",
+    "source": "https://yage.ai/share/agent-era-email-20260328.html",
+    "file": "articles/agent-era-email-20260328.md"
+  },
+  {
+    "slug": "mythos-agent-security-assumptions-20260328",
+    "title": "Anthropic Mythos 泄露之后，AI Practitioner\\n真正该更新的是安全假设",
+    "date": "2026-03-28",
+    "source": "https://yage.ai/share/mythos-agent-security-assumptions-20260328.html",
+    "file": "articles/mythos-agent-security-assumptions-20260328.md"
+  },
+  {
+    "slug": "lancedb-selection-guide-20260327",
+    "title": "LanceDB\\n选型指南：它为什么这么火，以及你的项目是否该用它",
+    "date": "2026-03-27",
+    "source": "https://yage.ai/share/lancedb-selection-guide-20260327.html",
+    "file": "articles/lancedb-selection-guide-20260327.md"
+  },
+  {
+    "slug": "wechat-uia-platform-feasibility-survey-20260327",
+    "title": "微信自动化跨平台可行性调研：聊天记录分析与少量群聊监控",
+    "date": "2026-03-27",
+    "source": "https://yage.ai/share/wechat-uia-platform-feasibility-survey-20260327.html",
+    "file": "articles/wechat-uia-platform-feasibility-survey-20260327.md"
+  },
+  {
+    "slug": "openai-sora-api-shutdown-20260327",
+    "title": "OpenAI 关掉 Sora 可以理解，但为什么连 API\\n都关了？",
+    "date": "2026-03-27",
+    "source": "https://yage.ai/share/openai-sora-api-shutdown-20260327.html",
+    "file": "articles/openai-sora-api-shutdown-20260327.md"
+  },
+  {
+    "slug": "why-coding-agents-still-use-grep-20260327",
+    "title": "为什么 Coding Agent 的搜索主干仍然是 grep",
+    "date": "2026-03-27",
+    "source": "https://yage.ai/share/why-coding-agents-still-use-grep-20260327.html",
+    "file": "articles/why-coding-agents-still-use-grep-20260327.md"
+  },
+  {
+    "slug": "rag-reinvented-search-engine-20260326",
+    "title": "RAG 的每一项核心技术，搜索引擎都做过",
+    "date": "2026-03-26",
+    "source": "https://yage.ai/share/rag-reinvented-search-engine-20260326.html",
+    "file": "articles/rag-reinvented-search-engine-20260326.md"
+  },
+  {
+    "slug": "why-ai-companies-publish-open-source-research-20260325",
+    "title": "如果研究真有用，为什么不偷偷用？AI\\n公司公开和开源研究的产业逻辑",
+    "date": "2026-03-25",
+    "source": "https://yage.ai/share/why-ai-companies-publish-open-source-research-20260325.html",
+    "file": "articles/why-ai-companies-publish-open-source-research-20260325.md"
+  },
+  {
+    "slug": "highlight-recovery-vs-low-light-survey-20260325",
+    "title": "低光增强 vs\\n高光过曝恢复：为什么一边繁荣、一边沉寂",
+    "date": "2026-03-25",
+    "source": "https://yage.ai/share/highlight-recovery-vs-low-light-survey-20260325.html",
+    "file": "articles/highlight-recovery-vs-low-light-survey-20260325.md"
+  },
+  {
+    "slug": "turboquant-kv-cache-3-bit-20260325",
+    "title": "TurboQuant：Google 想把 KV Cache 压到 3 bit",
+    "date": "2026-03-25",
+    "source": "https://yage.ai/share/turboquant-kv-cache-3-bit-20260325.html",
+    "file": "articles/turboquant-kv-cache-3-bit-20260325.md"
+  },
+  {
+    "slug": "meta-ai-builder-pods-survey-20260325",
+    "title": "Meta AI Builder\\nPods：当执行成本趋近于零，你的护城河在哪里",
+    "date": "2026-03-25",
+    "source": "https://yage.ai/share/meta-ai-builder-pods-survey-20260325.html",
+    "file": "articles/meta-ai-builder-pods-survey-20260325.md"
+  },
+  {
+    "slug": "litellm-pypi-hijack-ai-engineers-20260324",
+    "title": "LiteLLM PyPI 包被劫持：AI 工程师需要知道的事",
+    "date": "2026-03-24",
+    "source": "https://yage.ai/share/litellm-pypi-hijack-ai-engineers-20260324.html",
+    "file": "articles/litellm-pypi-hijack-ai-engineers-20260324.md"
+  },
+  {
+    "slug": "us-sees-china-open-source-ai-path-20260323",
+    "title": "美国开始把中国开源 AI 当作一条独立的竞争路径",
+    "date": "2026-03-23",
+    "source": "https://yage.ai/share/us-sees-china-open-source-ai-path-20260323.html",
+    "file": "articles/us-sees-china-open-source-ai-path-20260323.md"
+  },
+  {
+    "slug": "ai-agent-credential-product-20260323",
+    "title": "AI Agent 的凭证问题，正在变成一个独立产品",
+    "date": "2026-03-23",
+    "source": "https://yage.ai/share/ai-agent-credential-product-20260323.html",
+    "file": "articles/ai-agent-credential-product-20260323.md"
+  },
+  {
+    "slug": "openclaw-intro-20260323",
+    "title": "OpenClaw 是什么｜一篇给新手的诚实介绍",
+    "date": "2026-03-23",
+    "source": "https://yage.ai/share/openclaw-intro-20260323.html",
+    "file": "articles/openclaw-intro-20260323.md"
+  },
+  {
+    "slug": "ruanzhu-ai-declaration-20260322",
+    "title": "软著登记要你承诺\\\"没用过 AI\\\"：这条规则到底在干什么",
+    "date": "2026-03-22",
+    "source": "https://yage.ai/share/ruanzhu-ai-declaration-20260322.html",
+    "file": "articles/ruanzhu-ai-declaration-20260322.md"
+  },
+  {
+    "slug": "tencent-wechat-agent-entry-20260321",
+    "title": "腾讯没有开放微信，但它给 Agent 开了一个官方入口",
+    "date": "2026-03-21",
+    "source": "https://yage.ai/share/tencent-wechat-agent-entry-20260321.html",
+    "file": "articles/tencent-wechat-agent-entry-20260321.md"
+  },
+  {
+    "slug": "claude-code-subscription-not-a-developer-credential-20260321",
+    "title": "Claude Code Subscription 不是开发者凭证：Anthropic\\n产品边界收紧的含义",
+    "date": "2026-03-21",
+    "source": "https://yage.ai/share/claude-code-subscription-not-a-developer-credential-20260321.html",
+    "file": "articles/claude-code-subscription-not-a-developer-credential-20260321.md"
+  },
+  {
+    "slug": "msa-memory-sparse-attention-survey-20260320",
+    "title": "MSA 调研：长期记忆开始进入新的分工阶段",
+    "date": "2026-03-20",
+    "source": "https://yage.ai/share/msa-memory-sparse-attention-survey-20260320.html",
+    "file": "articles/msa-memory-sparse-attention-survey-20260320.md"
+  },
+  {
+    "slug": "cursor-composer-2-base-model-20260319",
+    "title": "Composer 2 的底座争议，以及 AI 编程工具的模型策略",
+    "date": "2026-03-19",
+    "source": "https://yage.ai/share/cursor-composer-2-base-model-20260319.html",
+    "file": "articles/cursor-composer-2-base-model-20260319.md"
+  },
+  {
+    "slug": "claude-dispatch-vs-openclaw-survey-20260318",
+    "title": "Claude Dispatch 深度分析：Anthropic 的 OpenClaw\\n应答，以及 AI Agent 平台分野的底层逻辑",
+    "date": "2026-03-18",
+    "source": "https://yage.ai/share/claude-dispatch-vs-openclaw-survey-20260318.html",
+    "file": "articles/claude-dispatch-vs-openclaw-survey-20260318.md"
+  },
+  {
+    "slug": "nvidia-gtc-2026-survey-20260317",
+    "title": "NVIDIA GTC\\n2026：黄仁勋在卖什么，以及他没说的那些事",
+    "date": "2026-03-17",
+    "source": "https://yage.ai/share/nvidia-gtc-2026-survey-20260317.html",
+    "file": "articles/nvidia-gtc-2026-survey-20260317.md"
+  },
+  {
+    "slug": "ai-mrna-vaccine-dog-multiperspective-20260317",
+    "title": "当 AI 遇见\\nmRNA：一只狗的癌症疫苗引发的十人思想实验",
+    "date": "2026-03-17",
+    "source": "https://yage.ai/share/ai-mrna-vaccine-dog-multiperspective-20260317.html",
+    "file": "articles/ai-mrna-vaccine-dog-multiperspective-20260317.md"
+  },
+  {
+    "slug": "claude-interactive-visualizations-20260316",
+    "title": "Claude Interactive Visualizations 深度分析：Anthropic\\n的可视化转向意味着什么",
+    "date": "2026-03-16",
+    "source": "https://yage.ai/share/claude-interactive-visualizations-20260316.html",
+    "file": "articles/claude-interactive-visualizations-20260316.md"
+  },
+  {
+    "slug": "cli-anything-harness-survey-20260316",
+    "title": "CLI-Anything 深度调研：HARNESS.md 方法论拆解",
+    "date": "2026-03-16",
+    "source": "https://yage.ai/share/cli-anything-harness-survey-20260316.html",
+    "file": "articles/cli-anything-harness-survey-20260316.md"
+  },
+  {
+    "slug": "long-context-benchmark-20260315",
+    "title": "Long Context 横评：三家都到了 1M，然后呢？",
+    "date": "2026-03-15",
+    "source": "https://yage.ai/share/long-context-benchmark-20260315.html",
+    "file": "articles/long-context-benchmark-20260315.md"
+  },
+  {
+    "slug": "codex-cli-internals-survey-20260314",
+    "title": "Codex CLI 内部实现解析：一个 Production-Grade Agent\\n客户端是怎么造的",
+    "date": "2026-03-14",
+    "source": "https://yage.ai/share/codex-cli-internals-survey-20260314.html",
+    "file": "articles/codex-cli-internals-survey-20260314.md"
+  },
+  {
+    "slug": "tests-moat-ai-era-survey-20260313",
+    "title": "测试是新的护城河吗：vinext 事件与 AI\\n时代的价值迁移",
+    "date": "2026-03-13",
+    "source": "https://yage.ai/share/tests-moat-ai-era-survey-20260313.html",
+    "file": "articles/tests-moat-ai-era-survey-20260313.md"
+  },
+  {
+    "slug": "cursorbench-analysis-20260312",
+    "title": "CursorBench 调研：当 Benchmark 遇见现实",
+    "date": "2026-03-12",
+    "source": "https://yage.ai/share/cursorbench-analysis-20260312.html",
+    "file": "articles/cursorbench-analysis-20260312.md"
+  },
+  {
+    "slug": "harness-engineering-survey-20260312",
+    "title": "Harness Engineering：当人类从写代码转向设计 Agent\\n的工作环境",
+    "date": "2026-03-12",
+    "source": "https://yage.ai/share/harness-engineering-survey-20260312.html",
+    "file": "articles/harness-engineering-survey-20260312.md"
+  },
+  {
+    "slug": "ai-coding-data-policy-survey-20260309",
+    "title": "AI 编程工具数据政策调研报告（2026年3月）",
+    "date": "2026-03-09",
+    "source": "https://yage.ai/share/ai-coding-data-policy-survey-20260309.html",
+    "file": "articles/ai-coding-data-policy-survey-20260309.md"
+  },
+  {
+    "slug": "ai-semantic-hints-compiler-20260307",
+    "title": "LLM Semantic Hints for Compiler Optimization",
+    "date": "2026-03-07",
+    "source": "https://yage.ai/share/ai-semantic-hints-compiler-20260307.html",
+    "file": "articles/ai-semantic-hints-compiler-20260307.md"
+  }
+]

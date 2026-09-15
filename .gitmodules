@@ -6,3 +6,11 @@
 	path = upstream/context-infrastructure
 	url = https://github.com/grapeot/context-infrastructure.git
 	branch = main
+[submodule "upstream/zvec-grep"]
+	path = upstream/zvec-grep
+	url = https://github.com/zvec-ai/zvec-grep.git
+	branch = main
+[submodule "upstream/OpenViking"]
+	path = upstream/OpenViking
+	url = https://github.com/volcengine/OpenViking.git
+	branch = main

@@ -17,6 +17,7 @@
 | **开放麦精选与实录** | [`index-of-open-mic.md`](index-of-open-mic.md) → `open-mic-archive/` | 收录第 1–7 期开放麦现场逐字稿、知识总结与讨论回顾。 |
 | **深度评述与复盘专栏** | [`Jenny/`](Jenny/) | Jenny 撰写的开放麦对外精选文章与深度评述。 |
 | **硬核指令与访谈实录** | [`Frank/`](Frank/) | Frank 的深度访谈、System Prompts、Memory 与 Skills 沉淀。 |
+| **前沿动态与深度透视** | [`deep-news/`](deep-news/) | 收录 431 篇前沿 AI 深度分析，提供 [时间演进索引](deep-news/index-by-time.md) 与 [主题知识树索引](deep-news/index-by-topic.md)。 |
 | **本地网页交互阅读** | 运行 `python3 viewer/server.py` | 启动本地服务，浏览器访问 [http://127.0.0.1:8766](http://127.0.0.1:8766) 进行图文浏览。 |
 
 ---
@@ -46,6 +47,7 @@ u-can-ai-kb/
 ├── open-mic-archive/         # 开放麦各期原始归档（知识页、逐字稿、AI总结）
 ├── Jenny/                    # 开放麦对外精选成文专栏
 ├── Frank/                    # 访谈实录、指令沉淀与技能配置
+├── deep-news/                # 431 篇前沿 AI 深度分析、时间演进与主题索引
 │
 ├── viewer/                   # 本地轻量 Web 预览工具（端口 8766）
 └── upstream/                 # 上游源仓库 Git 子模块（底层参考源）
