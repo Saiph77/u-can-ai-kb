@@ -1,0 +1,4 @@
+{
+  "soft": {"enabled": true, "rank_constant": 60, "half_life_days": 30, "weight": 0.25},
+  "stages": {"enabled": true}
+}
