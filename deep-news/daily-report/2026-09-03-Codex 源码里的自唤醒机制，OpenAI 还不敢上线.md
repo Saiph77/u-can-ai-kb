@@ -59,3 +59,11 @@ OpenAI 发布 GPT-6 Astra：OpenAI 9 月 3 日分阶段推出新模型 GPT-6 Ast
 订阅本 newsletter：daily.yage.ai ( https://0128b587.click.kit-mail3.com/lmu3evd75obmhndxw28s6h8d562w0ugh4z2op/48hvhehmxvz6kpaqu7/aHR0cHM6Ly9kYWlseS55YWdlLmFpLw== )
 
 Unsubscribe ( https://0128b587.unsubscribe.kit-mail3.com/lmu3evd75obmhndxw28s6h8d562w0ugh4z2op ) | Update your profile ( https://preferences.kit-mail3.com/lmu3evd75obmhndxw28s6h8d562w0ugh4z2op )
+
+---
+
+## 相关深度长文（本地归档）
+
+- [改完代码自己定闹钟盯 CI：OpenAI 源码里的自唤醒机制](../articles/codex-persistent-mode-20260903.md)（[yage.ai 原文](https://yage.ai/share/codex-persistent-mode-20260903.html)）
+- [智能体 token 用量过线人类、OpenAI 自研芯片跑分出炉、GitHub 发布文档压缩原型](../articles/caching-discount-three-ledgers-20260903.md)（[yage.ai 原文](https://yage.ai/share/caching-discount-three-ledgers-20260903.html)）
+- [KV cache 命中率：Agent 推理的第一成本杠杆](../articles/prefix-cache-agent-cost-lever-20260625.md)（[yage.ai 原文](https://yage.ai/share/prefix-cache-agent-cost-lever-20260625.html)）

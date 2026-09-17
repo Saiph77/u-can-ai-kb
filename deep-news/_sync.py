@@ -332,7 +332,13 @@ def item_from_file(path: Path) -> dict:
             for line in text[3:end].splitlines():
                 if ":" in line:
                     k, v = line.split(":", 1)
-                    meta[k.strip()] = v.strip().strip('"')
+                    v = v.strip()
+                    if v.startswith('"') and v.endswith('"'):
+                        try:
+                            v = json.loads(v)
+                        except json.JSONDecodeError:
+                            v = v.strip('"')
+                    meta[k.strip()] = v.replace("\\n", " ") if isinstance(v, str) else v
     return {
         "slug": meta.get("slug") or path.stem,
         "title": meta.get("title") or path.stem,
@@ -354,9 +360,14 @@ def write_index(items: list[dict]) -> None:
         "## 📖 结构化索引导航",
         "",
         "- 📅 **[按时间顺序演进索引](index-by-time.md)**：按月份划分 2026 年 3 月至 9 月的技术演进主线、月度重大事件与全量归档。",
-        "- 🧭 **[按内容主题相关性索引](index-by-topic.md)**：按 6 大核心领域（智能体、AI 编程、模型架构、评测安全、硬件算力、商业经济）与 18 个专题重构知识树。",
+        "- 🧭 **[按内容主题相关性索引](index-by-topic.md)**：按 6 大核心领域（智能体、AI 编程、模型架构、评测安全、硬件算力、商业经济）与 20 个专题重构知识树。",
+        "- 📮 **[鸭哥 AI 手记日报](daily-report/)**：29 期日报归档，与下方长文按发布日期对应。",
         "",
         "---",
+        "",
+        "<!-- MANUAL:BEGIN -->",
+        "<!-- 此区间内容在 _sync.py 重跑时会被保留，可放手工维护的导航/说明 -->",
+        "<!-- MANUAL:END -->",
         "",
         "## 📜 全量文章列表",
         "",
@@ -368,7 +379,18 @@ def write_index(items: list[dict]) -> None:
         source = it.get("source") or ""
         source_link = f" · [原网链接]({source})" if source else ""
         lines.append(f"- {date} [{title}]({rel}){source_link}")
-    (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    readme_path = ROOT / "README.md"
+    if readme_path.exists():
+        existing = readme_path.read_text(encoding="utf-8")
+        m = re.search(
+            r"<!-- MANUAL:BEGIN -->(.*?)<!-- MANUAL:END -->", existing, re.DOTALL
+        )
+        if m and m.group(1).strip() and "可放手工维护" not in m.group(1):
+            marker = next(
+                i for i, l in enumerate(lines) if l.startswith("<!-- MANUAL:BEGIN -->")
+            )
+            lines[marker + 1 : marker + 2] = [m.group(1).strip()]
+    readme_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     (ROOT / "index.json").write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -428,6 +450,19 @@ def main() -> None:
             print(f"  FAIL {n}: {e}")
     items = [item_from_file(p) for p in ARTICLES.glob("*.md")]
     write_index(items)
+    indexed: set[str] = set()
+    for idx_name in ("index-by-time.md", "index-by-topic.md"):
+        idx_path = ROOT / idx_name
+        if idx_path.exists():
+            indexed |= set(
+                re.findall(r"\]\(articles/([^)]+?)\.md\)", idx_path.read_text(encoding="utf-8"))
+            )
+    unindexed = sorted(it["slug"] for it in items if it["slug"] not in indexed)
+    if unindexed:
+        print(
+            f"WARNING: {len(unindexed)} articles not in index-by-time/topic "
+            f"(structured indexes are hand-maintained): {', '.join(unindexed[:10])}"
+        )
     if errors:
         (ROOT / "sync-errors.json").write_text(json.dumps(errors, ensure_ascii=False, indent=2) + "\n")
     print(f"done files={len(items)} fetched={fetched} skipped={skipped} fail={len(errors)}")

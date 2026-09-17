@@ -59,3 +59,10 @@ Anthropic 发布 Claude Fable 与 Mythos 5.1：Anthropic 推出面向 agentic �
 订阅本 newsletter：daily.yage.ai ( https://0128b587.click.kit-mail3.com/wvu620qxp7bghklegxpi7hnegkqgrs8h29wog/g3hnh5hmqgononf3u9/aHR0cHM6Ly9kYWlseS55YWdlLmFpLw== )
 
 Unsubscribe ( https://0128b587.unsubscribe.kit-mail3.com/wvu620qxp7bghklegxpi7hnegkqgrs8h29wog ) | Update your profile ( https://preferences.kit-mail3.com/wvu620qxp7bghklegxpi7hnegkqgrs8h29wog )
+
+---
+
+## 相关深度长文（本地归档）
+
+- [绕过270亿美元后，Nvidia为什么必须在Hugging Face身上硬闯反垄断](../articles/nvidia-hf-antitrust-20260902.md)（[yage.ai 原文](https://yage.ai/share/nvidia-hf-antitrust-20260902.html)）
+- [观众开始给画面写剧本：实时生成内容的新成本账](../articles/realtime-video-cost-ledger-20260902.md)（[yage.ai 原文](https://yage.ai/share/realtime-video-cost-ledger-20260902.html)）

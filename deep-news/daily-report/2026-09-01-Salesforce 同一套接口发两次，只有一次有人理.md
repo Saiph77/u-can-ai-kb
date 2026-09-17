@@ -61,3 +61,10 @@ G20 会上美欧 AI 监管路线公开分叉：美国在 G20 创新部长级会�
 订阅本 newsletter：daily.yage.ai ( https://0128b587.click.kit-mail3.com/lmu3evd75obmhndmlq6f6h8d5ko90sgh4z2op/l2hehmhlxwk0dzcgu0/aHR0cHM6Ly9kYWlseS55YWdlLmFpLw== )
 
 Unsubscribe ( https://0128b587.unsubscribe.kit-mail3.com/lmu3evd75obmhndmlq6f6h8d5ko90sgh4z2op ) | Update your profile ( https://preferences.kit-mail3.com/lmu3evd75obmhndmlq6f6h8d5ko90sgh4z2op )
+
+---
+
+## 相关深度长文（本地归档）
+
+- [管道不是产品：Salesforce 把同一套接口发了两次，只有一次有人理](../articles/claudeforce-pipes-not-products-20260901.md)（[yage.ai 原文](https://yage.ai/share/claudeforce-pipes-not-products-20260901.html)）
+- [模型进了设备，治理留在云端：端侧 AI 的控制面现状](../articles/on-device-ai-control-plane-20260901.md)（[yage.ai 原文](https://yage.ai/share/on-device-ai-control-plane-20260901.html)）

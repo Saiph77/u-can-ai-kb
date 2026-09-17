@@ -14,6 +14,8 @@
 | `Jenny/` | 开放麦对外成文 | 直接改；与 archive 里的源文件对应，不要把成文当逐字稿 |
 | `Frank/` | 访谈、指令、mems、skills | 直接改 |
 | `deep-news/` | 431 篇深度前沿资讯 | 包含 `index-by-time.md` 与 `index-by-topic.md`；同步由 `_sync.py` 驱动 |
+| `deep-news/daily-report/` | 29 期鸭哥 AI 手记日报 | 直接改；每篇末尾「相关深度长文」小节链接到 `../articles/` |
+| `deep-news/random-news/` | 预留目录（当前为空） | — |
 | `index-*.md` | 给人跳转的索引 | 改目录时一起改链接 |
 | `viewer/` | 本地预览（8766） | `python3 viewer/server.py` |
 | `upstream/` | 立正 / Infra 的 git 子模块（完整源库） | `git submodule update`；不要当阅读入口 |

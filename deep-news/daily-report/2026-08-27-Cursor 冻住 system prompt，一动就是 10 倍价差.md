@@ -65,3 +65,10 @@ AI 助手 Instinct 估值跳涨至 25 亿美元：前 Sierra 研究员 Noah Shin
 订阅本 newsletter：daily.yage.ai ( https://0128b587.click.kit-mail3.com/v8u4302869trhvqmrndfghvzmxgx8f9h0nqx4/wnh2hghq0w594otlux/aHR0cHM6Ly9kYWlseS55YWdlLmFpLw== )
 
 Unsubscribe ( https://0128b587.unsubscribe.kit-mail3.com/v8u4302869trhvqmrndfghvzmxgx8f9h0nqx4 ) | Update your profile ( https://preferences.kit-mail3.com/v8u4302869trhvqmrndfghvzmxgx8f9h0nqx4 )
+
+---
+
+## 相关深度长文（本地归档）
+
+- [Grok Bot 泄露：为什么 agent 的 system prompt 必须冻结](../articles/grok-bot-context-engineering-20260827.md)（[yage.ai 原文](https://yage.ai/share/grok-bot-context-engineering-20260827.html)）
+- [Grok Bot 泄露：Cursor 为什么只给模型一部分工具的完整定义](../articles/grok-bot-dynamic-tools-20260827.md)（[yage.ai 原文](https://yage.ai/share/grok-bot-dynamic-tools-20260827.html)）
