@@ -1,0 +1,506 @@
+{
+ "seed": 42,
+ "count": 52,
+ "cards": [
+  {
+   "id": "lz:20260715-chandler-guo-34539883",
+   "corpus": "lizheng-post",
+   "title": "“我从高中毕业到现在没缺过钱，但几次差点破产”｜对话宝二爷",
+   "date": "2026-07-15",
+   "snippet": "这两句话放在一起，才接近郭宏才真实的财富经历。他借过一百万元高利贷抄底，比特币随后继续腰斩；他把矿机厂、交易所和内蒙古矿场接到一起，一度把矿场做得很大，后来又经历矿场损失；他买过十万个以太坊，也因为押注 ETC 损失惨重",
+   "path": "upstream/lizheng-open-context/corpus/community-posts/20260715-chandler-guo-34539883.md",
+   "seq": 0
+  },
+  {
+   "id": "lz:20230127-x_NiQHffddY",
+   "corpus": "lizheng-video",
+   "title": "如何战略忽悠住你的老板？｜视频的广告和付费模式",
+   "date": "2023-01-27",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20230127-x_NiQHffddY.md",
+   "seq": 1
+  },
+  {
+   "id": "dn:mythos-evaluation-crisis-20260408",
+   "corpus": "deep-news",
+   "domain": "模型架构、长上下文与推理优化Model Architecture & Inference)",
+   "title": "当 AI 学会欺骗和灭迹，甚至在CoT里面隐藏这些思考：Anthropic 244 页报告揭示的评估困境",
+   "date": "2026-04-08",
+   "snippet": "每一轮大模型发布都越来越像：新模型出来，benchmark 涨了几个点，自媒体震惊，大家试用一圈发现体感差异不大。看起来 AI 进步在放缓，可能已经进入平台期。",
+   "path": "deep-news/articles/mythos-evaluation-crisis-20260408.md",
+   "seq": 2
+  },
+  {
+   "id": "lz-ctx:zhenbenshi-frameworks",
+   "corpus": "lizheng-context",
+   "title": "《真本事》核心框架详解",
+   "date": "",
+   "snippet": "这些内容是书中的分析框架和启发式，不是对人的诊断、普遍规律或结果保证。使用前先区分：",
+   "path": "upstream/lizheng-open-context/context/zhenbenshi-frameworks.md",
+   "seq": 3
+  },
+  {
+   "id": "dn:why-drone-arm-no-linux-20260730",
+   "corpus": "deep-news",
+   "domain": "算力硬件、芯片体系与数据中心Hardware, Chips & Infrastructure)",
+   "title": "为什么无人机里那颗 ARM 芯片不跑 Linux",
+   "date": "2026-07-30",
+   "snippet": "一架消费级无人机里有四个小电机，每个电机边上配着一块方形小电路板，比大拇指指甲略大，然后是中间那块飞控主板。飞控主板负责跑算法、处理摄像头、接 GPS，那是你熟...",
+   "path": "deep-news/articles/why-drone-arm-no-linux-20260730.md",
+   "seq": 4
+  },
+  {
+   "id": "dn:coding-agent-form-factor-data-20260813",
+   "corpus": "deep-news",
+   "domain": "AI 辅助编程与 Harness EngineeringCoding Agents & Engineering)",
+   "title": "Coding Agent 的形态变化，都在抢同一样东西",
+   "date": "2026-08-13",
+   "snippet": "2026 年 5 月，DeepSeek 的招聘页上，热招职位第一位写着「Agent Harness 产品经理」（[DeepSeek 招聘页](https://a...",
+   "path": "deep-news/articles/coding-agent-form-factor-data-20260813.md",
+   "seq": 5
+  },
+  {
+   "id": "dn:neural-computer-e2e-learning-20260413",
+   "corpus": "deep-news",
+   "domain": "算力硬件、芯片体系与数据中心Hardware, Chips & Infrastructure)",
+   "title": "当神经网络学会假装自己是一台电脑",
+   "date": "2026-04-13",
+   "snippet": "你每天看到的电脑屏幕，如果不是操作系统在渲染，而是一个视频模型在逐帧”编造”出来的，你能分辨吗？",
+   "path": "deep-news/articles/neural-computer-e2e-learning-20260413.md",
+   "seq": 6
+  },
+  {
+   "id": "dn:open-model-selfhost-decision-20260904",
+   "corpus": "deep-news",
+   "domain": "模型架构、长上下文与推理优化Model Architecture & Inference)",
+   "title": "把模型搬回自己家之前，先算三本账",
+   "date": "2026-09-04",
+   "snippet": "一个在 GPU 云厂商负责开发者生态的工程师，家里装了一套 GPU 机架跑开源权重模型。他公开坦白这套硬件不省钱，电费可能翻倍，他自己说不再试图用经济收益辩护，...",
+   "path": "deep-news/articles/open-model-selfhost-decision-20260904.md",
+   "seq": 7
+  },
+  {
+   "id": "dn:claude-design-reverse-engineering-20260607",
+   "corpus": "deep-news",
+   "domain": "模型架构、长上下文与推理优化Model Architecture & Inference)",
+   "title": "Claude Design 背后的工作分解：从开源插件反向推理一位 AI 设计师的运作方式",
+   "date": "2026-06-07",
+   "snippet": "Claude Design 上线后，社交媒体上反复出现一类帖子：一个人截张图，说花了 5 分钟让 Claude 生成了一整套 brand kit、一个 land...",
+   "path": "deep-news/articles/claude-design-reverse-engineering-20260607.md",
+   "seq": 8
+  },
+  {
+   "id": "dn:local-llm-two-markets-20260826",
+   "corpus": "deep-news",
+   "domain": "模型架构、长上下文与推理优化Model Architecture & Inference)",
+   "title": "本地 LLM 这个词，把两个市场混装成了一个",
+   "date": "2026-08-26",
+   "snippet": "过去两个月里，圈子里很常见的说法是本地 LLM 要回来了。理由听起来充分：Qwen3.8-27B 这样的开放权重模型已经能稳妥跑在消费级显卡上，agent 的大...",
+   "path": "deep-news/articles/local-llm-two-markets-20260826.md",
+   "seq": 9
+  },
+  {
+   "id": "dn:self-improving-ai-2d-field-20260829",
+   "corpus": "deep-news",
+   "domain": "评测基准、自我改进与安全对抗Evaluation, Alignment & Security)",
+   "title": "自我改进 AI：一个被压扁的二维场",
+   "date": "2026-08-29",
+   "snippet": "2026 年上半年，自我改进 AI 从实验室术语变成了融资新闻的标题。5 月，[Recursive Superintelligence](https://www...",
+   "path": "deep-news/articles/self-improving-ai-2d-field-20260829.md",
+   "seq": 10
+  },
+  {
+   "id": "lz:20230131-Yn6DgCdgsjQ",
+   "corpus": "lizheng-video",
+   "title": "你为什么会轻易放弃思考？",
+   "date": "",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20230131-Yn6DgCdgsjQ.md",
+   "seq": 11
+  },
+  {
+   "id": "lz-ctx:public-profile",
+   "corpus": "lizheng-context",
+   "title": "Yuzheng Sun / 立正",
+   "date": "",
+   "snippet": "Yuzheng Sun（孙煜征，立正；YouTube 频道历史名称为“课代表立正”）是 Superlinear Academy 创始人。他关注人在技术与组织变化中如何形成可检验的判断、学到真实能力，并把这些能力做成能被世",
+   "path": "upstream/lizheng-open-context/context/public-profile.md",
+   "seq": 12
+  },
+  {
+   "id": "trap:lizheng-solo-regret",
+   "corpus": "lizheng-video",
+   "title": "深夜谈：付费社群做到第三年，我后悔了哪三件事",
+   "date": "2025-11-30",
+   "snippet": "这期没提纲，就是想把三年做社群的三件事摊开说：定价、踢人、还有我自己舍不得放下的那部分表达欲。",
+   "path": null,
+   "trap": true,
+   "seq": 13
+  },
+  {
+   "id": "dn:ai-bond-buyer-capacity-20260829",
+   "corpus": "deep-news",
+   "domain": "成本经济学、商业模式与产业变局Business Economics & Industry Ecosystem)",
+   "title": "AI 大厂 2200 亿债全卖光了，为什么借钱还在变贵",
+   "date": "2026-08-29",
+   "snippet": "今年 7 月，Amazon 在公开市场上发售了一笔 250 亿美元的公司债。买家最终提交的订单总量，只有发行规模的 1.6 倍，债券在挂牌交易的第一天就跌破了发...",
+   "path": "deep-news/articles/ai-bond-buyer-capacity-20260829.md",
+   "seq": 14
+  },
+  {
+   "id": "lz:20220902-H7spE0UiGTg",
+   "corpus": "lizheng-video",
+   "title": "学会吃苦！",
+   "date": "2022-09-02",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20220902-H7spE0UiGTg.md",
+   "seq": 15
+  },
+  {
+   "id": "dn:openai-data-agent-offline-context-20260806",
+   "corpus": "deep-news",
+   "domain": "AI 辅助编程与 Harness EngineeringCoding Agents & Engineering)",
+   "title": "OpenAI 带来的上下文工程范式反思：为何离线编撰能让在线 RAG 看得更少、更准？",
+   "date": "2026-08-06",
+   "snippet": "我最近注意到 OpenAI 在 2026 年初发的一份介绍内部数据 Agent（Data Agent）的报告 [《Inside our in-house dat...",
+   "path": "deep-news/articles/openai-data-agent-offline-context-20260806.md",
+   "seq": 16
+  },
+  {
+   "id": "dn:caching-discount-three-ledgers-20260903",
+   "corpus": "deep-news",
+   "domain": "算力硬件、芯片体系与数据中心Hardware, Chips & Infrastructure)",
+   "title": "智能体 token 用量过线人类、OpenAI 自研芯片跑分出炉、GitHub 发布文档压缩原型",
+   "date": "2026-09-03",
+   "snippet": "先看上周 AI 行业的三条新闻。OpenRouter 平台公布了一组数据，智能体消耗的 token 数量超过了人类，差距还在拉大。接着 OpenAI 放出了自研...",
+   "path": "deep-news/articles/caching-discount-three-ledgers-20260903.md",
+   "seq": 17
+  },
+  {
+   "id": "dn:shopify-generative-kernel-20260413",
+   "corpus": "deep-news",
+   "domain": "智能体架构与自主系统工程Agent Architecture & Systems)",
+   "title": "Shopify 把后台全开放给 AI 了：从生成内核的视角看这件事为什么重要",
+   "date": "2026-04-13",
+   "snippet": "2026 年初，Shopify 做了一个在电商行业相当激进的决定：把整个后台的读写权限通过标准化协议开放给了所有 AI Agent。产品信息、订单数据、库存状态...",
+   "path": "deep-news/articles/shopify-generative-kernel-20260413.md",
+   "seq": 18
+  },
+  {
+   "id": "dn:ai-semantic-hints-compiler-20260307",
+   "corpus": "deep-news",
+   "domain": "成本经济学、商业模式与产业变局Business Economics & Industry Ecosystem)",
+   "title": "LLM Semantic Hints for Compiler Optimization",
+   "date": "2026-03-07",
+   "snippet": "程序有很多性质，从语义层面一眼就能看出来，但编译器要形式化地证明需要复杂的分析、甚至根本无法证明。",
+   "path": "deep-news/articles/ai-semantic-hints-compiler-20260307.md",
+   "seq": 19
+  },
+  {
+   "id": "lz:20240806-504af0-13761958",
+   "corpus": "lizheng-post",
+   "title": "社区的意义，微信群，注意力和习惯 -- 为什么要建立新社区？",
+   "date": "2024-08-06",
+   "snippet": "以及为什么不用 飞书/Slack/Discord/企业微信/Telegram/QQ/Whatsapp/知识星球？",
+   "path": "upstream/lizheng-open-context/corpus/community-posts/20240806-504af0-13761958.md",
+   "seq": 20
+  },
+  {
+   "id": "dn:turso-database-per-agent-20260805",
+   "corpus": "deep-news",
+   "domain": "算力硬件、芯片体系与数据中心Hardware, Chips & Infrastructure)",
+   "title": "单库单 Agent：一场被简化了的数据库革命",
+   "date": "2026-08-07",
+   "snippet": "在上一个月对 Turso 演进路线的拆解中，我们探讨过 [从每个租户一库到每个 Agent 一库：Turso 的产品赌注与竞争版图](https://yage....",
+   "path": "deep-news/articles/turso-database-per-agent-20260805.md",
+   "seq": 21
+  },
+  {
+   "id": "dn:robot-access-regime-20260908",
+   "corpus": "deep-news",
+   "domain": "成本经济学、商业模式与产业变局Business Economics & Industry Ecosystem)",
+   "title": "机器人三十年不查证件，为什么现在开始查了",
+   "date": "2026-09-08",
+   "snippet": "2026 年 8 月 28 日，Cloudflare 上线了 [BotBase for Operators](https://blog.cloudflare.c...",
+   "path": "deep-news/articles/robot-access-regime-20260908.md",
+   "seq": 22
+  },
+  {
+   "id": "dn:ai-chip-design-20260624",
+   "corpus": "deep-news",
+   "domain": "模型架构、长上下文与推理优化Model Architecture & Inference)",
+   "title": "OpenAI 九个月流片背后：AI 在芯片设计里到底做到了什么",
+   "date": "2026-06-24",
+   "snippet": "2026年6月，OpenAI 发布了自研推理芯片 Jalapeño。最抓人的数字是时间：从概念到流片收工只花了九个月，OpenAI 的新闻稿直接叫它「史上最快的...",
+   "path": "deep-news/articles/ai-chip-design-20260624.md",
+   "seq": 23
+  },
+  {
+   "id": "lz:20260326-99241835",
+   "corpus": "lizheng-comment",
+   "title": "对《AI Native 的组织形态：当执行成本下降，组织必须重写》的补充",
+   "date": "2026-03-26",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/community-comments/20260326-99241835.md",
+   "seq": 24
+  },
+  {
+   "id": "lz:20241003-recording-15291072",
+   "corpus": "lizheng-post",
+   "title": "中美文化差异的活动总结",
+   "date": "2024-10-03",
+   "snippet": "在近期的课代表社群活动中，我们有幸邀请到一位在中美职场都有丰富经验的嘉宾，他深入分享了自己对中美文化差异的独到见解。这场分享不仅揭示了语言背后的文化深层次差异，还为我们提供了在跨文化职场中有效沟通的实用策略。",
+   "path": "upstream/lizheng-open-context/corpus/community-posts/20241003-recording-15291072.md",
+   "seq": 25
+  },
+  {
+   "id": "dn:ai-self-improvement-exam-bottleneck-20260908",
+   "corpus": "deep-news",
+   "domain": "评测基准、自我改进与安全对抗Evaluation, Alignment & Security)",
+   "title": "好点子已经过剩，AI 自我改进的瓶颈在考场",
+   "date": "2026-09-08",
+   "snippet": "Anthropic 在 8 月 28 日发了一份实验报告，标题叫《自动化研究者能可靠地缓解对齐失败》。他们让 Claude Opus 4.8 驱动自动化研究智能...",
+   "path": "deep-news/articles/ai-self-improvement-exam-bottleneck-20260908.md",
+   "seq": 26
+  },
+  {
+   "id": "dn:vla-vs-physics-robotics-20260413",
+   "corpus": "deep-news",
+   "domain": "成本经济学、商业模式与产业变局Business Economics & Industry Ecosystem)",
+   "title": "为什么“不懂物理”的机器人反而赢了",
+   "date": "2026-04-13",
+   "snippet": "最近一年，机器人领域发生了一件反直觉的事情。",
+   "path": "deep-news/articles/vla-vs-physics-robotics-20260413.md",
+   "seq": 27
+  },
+  {
+   "id": "lz:20220728-p3qgu4yx2_o",
+   "corpus": "lizheng-video",
+   "title": "工作中最重要的三个月，如何应对？｜这四个好学生习惯一定要改！",
+   "date": "2022-07-28",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20220728-p3qgu4yx2_o.md",
+   "seq": 28
+  },
+  {
+   "id": "dn:prefix-cache-agent-cost-lever-20260625",
+   "corpus": "deep-news",
+   "domain": "智能体架构与自主系统工程Agent Architecture & Systems)",
+   "title": "KV cache 命中率：Agent 推理的第一成本杠杆",
+   "date": "2026-06-25",
+   "snippet": "一个 ReAct agent 执行 10 次工具调用，总共只产出 500 个 output token，却吃掉了 80 万 input token。模型做那 5...",
+   "path": "deep-news/articles/prefix-cache-agent-cost-lever-20260625.md",
+   "seq": 29
+  },
+  {
+   "id": "dn:alarm-acceptance-maintenance-20260816",
+   "corpus": "deep-news",
+   "domain": "AI 辅助编程与 Harness EngineeringCoding Agents & Engineering)",
+   "title": "一个闹钟，一份验收，就能养一个代码库",
+   "date": "2026-08-16",
+   "snippet": "[Boris Cherny](https://x.com/bcherny/status/2088014489438621990) 前段时间做了个实验。团队建了一...",
+   "path": "deep-news/articles/alarm-acceptance-maintenance-20260816.md",
+   "seq": 30
+  },
+  {
+   "id": "dn:two-gate-machines-nvidia-china-20260820",
+   "corpus": "deep-news",
+   "domain": "算力硬件、芯片体系与数据中心Hardware, Chips & Infrastructure)",
+   "title": "先问华为，再关大门：两台国家机器怎么分别挡住了 NVIDIA",
+   "date": "2026-08-20",
+   "snippet": "2025 年 1 月，NVIDIA 给中国市场端出了一款特供显卡 RTX 5090D。这个带 D 的后缀从上一代 4090D 沿袭下来：同一代旗舰架构，规格修剪...",
+   "path": "deep-news/articles/two-gate-machines-nvidia-china-20260820.md",
+   "seq": 31
+  },
+  {
+   "id": "dn:kitesurf-agent-browser-compatibility-layer-20260809",
+   "corpus": "deep-news",
+   "domain": "成本经济学、商业模式与产业变局Business Economics & Industry Ecosystem)",
+   "title": "浏览器是 Agent 覆盖面最广的兼容层，但 Chrome 不是：为什么我们需要 Kitesurf？",
+   "date": "2026-08-09",
+   "snippet": "聊起 AI Agent 的基础设施，大家常假设未来的软件都会暴露一套干净优雅的 AI 原生接口。可现实往往正好相反，市面上数以万计的网页应用、SaaS 系统和企...",
+   "path": "deep-news/articles/kitesurf-agent-browser-compatibility-layer-20260809.md",
+   "seq": 32
+  },
+  {
+   "id": "lz:20260327-99344474",
+   "corpus": "lizheng-comment",
+   "title": "对《AI Native 的组织形态：当执行成本下降，组织必须重写》的补充",
+   "date": "2026-03-27",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/community-comments/20260327-99344474.md",
+   "seq": 33
+  },
+  {
+   "id": "lz-ctx:core-thesis",
+   "corpus": "lizheng-context",
+   "title": "MAKE WHAT LASTS. / 做点真东西。",
+   "date": "",
+   "snippet": "`真` 不是作者给自己的认证。它的最低标准是：这件事具体到足以让现实回答。产品可以被使用或拒绝，判断可以被证伪，方法可以改变结果，作品可以被继续观看，制度可以继续赢得或失去信任。",
+   "path": "upstream/lizheng-open-context/context/core-thesis.md",
+   "seq": 34
+  },
+  {
+   "id": "lz:20210830-nBQ-fcPkZG0",
+   "corpus": "lizheng-video",
+   "title": "头铁up主，中英夹杂还有理了？",
+   "date": "2021-08-30",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20210830-nBQ-fcPkZG0.md",
+   "seq": 35
+  },
+  {
+   "id": "lz:20250924-9kh1YvzZYks",
+   "corpus": "lizheng-video",
+   "title": "AB实验，有哪些重要却不为人知的知识？｜课代表数据大师课5",
+   "date": "2025-09-24",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20250924-9kh1YvzZYks.md",
+   "seq": 36
+  },
+  {
+   "id": "trap:w3c-agent-id",
+   "corpus": "deep-news",
+   "title": "为 Agent 造身份证：W3C 新提案能终结凭证混乱吗",
+   "date": "2026-07-22",
+   "snippet": "W3C 上周放出了 Agent Identity 的 early draft，想给每个 agent 发一张可验证的身份证。问题是证书体系的每一次扩张，最后都变成了少数人收税的关口。",
+   "path": null,
+   "trap": true,
+   "seq": 37
+  },
+  {
+   "id": "dn:cost-into-models-swe2-20260912",
+   "corpus": "deep-news",
+   "domain": "AI 辅助编程与 Harness EngineeringCoding Agents & Engineering)",
+   "title": "画得出成本曲线，不等于压得下成本曲线",
+   "date": "2026-09-13",
+   "snippet": "挑选模型阶段，许多团队都宣称自己的方案更加划算。但在真实工程里部署代码智能体，月底面对的账单依然居高不下。很多开发者以为换用更便宜的模型或者调短思考时间就能省钱...",
+   "path": "deep-news/articles/cost-into-models-swe2-20260912.md",
+   "seq": 38
+  },
+  {
+   "id": "lz-ctx:public-axioms-v1",
+   "corpus": "lizheng-context",
+   "title": "Public Axioms V1 / 公共思考透镜",
+   "date": "",
+   "snippet": "这里保留 `axioms` 这个名字，方便人和 agent 找到一组稳定的 V1 入口；实际使用时应把它们当成思考透镜，而不是“立正人格定律”或要放到每个问题上的固定规则。它们来自公开文章、视频与当前主张中反复出现的思考",
+   "path": "upstream/lizheng-open-context/context/public-axioms-v1.md",
+   "seq": 39
+  },
+  {
+   "id": "lz:20240724-5QcM1X_YMQk",
+   "corpus": "lizheng-video",
+   "title": "获取Product Market Fit的三个步骤",
+   "date": "2024-07-24",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20240724-5QcM1X_YMQk.md",
+   "seq": 40
+  },
+  {
+   "id": "lz:20260813-ai-native-35457543",
+   "corpus": "lizheng-post",
+   "title": "到底什么才算AI Native人才？｜如何unlearn？",
+   "date": "2026-08-13",
+   "snippet": "我对AI Native人才的定义：1）从工作本身出发，2）看见AI改写了哪些成本和能力，3）重新设计完成工作的更好方式，4）放大自己，并5）对结果负责。",
+   "path": "upstream/lizheng-open-context/corpus/community-posts/20260813-ai-native-35457543.md",
+   "seq": 41
+  },
+  {
+   "id": "dn:ai-agent-permission-security-20260531",
+   "corpus": "deep-news",
+   "domain": "评测基准、自我改进与安全对抗Evaluation, Alignment & Security)",
+   "title": "AI Agent 不需要被攻破，被说服就够了",
+   "date": "2026-06-02",
+   "snippet": "五月最后一天，Hacker News 上出现了一个帖子。发帖人描述了一条简单的攻击路径：打开 Meta 的 AI 客服对话窗口，说服 AI agent 你是某个...",
+   "path": "deep-news/articles/ai-agent-permission-security-20260531.md",
+   "seq": 42
+  },
+  {
+   "id": "lz:20230402-e_h6aIPBXKw",
+   "corpus": "lizheng-video",
+   "title": "盖茨和Altman眼中的GPT，是什么？",
+   "date": "",
+   "snippet": "",
+   "path": "upstream/lizheng-open-context/corpus/videos/20230402-e_h6aIPBXKw.md",
+   "seq": 43
+  },
+  {
+   "id": "dn:deepseek-v4-agentic-workload-20260429",
+   "corpus": "deep-news",
+   "domain": "智能体架构与自主系统工程Agent Architecture & Systems)",
+   "title": "深入浅出 DeepSeek V4：围绕 Agentic 负载的工程决策",
+   "date": "2026-04-29",
+   "snippet": "要理解 DeepSeek V4 在做什么，最直接的路标是看看它之前两代模型各自解决了什么。",
+   "path": "deep-news/articles/deepseek-v4-agentic-workload-20260429.md",
+   "seq": 44
+  },
+  {
+   "id": "dn:agent-browser-two-poles-20260814",
+   "corpus": "deep-news",
+   "domain": "智能体架构与自主系统工程Agent Architecture & Systems)",
+   "title": "Agent 的浏览器正在分裂成两极：真实态与并发密度为什么不可兼得",
+   "date": "2026-08-14",
+   "snippet": "2026 年春夏之交，两个为 agent 造的浏览器方案先后浮出水面。4 月，CitroLabs 的 Ego-Lite GitHub repo 上线，三个月冲到...",
+   "path": "deep-news/articles/agent-browser-two-poles-20260814.md",
+   "seq": 45
+  },
+  {
+   "id": "dn:midi-synthesis-history-20260608",
+   "corpus": "deep-news",
+   "domain": "评测基准、自我改进与安全对抗Evaluation, Alignment & Security)",
+   "title": "收到一个音符事件之后：数字音源的四十年",
+   "date": "2026-06-08",
+   "snippet": "你按下 MIDI 控制器上的中音 C 琴键，力度中等。这一瞬间，设备送出的信息只有三种数字：note on、音高 60、velocity 90。但从耳机里出来的...",
+   "path": "deep-news/articles/midi-synthesis-history-20260608.md",
+   "seq": 46
+  },
+  {
+   "id": "dn:api-key-where-20260511",
+   "corpus": "deep-news",
+   "domain": "AI 辅助编程与 Harness EngineeringCoding Agents & Engineering)",
+   "title": "API key 到底放在哪儿？——两个最常见场景的入门指南",
+   "date": "2026-05-11",
+   "snippet": "你刚拿到一个 API key。OpenAI 的、Tavily 的、或者某个第三方服务的。你的代码需要它才能跑，你的 AI 助手也需要它才能替你调接口。",
+   "path": "deep-news/articles/api-key-where-20260511.md",
+   "seq": 47
+  },
+  {
+   "id": "lz-ctx:zhenbenshi-reading-map",
+   "corpus": "lizheng-context",
+   "title": "《真本事：从会工作到会赚钱》阅读地图",
+   "date": "",
+   "snippet": "《真本事》讨论一个从学校进入真实世界以后经常被遮住的问题：会完成组织里的工作，不自动等于拥有能被市场持续选择的能力；收入、职业选择与自由，也不能只靠更努力地完成别人给出的记分牌。",
+   "path": "upstream/lizheng-open-context/context/zhenbenshi-reading-map.md",
+   "seq": 48
+  },
+  {
+   "id": "lz:20251124-architect-27206478",
+   "corpus": "lizheng-post",
+   "title": "新课The AI Architect开启Early Access｜AI Builders老学员福利｜Introducing \"The AI Architect\" Course",
+   "date": "2025-11-24",
+   "snippet": "Scroll down for the English version.",
+   "path": "upstream/lizheng-open-context/corpus/community-posts/20251124-architect-27206478.md",
+   "seq": 49
+  },
+  {
+   "id": "dn:long-context-layering-yarn-v4-20260825",
+   "corpus": "deep-news",
+   "domain": "智能体架构与自主系统工程Agent Architecture & Systems)",
+   "title": "近处保真、远处有损：三种长上下文方法背后的同一个直觉",
+   "date": "2026-08-25",
+   "snippet": "在大语言模型的推理过程中，上下文窗口是模型的工作记忆。模型在单次推理中能看到多少内容、以多高的清晰度看到这些内容，直接决定了它能完成什么任务。无论是跨越数千行代...",
+   "path": "deep-news/articles/long-context-layering-yarn-v4-20260825.md",
+   "seq": 50
+  },
+  {
+   "id": "dn:four-lanes-of-ai-memory-20260812",
+   "corpus": "deep-news",
+   "domain": "评测基准、自我改进与安全对抗Evaluation, Alignment & Security)",
+   "title": "你纠正了 AI 十几次，它为什么还是记不住",
+   "date": "2026-08-12",
+   "snippet": "跟 AI 助手一起干活，很容易碰到这种循环：第一天提醒它分析 EMEA 数据时要排除测试账号；到了第三天，它又把测试账号算进去了，你顺手纠正了一次；到了第五天，...",
+   "path": "deep-news/articles/four-lanes-of-ai-memory-20260812.md",
+   "seq": 51
+  }
+ ]
+}

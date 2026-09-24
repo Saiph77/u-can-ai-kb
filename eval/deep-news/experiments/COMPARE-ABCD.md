@@ -2,11 +2,11 @@
 
 | run | a:a | b:b | c:c | d:d |
 |---|---:|---:|---:|---:|
-| 全体 hit_at_1 | 0.689 | 0.767 | 0.722 | 0.778 |
-| 全体 primary_at_5 | 0.933 | 0.933 | 0.956 | 0.978 |
-| 全体 recall_at_5 | 0.594 | 0.596 | 0.513 | 0.581 |
-| 全体 ndcg_at_10 | 0.669 | 0.694 | 0.604 | 0.660 |
-| 全体 task_success_at_5 | 0.767 | 0.700 | 0.856 | 0.922 |
+| 全体 hit_at_1 | 0.689 | 0.756 | 0.711 | 0.767 |
+| 全体 primary_at_5 | 0.933 | 0.922 | 0.944 | 0.967 |
+| 全体 recall_at_5 | 0.594 | 0.588 | 0.505 | 0.573 |
+| 全体 ndcg_at_10 | 0.669 | 0.689 | 0.599 | 0.655 |
+| 全体 task_success_at_5 | 0.767 | 0.689 | 0.844 | 0.911 |
 | 全体 window_primary_at_5 | 0.870 | 0.667 | 0.926 | 0.963 |
 | 全体 stage_coverage_at_5 | 0.574 | 0.657 | 0.657 | 0.907 |
 | 全体 all_stages_at_5 | 0.333 | 0.389 | 0.389 | 0.722 |
@@ -29,11 +29,11 @@
 | evolution stage_coverage_at_5 | 0.574 | 0.657 | 0.657 | 0.907 |
 | evolution all_stages_at_5 | 0.333 | 0.389 | 0.389 | 0.722 |
 | evolution candidate_task_success | 0.778 | 0.889 | 0.889 | 1.000 |
-| foundation hit_at_1 | 0.778 | 0.833 | 0.833 | 0.833 |
-| foundation primary_at_5 | 0.889 | 0.944 | 0.944 | 0.944 |
-| foundation recall_at_5 | 0.500 | 0.542 | 0.542 | 0.542 |
-| foundation ndcg_at_10 | 0.725 | 0.752 | 0.752 | 0.752 |
-| foundation task_success_at_5 | 0.889 | 0.944 | 0.944 | 0.944 |
+| foundation hit_at_1 | 0.778 | 0.778 | 0.778 | 0.778 |
+| foundation primary_at_5 | 0.889 | 0.889 | 0.889 | 0.889 |
+| foundation recall_at_5 | 0.500 | 0.500 | 0.500 | 0.500 |
+| foundation ndcg_at_10 | 0.725 | 0.725 | 0.725 | 0.725 |
+| foundation task_success_at_5 | 0.889 | 0.889 | 0.889 | 0.889 |
 | foundation window_primary_at_5 | — | — | — | — |
 | foundation stage_coverage_at_5 | — | — | — | — |
 | foundation all_stages_at_5 | — | — | — | — |
@@ -68,7 +68,7 @@
 | evolution-browser | = (1→1) | = (1→1) | = (1→1) |
 | latest-router | = (1→1) | = (1→1) | = (1→1) |
 | current-router | = (1→1) | = (1→1) | = (1→1) |
-| foundation-router | win (1→1) | win (1→1) | win (1→1) |
+| foundation-router | = (1→1) | = (1→1) | = (1→1) |
 | historical-router | = (1→1) | win (1→1) | win (1→1) |
 | evolution-router | = (1→1) | = (1→1) | = (1→1) |
 | latest-memory | loss (1→1) | = (1→1) | = (1→1) |
@@ -92,21 +92,21 @@
 | historical-selfhost | loss (1→1) | = (1→1) | = (1→1) |
 | evolution-selfhost | win (0→0) | win (0→0) | win (0→1) |
 
-- b:b: win 2 / tie 21 / loss 7
-- c:c: win 6 / tie 23 / loss 1
-- d:d: win 8 / tie 21 / loss 1
+- b:b: win 1 / tie 22 / loss 7
+- c:c: win 5 / tie 24 / loss 1
+- d:d: win 7 / tie 22 / loss 1
 
 ## 诊断
 
-- a:a hybrid: calls=30 requested=3000 median_ms=1290.0 p95_ms=1353.9 fallback=0
-- a:a fts: calls=30 requested=3000 median_ms=528.6 p95_ms=549.5 fallback=0
-- a:a vector: calls=30 requested=3000 median_ms=1281.7 p95_ms=1352.0 fallback=0
-- b:b hybrid: calls=30 requested=3000 median_ms=1305.4 p95_ms=1345.9 fallback=0
-- b:b fts: calls=30 requested=3000 median_ms=533.7 p95_ms=558.3 fallback=0
-- b:b vector: calls=30 requested=3000 median_ms=1302.5 p95_ms=1368.6 fallback=0
-- c:c hybrid: calls=30 requested=3000 median_ms=1337.8 p95_ms=2796.9 fallback=0
-- c:c fts: calls=30 requested=3000 median_ms=538.9 p95_ms=1989.5 fallback=0
-- c:c vector: calls=30 requested=3000 median_ms=1334.3 p95_ms=2778.4 fallback=0
-- d:d hybrid: calls=39 requested=3000 median_ms=2556.5 p95_ms=2770.9 fallback=0
-- d:d fts: calls=39 requested=3000 median_ms=1777.6 p95_ms=1997.5 fallback=0
-- d:d vector: calls=39 requested=3000 median_ms=2534.0 p95_ms=2794.4 fallback=0
+- a:a hybrid: calls=30 requested=3000 median_ms=1389.2 p95_ms=1439.8 fallback=0
+- a:a fts: calls=30 requested=3000 median_ms=551.7 p95_ms=573.1 fallback=0
+- a:a vector: calls=30 requested=3000 median_ms=1357.2 p95_ms=1413.1 fallback=0
+- b:b hybrid: calls=30 requested=3000 median_ms=1374.9 p95_ms=1431.8 fallback=0
+- b:b fts: calls=30 requested=3000 median_ms=548.3 p95_ms=559.7 fallback=0
+- b:b vector: calls=30 requested=3000 median_ms=1382.2 p95_ms=1470.0 fallback=0
+- c:c hybrid: calls=30 requested=3000 median_ms=1533.3 p95_ms=2975.6 fallback=0
+- c:c fts: calls=30 requested=3000 median_ms=580.1 p95_ms=2066.3 fallback=0
+- c:c vector: calls=30 requested=3000 median_ms=1512.2 p95_ms=2895.0 fallback=0
+- d:d hybrid: calls=39 requested=3000 median_ms=2673.6 p95_ms=2987.2 fallback=0
+- d:d fts: calls=39 requested=3000 median_ms=1828.3 p95_ms=2057.4 fallback=0
+- d:d vector: calls=39 requested=3000 median_ms=2715.4 p95_ms=2975.8 fallback=0

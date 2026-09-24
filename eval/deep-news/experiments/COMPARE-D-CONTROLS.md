@@ -2,11 +2,11 @@
 
 | run | d:d | d:d_no_soft | d:d_no_stages |
 |---|---:|---:|---:|
-| 全体 hit_at_1 | 0.778 | 0.756 | 0.744 |
-| 全体 primary_at_5 | 0.978 | 0.978 | 0.956 |
-| 全体 recall_at_5 | 0.581 | 0.567 | 0.528 |
-| 全体 ndcg_at_10 | 0.660 | 0.645 | 0.619 |
-| 全体 task_success_at_5 | 0.922 | 0.922 | 0.856 |
+| 全体 hit_at_1 | 0.767 | 0.744 | 0.733 |
+| 全体 primary_at_5 | 0.967 | 0.967 | 0.944 |
+| 全体 recall_at_5 | 0.573 | 0.558 | 0.519 |
+| 全体 ndcg_at_10 | 0.655 | 0.640 | 0.614 |
+| 全体 task_success_at_5 | 0.911 | 0.911 | 0.844 |
 | 全体 window_primary_at_5 | 0.963 | 0.926 | 0.963 |
 | 全体 stage_coverage_at_5 | 0.907 | 0.907 | 0.657 |
 | 全体 all_stages_at_5 | 0.722 | 0.722 | 0.389 |
@@ -29,11 +29,11 @@
 | evolution stage_coverage_at_5 | 0.907 | 0.907 | 0.657 |
 | evolution all_stages_at_5 | 0.722 | 0.722 | 0.389 |
 | evolution candidate_task_success | 1.000 | 1.000 | 0.889 |
-| foundation hit_at_1 | 0.833 | 0.833 | 0.833 |
-| foundation primary_at_5 | 0.944 | 0.944 | 0.944 |
-| foundation recall_at_5 | 0.542 | 0.542 | 0.542 |
-| foundation ndcg_at_10 | 0.752 | 0.752 | 0.752 |
-| foundation task_success_at_5 | 0.944 | 0.944 | 0.944 |
+| foundation hit_at_1 | 0.778 | 0.778 | 0.778 |
+| foundation primary_at_5 | 0.889 | 0.889 | 0.889 |
+| foundation recall_at_5 | 0.500 | 0.500 | 0.500 |
+| foundation ndcg_at_10 | 0.725 | 0.725 | 0.725 |
+| foundation task_success_at_5 | 0.889 | 0.889 | 0.889 |
 | foundation window_primary_at_5 | — | — | — |
 | foundation stage_coverage_at_5 | — | — | — |
 | foundation all_stages_at_5 | — | — | — |
@@ -97,12 +97,12 @@
 
 ## 诊断
 
-- d:d hybrid: calls=39 requested=3000 median_ms=2556.5 p95_ms=2770.9 fallback=0
-- d:d fts: calls=39 requested=3000 median_ms=1777.6 p95_ms=1997.5 fallback=0
-- d:d vector: calls=39 requested=3000 median_ms=2534.0 p95_ms=2794.4 fallback=0
-- d:d_no_soft hybrid: calls=39 requested=3000 median_ms=2545.2 p95_ms=2776.6 fallback=0
-- d:d_no_soft fts: calls=39 requested=3000 median_ms=1760.4 p95_ms=1979.3 fallback=0
-- d:d_no_soft vector: calls=39 requested=3000 median_ms=2551.8 p95_ms=2769.8 fallback=0
-- d:d_no_stages hybrid: calls=30 requested=3000 median_ms=1384.5 p95_ms=2785.1 fallback=0
-- d:d_no_stages fts: calls=30 requested=3000 median_ms=546.9 p95_ms=1976.1 fallback=0
-- d:d_no_stages vector: calls=30 requested=3000 median_ms=1350.7 p95_ms=2762.6 fallback=0
+- d:d hybrid: calls=39 requested=3000 median_ms=2673.6 p95_ms=2987.2 fallback=0
+- d:d fts: calls=39 requested=3000 median_ms=1828.3 p95_ms=2057.4 fallback=0
+- d:d vector: calls=39 requested=3000 median_ms=2715.4 p95_ms=2975.8 fallback=0
+- d:d_no_soft hybrid: calls=39 requested=3000 median_ms=2664.2 p95_ms=3052.1 fallback=0
+- d:d_no_soft fts: calls=39 requested=3000 median_ms=1877.9 p95_ms=2084.3 fallback=0
+- d:d_no_soft vector: calls=39 requested=3000 median_ms=2752.2 p95_ms=3023.6 fallback=0
+- d:d_no_stages hybrid: calls=30 requested=3000 median_ms=1549.7 p95_ms=2978.6 fallback=0
+- d:d_no_stages fts: calls=30 requested=3000 median_ms=575.6 p95_ms=2053.1 fallback=0
+- d:d_no_stages vector: calls=30 requested=3000 median_ms=1493.3 p95_ms=2988.0 fallback=0

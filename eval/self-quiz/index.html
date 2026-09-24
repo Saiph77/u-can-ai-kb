@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KB 熟悉度自测</title>
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  :root {
+    --paper: #F5F2EB;
+    --ink: #1F1E1B;
+    --ink-2: #57534A;
+    --ink-3: #8A8478;
+    --line: #E3DFD3;
+    --card: #FDFCF9;
+    --accent: #C96F4A;
+    --accent-soft: #F3E3DA;
+  }
+  body {
+    font-family: -apple-system, "Helvetica Neue", "PingFang SC", sans-serif;
+    background: var(--paper); color: var(--ink);
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  }
+  .wrap { width: min(680px, 92vw); padding: 32px 0 48px; }
+  .serif { font-family: "Songti SC", "Charter", Georgia, "Times New Roman", serif; }
+  .meta { display: flex; gap: 10px; align-items: baseline; margin-bottom: 14px; }
+  .badge {
+    font-size: 12px; padding: 3px 11px; border-radius: 99px;
+    background: #EDE9DD; color: var(--ink-2); letter-spacing: .5px;
+    border: 1px solid var(--line);
+  }
+  .date { font-size: 13px; color: var(--ink-3); }
+  .progress-line { font-size: 13px; color: var(--ink-3); margin-left: auto; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+    padding: 38px 40px 34px; min-height: 230px;
+    box-shadow: 0 1px 2px rgba(31,30,27,.04), 0 8px 28px rgba(31,30,27,.05);
+    transition: box-shadow .15s, transform .15s;
+  }
+  .card.flash { box-shadow: 0 0 0 2px var(--accent), 0 8px 28px rgba(31,30,27,.05); transform: scale(1.008); }
+  .title { font-size: 24px; line-height: 1.5; font-weight: 600; }
+  .snippet { margin-top: 18px; font-size: 14.5px; line-height: 1.9; color: var(--ink-2); }
+  .options { display: flex; gap: 10px; margin-top: 24px; }
+  .opt {
+    flex: 1; border: 1px solid var(--line); border-radius: 12px; padding: 14px 8px;
+    text-align: center; font-size: 14px; color: var(--ink); background: #fff;
+    cursor: pointer; transition: border-color .12s, background .12s; user-select: none;
+  }
+  .opt:hover { border-color: var(--accent); }
+  .opt.sel { background: var(--accent-soft); border-color: var(--accent); }
+  .opt .k {
+    display: inline-block; min-width: 22px; padding: 1px 6px; margin-bottom: 8px;
+    border-radius: 6px; background: #EDE9DD; color: var(--ink);
+    font-weight: 700; font-size: 12.5px; border: 1px solid var(--line);
+  }
+  .opt.sel .k { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .opt .d { display: block; font-size: 12px; color: var(--ink-3); margin-top: 4px; }
+  .hint { margin-top: 16px; font-size: 12.5px; color: var(--ink-3); text-align: center; }
+  .bar { height: 3px; background: #E7E3D7; border-radius: 2px; margin-top: 16px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .2s; }
+  .center { text-align: center; padding: 48px 0; }
+  .center h1 { font-size: 30px; margin-bottom: 20px; font-weight: 600; }
+  .center p { color: var(--ink-2); line-height: 2.15; font-size: 15px; }
+  .kbd {
+    background: #fff; border: 1px solid var(--line); border-bottom-width: 2px;
+    border-radius: 6px; padding: 1px 8px; font-weight: 600; color: var(--ink); font-size: 13px;
+  }
+  .result h2 { font-size: 17px; margin: 26px 0 8px; font-weight: 600; }
+  .result li { font-size: 14px; color: var(--ink-2); line-height: 2; margin-left: 18px; }
+  .counts { display: flex; gap: 10px; margin: 20px 0 6px; }
+  .counts div {
+    flex: 1; background: #fff; border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px 8px; text-align: center; font-size: 12.5px; color: var(--ink-3);
+  }
+  .counts b { font-size: 28px; display: block; color: var(--ink); font-weight: 600; margin-bottom: 2px; }
+  details { margin-top: 8px; }
+  summary {
+    cursor: pointer; color: var(--ink-2); font-size: 14.5px; padding: 10px 2px;
+    border-bottom: 1px solid var(--line); font-weight: 500;
+  }
+  summary:hover { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<script>
+let cards = [], idx = 0, answers = {}, cardShownAt = 0, busy = false, done = false;
+
+fetch("cards.json").then(r => r.json()).then(d => { cards = d.cards; renderStart(); });
+
+function renderStart() {
+  document.getElementById("app").innerHTML = `
+    <div class="center">
+      <h1 class="serif">KB 熟悉度自测</h1>
+      <p>${cards.length} 张卡片，每张凭直觉按一个数字键：</p>
+      <p><span class="kbd">1</span> 重要且关心的核心问题 / 理念 / 资讯 / 信号<br>
+         <span class="kbd">2</span> 看过，但印象不深，没啥感觉<br>
+         <span class="kbd">3</span> 看过标题有印象，但没兴趣看 / 没看完<br>
+         <span class="kbd">4</span> 完全没看过</p>
+      <p style="font-size:13px;color:var(--ink-3)"><span class="kbd">←</span><span class="kbd">→</span> 前后翻卡 · 结果写入 results.jsonl · 按 1–4 开始</p>
+    </div>`;
+}
+
+function renderCard() {
+  const c = cards[idx];
+  const a = answers[c.id];
+  const corpusLabel = {"deep-news": "深度长文", "lizheng-video": "立正·视频",
+    "lizheng-post": "立正·社区帖", "lizheng-comment": "立正·社区评论",
+    "lizheng-context": "立正·框架文档"}[c.corpus] || c.corpus;
+  const opt = (n, label, d) =>
+    `<div class="opt${a && a.choice === n ? " sel" : ""}" onclick="answer(${n})"><span class="k">${n}</span>${label}<span class="d">${d}</span></div>`;
+  document.getElementById("app").innerHTML = `
+    <div class="meta">
+      <span class="badge">${corpusLabel}</span>
+      <span class="date">${c.date || ""}</span>
+      <span class="progress-line">${idx + 1} / ${cards.length}</span>
+    </div>
+    <div class="card" id="card">
+      <div class="title serif">${esc(c.title)}</div>
+      ${c.snippet ? `<div class="snippet">${esc(c.snippet)}…</div>` : ""}
+    </div>
+    <div class="options">
+      ${opt(1, "核心关心", "重要的问题/理念/信号")}
+      ${opt(2, "看过没感觉", "有印象但不深")}
+      ${opt(3, "只看过标题", "没兴趣看/没看完")}
+      ${opt(4, "完全没看过", "没印象")}
+    </div>
+    <div class="hint"><span class="kbd">←</span> 上一张 · <span class="kbd">→</span> 下一张 · 末张按 <span class="kbd">→</span> 看结果</div>
+    <div class="bar"><i style="width:${((idx + 1) / cards.length) * 100}%"></i></div>`;
+  cardShownAt = performance.now();
+}
+
+function answer(choice) {
+  if (busy || done) return;
+  busy = true;
+  const c = cards[idx];
+  const rec = {seq: c.seq, card_id: c.id, corpus: c.corpus, title: c.title,
+               path: c.path, choice, ms: Math.round(performance.now() - cardShownAt),
+               ts: new Date().toISOString()};
+  answers[c.id] = rec;
+  fetch("/answer", {method: "POST", headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify(rec)}).catch(() => {});
+  document.getElementById("card").classList.add("flash");
+  setTimeout(() => {
+    busy = false;
+    if (idx < cards.length - 1) { idx++; renderCard(); } else { done = true; renderEnd(); }
+  }, 170);
+}
+
+function nav(d) {
+  if (busy) return;
+  if (!document.getElementById("card") && !done) { if (d > 0) renderCard(); return; }
+  if (done) { if (d < 0) backFromEnd(); return; }
+  const next = idx + d;
+  if (next < 0) return;
+  if (next >= cards.length) { done = true; renderEnd(); return; }
+  idx = next;
+  renderCard();
+}
+
+function backFromEnd() {
+  done = false;
+  const firstUn = cards.findIndex(c => !answers[c.id]);
+  idx = firstUn >= 0 ? firstUn : cards.length - 1;
+  renderCard();
+}
+
+function renderEnd() {
+  const groups = {1: [], 2: [], 3: [], 4: []}, un = [];
+  cards.forEach(c => { const a = answers[c.id]; a ? groups[a.choice].push(c) : un.push(c); });
+  const list = arr => arr.map(c => `<li>${esc(c.title)}</li>`).join("") || "<li>（无）</li>";
+  document.getElementById("app").innerHTML = `
+    <div class="center"><h1 class="serif">完成</h1>
+      <div class="counts">
+        <div><b>${groups[1].length}</b>核心关心</div>
+        <div><b>${groups[2].length}</b>看过没感觉</div>
+        <div><b>${groups[3].length}</b>只看过标题</div>
+        <div><b>${groups[4].length}</b>完全没看过</div>
+      </div>
+      <p style="font-size:13px;color:var(--ink-3)">已写入 results.jsonl${un.length ? ` · 还有 ${un.length} 张未作答，按 ← 回去补` : ""}</p>
+    </div>
+    <div class="result">
+      ${un.length ? `<details open><summary>未作答（${un.length}）</summary><ul>${list(un)}</ul></details>` : ""}
+      <details open><summary>完全没看过（${groups[4].length}）— 待捞回清单</summary><ul>${list(groups[4])}</ul></details>
+      <details open><summary>只看过标题（${groups[3].length}）— 兴趣过滤器信号</summary><ul>${list(groups[3])}</ul></details>
+      <details><summary>看过没感觉（${groups[2].length}）</summary><ul>${list(groups[2])}</ul></details>
+      <details><summary>核心关心（${groups[1].length}）</summary><ul>${list(groups[1])}</ul></details>
+    </div>`;
+}
+
+function esc(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+
+document.addEventListener("keydown", e => {
+  if (["1", "2", "3", "4"].includes(e.key)) {
+    if (!cards.length) return;
+    if (!document.getElementById("card") && !done) { renderCard(); return; }
+    if (!done) answer(+e.key);
+  }
+  else if (e.key === "ArrowLeft") nav(-1);
+  else if (e.key === "ArrowRight") nav(1);
+  else if (e.key === "Enter" && idx === cards.length - 1 && !done) { done = true; renderEnd(); }
+});
+</script>
+</body>
+</html>

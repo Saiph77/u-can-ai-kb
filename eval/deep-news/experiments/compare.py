@@ -26,7 +26,9 @@ COMPARE_METRICS = ["hit_at_1", "primary_at_5", "recall_at_5", "ndcg_at_10",
 
 def check_comparable(payloads: list[dict]) -> None:
     base = payloads[0]
-    keys = ["as_of", "candidate_budget", "queries_sha256", "judgments_sha256"]
+    keys = ["as_of", "candidate_budget", "queries_sha256", "judgments_sha256",
+            "zg_version", "index_manifest_sha256", "embedding",
+            "embedding_runtime"]
     for i, p in enumerate(payloads[1:], 1):
         for k in keys:
             if p.get(k) != base.get(k):
@@ -47,6 +49,9 @@ def check_comparable(payloads: list[dict]) -> None:
     for p in payloads:
         if not p.get("valid"):
             raise SystemExit(f"invalid run cannot be ranked: "
+                             f"{p['variant']}/{p.get('label')}")
+        if not p.get("snapshot_unchanged"):
+            raise SystemExit(f"snapshot changed during run: "
                              f"{p['variant']}/{p.get('label')}")
 
 

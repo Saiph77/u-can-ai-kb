@@ -38,11 +38,15 @@ experiments/
 - `allowed_paths` 编码为补集排除 glob：`-g deep-news/articles/*.md` 后按稳定序追加 `!path`，再接 `!eval/**`（依赖 zg 规则顺序覆盖语义，见 C-WINDOW §3）。
 - `ranked_documents` 保留全部去重候选，rank 连续；评分端自行切 Top10 并在全量上算 CandidateTask。
 - 产物目录 `runs/experiments/<label>/<run-id>/`：`run.json`、`run.md`、`checkpoint.json`、`src/` 源码快照、`strategy-config.json`、题集与金标副本。**不写共享 latest 文件**。
+- 源码快照覆盖**传递依赖闭包**（C→B，D→B+C，见 `run.py` 的 `STRATEGY_DEPS`）；run.json 另记录 `zg_version`、`index_manifest_sha256`、`embedding`、`embedding_runtime`。`valid=true` 要求运行前后语料、题集、金标、评分脚本、**全部策略源码与配置**逐字节未变。
+- `compare.py` 在比分数前先校验：as_of、预算、题集/金标/评分指纹、语料指纹、zg 版本、索引 manifest 指纹、embedding 配置、qid 集合、路线集合、`valid` 与 `snapshot_unchanged`。
 - ReplayTransport 按 `(query, route)` 顺序回放记录的 raw_hits，`allowed_paths` 做前置过滤；找不到记录即报错，不允许凭空召回。
 
 ## 测试
 
 ```bash
 python3 -m unittest discover -s eval/deep-news/experiments -p 'test_*.py' -v
-# 50 tests: runtime 预算/范围、A 透传、B 30 题一致性+语法边界、C 窗口路由、D 数学/预算/合并
+# 55 tests: runtime 预算/范围、A 透传、B 30 题一致性（含阶段窗口↔金标月份核对、
+# trace 坐标不变量）+语法边界（非法月份、多年月歧义、不限发布控制组逐字保留）、
+# C 窗口路由、D 数学/预算/合并/超阶段回退
 ```

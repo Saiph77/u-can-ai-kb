@@ -163,6 +163,28 @@ class StrategyRouting(unittest.TestCase):
         with self.assertRaises(ValueError):
             d.validate_config({"soft": {"enabled": True, "bogus": 1}})
 
+    def test_over_max_stages_falls_back_cleanly(self):
+        # a plan with >MAX_STAGES must degrade to a single call, not crash
+        from experiments.common.loader import load_strategy
+        c_mod = load_strategy("c")
+        plan = {"status": "ok", "mode": "stages",
+                "topical_query": "X 演进",
+                "warnings": [],
+                "stages": [{"id": f"s{i}", "topical_query": "X",
+                            "window": {"start": "2026-04-01",
+                                       "end": "2026-09-15"},
+                            "source_span": {"start": 0, "end": 1}}
+                           for i in range(6)]}
+        t = fake(lambda q: [PATHS[0]])
+        r = rt(t)
+        res = d._stages({"query": "ignored", "as_of": "2026-09-15",
+                         "route": "fts", "candidate_budget": 100},
+                        plan, r, CFG, c_mod, stages)
+        self.assertEqual(len(t.calls), 1)
+        self.assertTrue(res["diagnostics"]["fallback"])
+        self.assertTrue(any("stages outside" in w
+                            for w in res["plan"]["warnings"]))
+
 
 if __name__ == "__main__":
     unittest.main()

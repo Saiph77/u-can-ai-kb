@@ -72,6 +72,7 @@ RE_STAGE_HEAD = re.compile(
     rf"(?:\s*[至到]\s*{MONTH}\s*月)?\s*的?")
 RE_STAGE_TRAILER = re.compile(
     r"[，,、。]?\s*(各要一个阶段的材料|[一二两三四五六七八九十\d]+\s*个?阶段都要)\s*。?\s*$")
+RE_YEAR_MONTH = re.compile(rf"\d{{4}}\s*年\s*{MONTH}\s*月")
 LEADING_VERBS = re.compile(r"^(只找|查找|找出|找齐|寻找|想找|梳理|把|找)\s*")
 GENERIC_ONLY = re.compile(r"^[的文章分析进展报道材料了呢吧啊，。、\s]*$")
 
@@ -161,15 +162,23 @@ def normalize(query: str, as_of: str) -> dict:
         trailer = RE_STAGE_TRAILER.search(body)
         if trailer:
             s0, e0 = trailer.span()
-            trace.append({"rule": "stage_trailer", "text": query[colon.end()+s0:e0],
+            trace.append({"rule": "stage_trailer",
+                          "text": query[colon.end() + s0:colon.end() + e0],
                           "start": colon.end() + s0, "end": colon.end() + e0})
         heads = list(RE_STAGE_HEAD.finditer(body_clean))
         parsed: list[tuple[int, int, str, int, int]] = []
         ok = bool(heads)
         if ok:
             for i, h in enumerate(heads):
-                m1 = cn_num(h.group(2))
-                m2 = cn_num(h.group(3)) if h.group(3) else m1
+                try:
+                    m1 = cn_num(h.group(2))
+                    m2 = cn_num(h.group(3)) if h.group(3) else m1
+                    if not (1 <= m1 <= 12 and 1 <= m2 <= 12):
+                        raise ValueError("month out of range")
+                except ValueError:
+                    ok = False
+                    warnings.append(f"invalid stage month in {h.group(0)!r}")
+                    break
                 seg_end = heads[i + 1].start() if i + 1 < len(heads) else len(body_clean)
                 desc = body_clean[h.end():seg_end]
                 desc = desc.strip(" ，,、。；;")
@@ -240,12 +249,18 @@ def normalize(query: str, as_of: str) -> dict:
         break
     if window is None:
         for m in RE_RANGE_MONTHS.finditer(query):
-            y = int(m.group(1)); m1 = cn_num(m.group(2)); m2 = cn_num(m.group(3))
+            try:
+                y = int(m.group(1))
+                m1, m2 = cn_num(m.group(2)), cn_num(m.group(3))
+                start, _ = _month_range(y, m1)
+                _, end = _month_range(y, m2)
+            except ValueError:
+                return _fallback(query, "unsupported",
+                                 [f"invalid month range in {m.group(0)!r}"],
+                                 trace)
             if m1 > m2:
                 return _fallback(query, "ambiguous",
                                  ["month range inverted"], trace)
-            start, _ = _month_range(y, m1)
-            _, end = _month_range(y, m2)
             window = {"start": start, "end": end}
             s, e = m.span()
             if query[e:e + 3] == "发布的":
@@ -260,8 +275,12 @@ def normalize(query: str, as_of: str) -> dict:
             s, e = m.span()
             if any(s < me and e > ms for ms, me in matched_spans):
                 continue
-            y = int(m.group(1)); mo = cn_num(m.group(2))
-            start, end = _month_range(y, mo)
+            try:
+                y = int(m.group(1)); mo = cn_num(m.group(2))
+                start, end = _month_range(y, mo)
+            except ValueError:
+                return _fallback(query, "unsupported",
+                                 [f"invalid month in {m.group(0)!r}"], trace)
             window = {"start": start, "end": end}
             if query[e:e + 3] == "发布的":
                 e += 3
@@ -318,8 +337,17 @@ def normalize(query: str, as_of: str) -> dict:
                          ["explicit window and soft preference conflict"], trace)
     if not asof_ok:
         return _fallback(query, "unsupported", warnings, trace)
+
+    # "不限发布时间" is a frozen control group: keep the query VERBATIM
+    # (plans/B-NORMALIZE §2: v1 完全保留原查询, mode=none).
     if no_date:
-        removals.append(no_date)
+        return _build(query, query, "none", None, [], "ok", warnings, trace)
+
+    # more than one unconsumed YYYY年M月 mention -> ambiguous, never guess
+    for ym in RE_YEAR_MONTH.finditer(query):
+        if not any(s <= ym.start() and ym.end() <= e for s, e in removals):
+            return _fallback(query, "ambiguous",
+                             ["multiple distinct year-month mentions"], trace)
 
     if window:
         if window["end"] > as_of:

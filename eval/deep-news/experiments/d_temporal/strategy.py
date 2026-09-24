@@ -79,7 +79,8 @@ def _stages(request, plan, runtime, cfg, c_mod, stages_mod):
         return _b()._single_call(request, runtime, plan["topical_query"],
                                  {**plan, "warnings": plan["warnings"] + [
                                      f"{len(plan['stages'])} stages outside "
-                                     f"2-{MAX_STAGES}; single-call fallback"]})
+                                     f"2-{MAX_STAGES}; single-call fallback"]},
+                                 True)
     budgets = stages_mod.allocate_budget(request["candidate_budget"],
                                          len(plan["stages"]))
     stage_doc_lists, stage_info = [], []

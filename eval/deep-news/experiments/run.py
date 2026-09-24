@@ -35,6 +35,13 @@ from experiments.common.runtime import (BudgetError, ReplayTransport,  # noqa: E
 
 REQUEST_FIELDS = ("query", "as_of", "route", "candidate_budget")
 
+# Transitive strategy dependencies: C executes B's plan, D delegates to B/C.
+# The source snapshot must cover every module that can influence results.
+STRATEGY_DEPS = {"a": ["a_baseline"],
+                 "b": ["b_normalize"],
+                 "c": ["b_normalize", "c_window"],
+                 "d": ["b_normalize", "c_window", "d_temporal"]}
+
 
 def build_request(q: dict, route: str, budget: int) -> dict:
     return {"query": q["query"], "as_of": q["as_of"], "route": route,
@@ -97,9 +104,9 @@ def main() -> None:
 
     # ---- strategy + config ------------------------------------------------
     strategy = load_strategy(args.variant)
-    variant_dir = {"a": "a_baseline", "b": "b_normalize",
-                   "c": "c_window", "d": "d_temporal"}[args.variant]
-    strategy_files = sorted((HERE / variant_dir).glob("*.py"))
+    dep_dirs = STRATEGY_DEPS[args.variant]
+    strategy_files = sorted(p for d in dep_dirs
+                            for p in (HERE / d).glob("*.py"))
     common_files = sorted((HERE / "common").glob("*.py")) + [HERE / "run.py"]
 
     if args.strategy_config:
@@ -114,14 +121,14 @@ def main() -> None:
 
     # ---- transport ---------------------------------------------------------
     replay = None
+    manifest_path = REPO_ROOT / ".zvec-grep/manifest.json"
+    manifest_raw = manifest_path.read_bytes() if manifest_path.exists() else b""
+    manifest = json.loads(manifest_raw) if manifest_raw else {}
     if args.replay:
         replay_payload = json.loads(Path(args.replay).read_text())
         replay = ReplayTransport.from_run(replay_payload)
         transport = replay
     else:
-        manifest_path = REPO_ROOT / ".zvec-grep/manifest.json"
-        manifest_raw = manifest_path.read_bytes()
-        manifest = json.loads(manifest_raw)
         if not manifest["rootPaths"] or any(
                 "!eval/**" not in r.get("globs", []) for r in manifest["rootPaths"]):
             p.error("index roots must exclude eval/**")
@@ -129,8 +136,10 @@ def main() -> None:
 
     documents = {path: {"published_at": d} for path, d in corpus["dates"].items()}
     run_dir = evaluation.new_run_dir(label)
-    snapshots = {**{pth.name: pth.read_bytes() for pth in strategy_files},
-                 **{f"common/{pth.name}": pth.read_bytes() for pth in common_files}}
+    snapshot_srcs = {pth.relative_to(HERE).as_posix(): pth
+                     for pth in strategy_files + common_files}
+    snapshots = {name: pth.read_bytes()
+                 for name, pth in snapshot_srcs.items()}
     for name, data in snapshots.items():
         (run_dir / "src").mkdir(exist_ok=True)
         (run_dir / "src" / name.replace("/", "__")).write_bytes(data)
@@ -153,6 +162,10 @@ def main() -> None:
                "judgments_sha256": core.digest(frozen[str(EVAL_DIR / "judgments.json")]),
                "zg_version": (subprocess.check_output(["zg", "--version"], text=True).strip()
                               if not args.replay else "replay"),
+               "index_manifest_sha256": (core.digest(manifest_raw)
+                                       if manifest_raw else None),
+               "embedding": manifest.get("embedding"),
+               "embedding_runtime": manifest.get("embeddingRuntime"),
                "items": []}
 
     for i, q in enumerate(queries, 1):
@@ -214,7 +227,10 @@ def main() -> None:
     payload["diagnostics"] = {r: route_diagnostics(payload["items"], r)
                               for r in routes}
     unchanged = (corpus["sha256"] == dn.corpus_snapshot()["sha256"]
-                 and all(pth.read_bytes() == frozen[str(pth)] for pth in source_paths))
+                 and all(pth.read_bytes() == frozen[str(pth)] for pth in source_paths)
+                 and all(snapshot_srcs[n].read_bytes() == data
+                         for n, data in snapshots.items())
+                 and (cfg_path.read_bytes() == cfg_raw if cfg_path else True))
     if not args.replay:
         unchanged = unchanged and manifest_raw == manifest_path.read_bytes()
     payload["snapshot_unchanged"] = unchanged

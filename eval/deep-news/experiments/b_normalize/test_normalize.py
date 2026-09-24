@@ -17,7 +17,14 @@ def N(q, as_of=AS_OF):
 
 
 class FrozenConformance(unittest.TestCase):
-    """Every frozen query parses to its declared mode/window/stage count."""
+    """Every frozen query parses to its declared mode/window/stage set."""
+
+    @staticmethod
+    def _frontmatter_month(path: str) -> str:
+        import re
+        root = Path(__file__).resolve().parents[4]
+        text = (root / path).read_text()
+        return re.search(r'^date:\s*"?(\d{4}-\d{2})', text, re.M).group(1)
 
     def test_all_30(self):
         for q in SPEC["queries"]:
@@ -31,6 +38,26 @@ class FrozenConformance(unittest.TestCase):
                                  q["id"])
             if gold["mode"] == "stages":
                 self.assertEqual(len(p["stages"]), len(q["stages"]), q["id"])
+                # stage boundaries: every gold doc's frontmatter month must
+                # fall inside its stage window (scoring-side check only)
+                for stage, gold_stage in zip(p["stages"], q["stages"]):
+                    months = {self._frontmatter_month(x)
+                              for x in gold_stage["paths"]}
+                    for m in months:
+                        self.assertTrue(
+                            stage["window"]["start"][:7] <= m
+                            <= stage["window"]["end"][:7],
+                            f"{q['id']} {stage['id']} month {m} outside "
+                            f"{stage['window']}")
+                    self.assertTrue(stage["topical_query"].strip(), q["id"])
+
+    def test_trace_spans_match_source(self):
+        """Every trace entry's text must equal the original span it cites."""
+        for q in SPEC["queries"]:
+            p = N(q["query"], q["as_of"])
+            for t in p["trace"]:
+                self.assertEqual(q["query"][t["start"]:t["end"]], t["text"],
+                                 f"{q['id']} trace {t['rule']}")
 
 
 class Grammar(unittest.TestCase):
@@ -69,9 +96,11 @@ class Grammar(unittest.TestCase):
         self.assertEqual(p["window"]["start"], "2026-05-31")
 
     def test_no_date_limit(self):
-        p = N("为什么 X 难？想找解释的文章，不限发布时间。")
+        # frozen control group: the query is kept VERBATIM (plans/B §2)
+        q = "为什么 X 难？想找解释的文章，不限发布时间。"
+        p = N(q)
         self.assertEqual(p["mode"], "none")
-        self.assertNotIn("不限发布时间", p["topical_query"])
+        self.assertEqual(p["topical_query"], q)
 
     def test_no_temporal_passthrough(self):
         q = "GPT-4 的上下文窗口机制是什么？"
@@ -128,6 +157,28 @@ class Grammar(unittest.TestCase):
         p = N(q)
         for t in p["trace"]:
             self.assertEqual(q[t["start"]:t["end"]], t["text"])
+
+    def test_multiple_year_months_ambiguous(self):
+        # two distinct dated months must not be silently reduced to the first
+        p = N("对比 2026 年六月和 2026 年七月的 X 讨论。")
+        self.assertEqual(p["status"], "ambiguous")
+        self.assertEqual(p["topical_query"],
+                         "对比 2026 年六月和 2026 年七月的 X 讨论。")
+
+    def test_invalid_month_unsupported_not_exception(self):
+        for q in ("只找 2026 年十三月发布的 X。",
+                  "只找 2026 年 13 月发布的 X。",
+                  "只找 2026 年十三月至十四月发布的 X。"):
+            p = N(q)  # must not raise
+            self.assertEqual(p["status"], "unsupported", q)
+            self.assertEqual(p["topical_query"], q)
+
+    def test_invalid_stage_month_falls_back(self):
+        # an unparseable stage month must not crash; query kept verbatim
+        p = N("梳理 X：十三月的甲、九月的乙。")
+        self.assertNotEqual(p["mode"], "stages")
+        self.assertIn(p["status"], ("ok", "ambiguous", "unsupported"))
+        self.assertEqual(p["topical_query"], "梳理 X：十三月的甲、九月的乙。")
 
 
 if __name__ == "__main__":
